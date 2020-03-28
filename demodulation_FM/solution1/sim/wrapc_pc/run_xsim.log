@@ -1,0 +1,1211 @@
+i = 0	 hw_result = 0	 sw_result = 0
+i = 1	 hw_result = 0.0210724	 sw_result = 0.031036
+i = 2	 hw_result = -0.203217	 sw_result = -0.102852
+Error threshold exceeded: i = 2  Expected: -0.102852  Got: -0.203217  Delta: -0.100365
+i = 3	 hw_result = -0.258347	 sw_result = -0.198282
+i = 4	 hw_result = 0.891586	 sw_result = 0.988485
+i = 5	 hw_result = 0.366043	 sw_result = 0.409941
+i = 6	 hw_result = 0.240936	 sw_result = -0.104715
+Error threshold exceeded: i = 6  Expected: -0.104715  Got: 0.240936  Delta: 0.345651
+i = 7	 hw_result = -0.15654	 sw_result = -0.18878
+i = 8	 hw_result = -0.324326	 sw_result = -0.319376
+i = 9	 hw_result = -0.386856	 sw_result = -0.411561
+i = 10	 hw_result = -0.169006	 sw_result = -0.514769
+Error threshold exceeded: i = 10  Expected: -0.514769  Got: -0.169006  Delta: 0.345763
+i = 11	 hw_result = -0.127518	 sw_result = -0.105018
+i = 12	 hw_result = -0.0090332	 sw_result = -0.071882
+i = 13	 hw_result = -0.798126	 sw_result = -0.807407
+i = 14	 hw_result = -0.0136719	 sw_result = -0.056616
+i = 15	 hw_result = 0.727783	 sw_result = 0.753207
+i = 16	 hw_result = 0.657257	 sw_result = 0.594493
+i = 17	 hw_result = -0.233765	 sw_result = -0.241263
+i = 18	 hw_result = -0.107208	 sw_result = -0.136271
+i = 19	 hw_result = -0.200638	 sw_result = -0.179734
+i = 20	 hw_result = 0.0936279	 sw_result = 0.095363
+i = 21	 hw_result = 0.708069	 sw_result = 0.690985
+i = 22	 hw_result = 0.297974	 sw_result = 0.352289
+i = 23	 hw_result = -0.000808716	 sw_result = -0.100742
+i = 24	 hw_result = 0.130249	 sw_result = 0.180484
+i = 25	 hw_result = 0.0399323	 sw_result = 0.046797
+i = 26	 hw_result = -0.771011	 sw_result = -0.755451
+i = 27	 hw_result = -0.626358	 sw_result = -0.606344
+i = 28	 hw_result = -0.426361	 sw_result = -0.365765
+i = 29	 hw_result = 0.030426	 sw_result = 0.026992
+i = 30	 hw_result = -0.284988	 sw_result = -0.34469
+i = 31	 hw_result = -0.746323	 sw_result = -0.801346
+i = 32	 hw_result = -0.426239	 sw_result = -0.394685
+i = 33	 hw_result = -0.128754	 sw_result = -0.134354
+i = 34	 hw_result = -0.252747	 sw_result = -0.236158
+i = 35	 hw_result = 0.610672	 sw_result = 0.530252
+i = 36	 hw_result = 0.119263	 sw_result = 0.155826
+i = 37	 hw_result = -0.61908	 sw_result = -0.636433
+i = 38	 hw_result = -0.194504	 sw_result = -0.150171
+i = 39	 hw_result = 0.452698	 sw_result = 0.523708
+i = 40	 hw_result = 0.403442	 sw_result = 0.418164
+i = 41	 hw_result = -0.236145	 sw_result = -0.176027
+i = 42	 hw_result = -0.0396881	 sw_result = -0.027172
+i = 43	 hw_result = -0.313278	 sw_result = -0.325323
+i = 44	 hw_result = -0.738281	 sw_result = -0.743624
+i = 45	 hw_result = -0.369339	 sw_result = -0.192409
+Error threshold exceeded: i = 45  Expected: -0.192409  Got: -0.369339  Delta: -0.17693
+i = 46	 hw_result = -0.463058	 sw_result = -0.477336
+i = 47	 hw_result = -0.455276	 sw_result = -0.457018
+i = 48	 hw_result = -0.428619	 sw_result = -0.395483
+i = 49	 hw_result = -0.0521698	 sw_result = -0.135103
+i = 50	 hw_result = -0.414017	 sw_result = -0.452385
+i = 51	 hw_result = -0.268402	 sw_result = -0.276219
+i = 52	 hw_result = 0.271988	 sw_result = 0.286166
+i = 53	 hw_result = -0.127045	 sw_result = -0.00583
+Error threshold exceeded: i = 53  Expected: -0.00583  Got: -0.127045  Delta: -0.121215
+i = 54	 hw_result = -0.894043	 sw_result = -0.886823
+i = 55	 hw_result = -0.00979614	 sw_result = -0.017543
+i = 56	 hw_result = 0.245483	 sw_result = 0.229753
+i = 57	 hw_result = -0.203568	 sw_result = -0.227446
+i = 58	 hw_result = -0.387329	 sw_result = -0.359693
+i = 59	 hw_result = 0.129974	 sw_result = 0.092859
+i = 60	 hw_result = -0.419601	 sw_result = -0.400561
+i = 61	 hw_result = -0.198273	 sw_result = -0.235605
+i = 62	 hw_result = -0.088623	 sw_result = -0.116689
+i = 63	 hw_result = -0.696548	 sw_result = -0.695508
+i = 64	 hw_result = -0.666748	 sw_result = -0.621314
+i = 65	 hw_result = 0.463425	 sw_result = 0.456788
+i = 66	 hw_result = -0.550842	 sw_result = -0.512384
+i = 67	 hw_result = -0.722	 sw_result = -0.732989
+i = 68	 hw_result = 0.263306	 sw_result = 0.212316
+i = 69	 hw_result = -1.11298	 sw_result = -1.18417
+i = 70	 hw_result = -0.645309	 sw_result = -0.671379
+i = 71	 hw_result = -0.146362	 sw_result = -0.09952
+i = 72	 hw_result = -0.120132	 sw_result = -0.091727
+i = 73	 hw_result = -0.247482	 sw_result = -0.256773
+i = 74	 hw_result = -0.306656	 sw_result = -0.283967
+i = 75	 hw_result = -0.767181	 sw_result = -0.706908
+i = 76	 hw_result = -0.66188	 sw_result = -0.642613
+i = 77	 hw_result = 0.241104	 sw_result = 0.193034
+i = 78	 hw_result = -0.78125	 sw_result = -0.874868
+i = 79	 hw_result = -0.666	 sw_result = -0.634082
+i = 80	 hw_result = -0.13652	 sw_result = -0.138524
+i = 81	 hw_result = -0.45546	 sw_result = -0.417614
+i = 82	 hw_result = -0.896149	 sw_result = -0.821406
+i = 83	 hw_result = 0.18663	 sw_result = 0.20927
+i = 84	 hw_result = -0.424835	 sw_result = -0.432404
+i = 85	 hw_result = -0.53064	 sw_result = -0.564545
+i = 86	 hw_result = 0.292175	 sw_result = 0.300902
+i = 87	 hw_result = -0.90831	 sw_result = -0.937803
+i = 88	 hw_result = -3.37323	 sw_result = -1.01229
+Error threshold exceeded: i = 88  Expected: -1.01229  Got: -3.37323  Delta: -2.36094
+i = 89	 hw_result = -0.361481	 sw_result = -0.342952
+i = 90	 hw_result = -0.368988	 sw_result = -0.401771
+i = 91	 hw_result = -0.742279	 sw_result = -0.772399
+i = 92	 hw_result = -0.531418	 sw_result = -0.325846
+Error threshold exceeded: i = 92  Expected: -0.325846  Got: -0.531418  Delta: -0.205572
+i = 93	 hw_result = 0.130508	 sw_result = 0.107498
+i = 94	 hw_result = -0.445038	 sw_result = -0.431957
+i = 95	 hw_result = -0.673096	 sw_result = -0.735519
+i = 96	 hw_result = -0.298904	 sw_result = -0.336093
+i = 97	 hw_result = -0.254196	 sw_result = -0.306101
+i = 98	 hw_result = -0.324036	 sw_result = -0.318595
+i = 99	 hw_result = -0.700592	 sw_result = -0.643238
+i = 100	 hw_result = -0.704956	 sw_result = -0.764563
+i = 101	 hw_result = -0.104065	 sw_result = -0.089158
+i = 102	 hw_result = -0.0694122	 sw_result = -0.034554
+i = 103	 hw_result = -0.25412	 sw_result = -0.251642
+i = 104	 hw_result = -0.636856	 sw_result = -0.64
+i = 105	 hw_result = -0.393097	 sw_result = -0.394277
+i = 106	 hw_result = 0.183578	 sw_result = 0.152377
+i = 107	 hw_result = -1.02982	 sw_result = -1.01421
+i = 108	 hw_result = -1.17209	 sw_result = -1.16375
+i = 109	 hw_result = -0.393173	 sw_result = -0.341174
+i = 110	 hw_result = 0.0289307	 sw_result = 0.003146
+i = 111	 hw_result = -0.682419	 sw_result = -0.696206
+i = 112	 hw_result = -0.542419	 sw_result = -0.557487
+i = 113	 hw_result = -0.532013	 sw_result = -0.489691
+i = 114	 hw_result = 0.00622559	 sw_result = -0.036145
+i = 115	 hw_result = -0.754608	 sw_result = -0.753313
+i = 116	 hw_result = -0.0266724	 sw_result = -0.057619
+i = 117	 hw_result = 0.182449	 sw_result = 0.211355
+i = 118	 hw_result = 0.067215	 sw_result = 0.074838
+i = 119	 hw_result = -0.682083	 sw_result = -0.628498
+i = 120	 hw_result = -0.395859	 sw_result = -0.407986
+i = 121	 hw_result = -0.225021	 sw_result = -0.207968
+i = 122	 hw_result = -0.0317078	 sw_result = -0.108091
+i = 123	 hw_result = 0.0246887	 sw_result = 0.008983
+i = 124	 hw_result = -0.783066	 sw_result = -0.819807
+i = 125	 hw_result = -0.54863	 sw_result = -0.557212
+i = 126	 hw_result = 0.218964	 sw_result = 0.203612
+i = 127	 hw_result = 0.307541	 sw_result = 0.402232
+i = 128	 hw_result = -0.484482	 sw_result = -0.437293
+i = 129	 hw_result = -0.291901	 sw_result = -0.282236
+i = 130	 hw_result = 0.219193	 sw_result = 0.193452
+i = 131	 hw_result = -0.36528	 sw_result = -0.245395
+Error threshold exceeded: i = 131  Expected: -0.245395  Got: -0.36528  Delta: -0.119885
+i = 132	 hw_result = -0.108215	 sw_result = -0.145531
+i = 133	 hw_result = -0.332947	 sw_result = -0.353387
+i = 134	 hw_result = -0.332809	 sw_result = -0.391432
+i = 135	 hw_result = -0.293625	 sw_result = -0.062902
+Error threshold exceeded: i = 135  Expected: -0.062902  Got: -0.293625  Delta: -0.230723
+i = 136	 hw_result = 0.584137	 sw_result = 0.586777
+i = 137	 hw_result = 0.237762	 sw_result = 0.212539
+i = 138	 hw_result = -0.822571	 sw_result = -0.81253
+i = 139	 hw_result = -0.0614166	 sw_result = -0.049522
+i = 140	 hw_result = -0.144745	 sw_result = -0.216829
+i = 141	 hw_result = -0.280304	 sw_result = -0.265053
+i = 142	 hw_result = -0.064682	 sw_result = -0.047041
+i = 143	 hw_result = -0.420395	 sw_result = -0.434017
+i = 144	 hw_result = -0.426758	 sw_result = -0.437864
+i = 145	 hw_result = -0.153107	 sw_result = -0.1505
+i = 146	 hw_result = -0.451492	 sw_result = -0.464423
+i = 147	 hw_result = -0.228058	 sw_result = -0.19549
+i = 148	 hw_result = 0.652008	 sw_result = 0.586232
+i = 149	 hw_result = -0.12854	 sw_result = -0.1019
+i = 150	 hw_result = -0.437134	 sw_result = -0.358061
+i = 151	 hw_result = -0.345001	 sw_result = -0.367727
+i = 152	 hw_result = -0.36145	 sw_result = -0.365268
+i = 153	 hw_result = -0.24086	 sw_result = -0.219317
+i = 154	 hw_result = -0.290192	 sw_result = -0.254286
+i = 155	 hw_result = -0.420303	 sw_result = -0.450363
+i = 156	 hw_result = -0.00990295	 sw_result = -0.072787
+i = 157	 hw_result = -0.135651	 sw_result = -0.143178
+i = 158	 hw_result = -0.326736	 sw_result = -0.325786
+i = 159	 hw_result = -0.350616	 sw_result = -0.281271
+i = 160	 hw_result = 0.245468	 sw_result = 0.243457
+i = 161	 hw_result = -0.102005	 sw_result = -0.076233
+i = 162	 hw_result = -0.0210266	 sw_result = 0.025225
+i = 163	 hw_result = -0.145126	 sw_result = -0.111215
+i = 164	 hw_result = -0.0288544	 sw_result = 0.035085
+i = 165	 hw_result = 0.106018	 sw_result = 0.131688
+i = 166	 hw_result = -0.150192	 sw_result = -0.121995
+i = 167	 hw_result = 0.0139771	 sw_result = 0.034747
+i = 168	 hw_result = 0.171509	 sw_result = 0.179268
+i = 169	 hw_result = 0.376221	 sw_result = 0.411056
+i = 170	 hw_result = -0.380737	 sw_result = -0.046952
+Error threshold exceeded: i = 170  Expected: -0.046952  Got: -0.380737  Delta: -0.333785
+i = 171	 hw_result = 0.218857	 sw_result = 0.238305
+i = 172	 hw_result = -0.153503	 sw_result = -0.114003
+i = 173	 hw_result = -0.270416	 sw_result = -0.345681
+i = 174	 hw_result = -0.170593	 sw_result = 0.117854
+Error threshold exceeded: i = 174  Expected: 0.117854  Got: -0.170593  Delta: -0.288447
+i = 175	 hw_result = 0.0958862	 sw_result = 0.12796
+i = 176	 hw_result = -0.117004	 sw_result = -0.141174
+i = 177	 hw_result = 0.413879	 sw_result = 0.341848
+i = 178	 hw_result = -0.0847778	 sw_result = -0.079305
+i = 179	 hw_result = -0.7453	 sw_result = -0.752067
+i = 180	 hw_result = -0.054245	 sw_result = -0.040144
+i = 181	 hw_result = 0.145584	 sw_result = 0.168706
+i = 182	 hw_result = -0.0863953	 sw_result = -0.103375
+i = 183	 hw_result = -0.0433197	 sw_result = 0.004203
+i = 184	 hw_result = 0.426514	 sw_result = 0.361972
+i = 185	 hw_result = -0.013443	 sw_result = -0.001043
+i = 186	 hw_result = -0.252853	 sw_result = -0.289812
+i = 187	 hw_result = 0.00828552	 sw_result = 0.035513
+i = 188	 hw_result = 0.0288696	 sw_result = 0.019224
+i = 189	 hw_result = -0.0964966	 sw_result = -0.063861
+i = 190	 hw_result = -0.0991211	 sw_result = -0.133018
+i = 191	 hw_result = 0.0567627	 sw_result = 0.046484
+i = 192	 hw_result = -0.308273	 sw_result = -0.289067
+i = 193	 hw_result = -0.329514	 sw_result = -0.30186
+i = 194	 hw_result = -0.0429382	 sw_result = -0.016277
+i = 195	 hw_result = -0.192139	 sw_result = -0.162543
+i = 196	 hw_result = -0.51152	 sw_result = -0.561817
+i = 197	 hw_result = -0.254822	 sw_result = -0.211858
+i = 198	 hw_result = -0.117233	 sw_result = -0.119909
+i = 199	 hw_result = -0.385056	 sw_result = -0.343564
+i = 200	 hw_result = 0.0469208	 sw_result = 0.099523
+i = 201	 hw_result = -0.376984	 sw_result = -0.321171
+i = 202	 hw_result = -0.417999	 sw_result = -0.422005
+i = 203	 hw_result = 0.17186	 sw_result = 0.148901
+i = 204	 hw_result = -0.0788879	 sw_result = -0.095472
+i = 205	 hw_result = 0.083847	 sw_result = 0.146494
+i = 206	 hw_result = 0.140793	 sw_result = 0.107543
+i = 207	 hw_result = 0.0710602	 sw_result = -0.01289
+i = 208	 hw_result = -0.245697	 sw_result = -0.169361
+i = 209	 hw_result = -0.497833	 sw_result = -0.512614
+i = 210	 hw_result = -0.0838165	 sw_result = -0.105394
+i = 211	 hw_result = 0.178314	 sw_result = 0.165743
+i = 212	 hw_result = -0.0733185	 sw_result = -0.025211
+i = 213	 hw_result = 0.660461	 sw_result = 0.048287
+Error threshold exceeded: i = 213  Expected: 0.048287  Got: 0.660461  Delta: 0.612174
+i = 214	 hw_result = -0.200989	 sw_result = -0.180588
+i = 215	 hw_result = -0.414047	 sw_result = -0.442193
+i = 216	 hw_result = -0.463303	 sw_result = -0.410949
+i = 217	 hw_result = 0.0557098	 sw_result = -0.143319
+Error threshold exceeded: i = 217  Expected: -0.143319  Got: 0.0557098  Delta: 0.199029
+i = 218	 hw_result = -0.137589	 sw_result = -0.121447
+i = 219	 hw_result = -0.521744	 sw_result = -0.537558
+i = 220	 hw_result = -0.477859	 sw_result = -0.464183
+i = 221	 hw_result = 0.0250854	 sw_result = -0.050428
+i = 222	 hw_result = -0.191483	 sw_result = -0.16674
+i = 223	 hw_result = -0.00950623	 sw_result = -0.007736
+i = 224	 hw_result = -0.102783	 sw_result = -0.145097
+i = 225	 hw_result = -0.402512	 sw_result = -0.444088
+i = 226	 hw_result = -0.124634	 sw_result = -0.098746
+i = 227	 hw_result = -0.38681	 sw_result = -0.374678
+i = 228	 hw_result = -0.134445	 sw_result = -0.097007
+i = 229	 hw_result = 0.0159302	 sw_result = 0.025617
+i = 230	 hw_result = -0.250595	 sw_result = -0.251834
+i = 231	 hw_result = -0.501205	 sw_result = -0.520863
+i = 232	 hw_result = -0.851364	 sw_result = -0.799306
+i = 233	 hw_result = -0.264908	 sw_result = -0.278181
+i = 234	 hw_result = -0.134476	 sw_result = -0.143871
+i = 235	 hw_result = -0.343506	 sw_result = -0.333585
+i = 236	 hw_result = 0.121368	 sw_result = 0.090006
+i = 237	 hw_result = 0.0126495	 sw_result = 0.015607
+i = 238	 hw_result = -0.0467224	 sw_result = -0.062914
+i = 239	 hw_result = -0.450516	 sw_result = -0.45369
+i = 240	 hw_result = -0.525681	 sw_result = -0.448547
+i = 241	 hw_result = -0.277252	 sw_result = -0.264936
+i = 242	 hw_result = -0.123627	 sw_result = -0.110844
+i = 243	 hw_result = 0.139679	 sw_result = 0.093156
+i = 244	 hw_result = -0.270187	 sw_result = -0.285742
+i = 245	 hw_result = -0.598068	 sw_result = -0.605385
+i = 246	 hw_result = -0.0580139	 sw_result = -0.042996
+i = 247	 hw_result = 0.0986023	 sw_result = 0.083772
+i = 248	 hw_result = -0.540649	 sw_result = -0.493028
+i = 249	 hw_result = -0.239975	 sw_result = -0.228157
+i = 250	 hw_result = -0.520386	 sw_result = -0.516794
+i = 251	 hw_result = -0.573792	 sw_result = -0.60625
+i = 252	 hw_result = -0.87616	 sw_result = -0.397927
+Error threshold exceeded: i = 252  Expected: -0.397927  Got: -0.87616  Delta: -0.478233
+i = 253	 hw_result = 0.00958252	 sw_result = -0.022191
+i = 254	 hw_result = -0.106506	 sw_result = -0.135976
+i = 255	 hw_result = -0.151871	 sw_result = -0.170438
+i = 256	 hw_result = -0.264114	 sw_result = 0.197841
+Error threshold exceeded: i = 256  Expected: 0.197841  Got: -0.264114  Delta: -0.461955
+i = 257	 hw_result = 0.464615	 sw_result = 0.434689
+i = 258	 hw_result = -0.766296	 sw_result = -0.784242
+i = 259	 hw_result = -0.265839	 sw_result = -0.264118
+i = 260	 hw_result = 0.137375	 sw_result = -0.24418
+Error threshold exceeded: i = 260  Expected: -0.24418  Got: 0.137375  Delta: 0.381555
+i = 261	 hw_result = 0.139496	 sw_result = 0.159241
+i = 262	 hw_result = 0.0448151	 sw_result = 0.056525
+i = 263	 hw_result = -0.550232	 sw_result = -0.522027
+i = 264	 hw_result = -0.752457	 sw_result = -0.737601
+i = 265	 hw_result = -0.409866	 sw_result = -0.424286
+i = 266	 hw_result = -0.206284	 sw_result = -0.200537
+i = 267	 hw_result = -0.449036	 sw_result = -0.428611
+i = 268	 hw_result = -0.399078	 sw_result = -0.414261
+i = 269	 hw_result = -0.197357	 sw_result = -0.219205
+i = 270	 hw_result = -0.256317	 sw_result = -0.264786
+i = 271	 hw_result = -0.484344	 sw_result = -0.47651
+i = 272	 hw_result = -0.209	 sw_result = -0.212033
+i = 273	 hw_result = -0.626602	 sw_result = -0.634586
+i = 274	 hw_result = -0.476807	 sw_result = -0.478133
+i = 275	 hw_result = 0.341766	 sw_result = 0.318837
+i = 276	 hw_result = 0.377716	 sw_result = 0.381433
+i = 277	 hw_result = 0.10144	 sw_result = 0.07048
+i = 278	 hw_result = -0.615707	 sw_result = -0.613459
+i = 279	 hw_result = -0.410934	 sw_result = -0.451342
+i = 280	 hw_result = -0.0294952	 sw_result = 0.004222
+i = 281	 hw_result = 0.458694	 sw_result = 0.394483
+i = 282	 hw_result = 0.355103	 sw_result = 0.374131
+i = 283	 hw_result = -0.520905	 sw_result = -0.531488
+i = 284	 hw_result = -0.848526	 sw_result = -0.817441
+i = 285	 hw_result = -0.697861	 sw_result = -0.681055
+i = 286	 hw_result = -0.291138	 sw_result = -0.316023
+i = 287	 hw_result = -0.186111	 sw_result = -0.217449
+i = 288	 hw_result = -0.124786	 sw_result = -0.142016
+i = 289	 hw_result = 0.378235	 sw_result = 0.359918
+i = 290	 hw_result = -0.0159607	 sw_result = -0.074572
+i = 291	 hw_result = -0.333862	 sw_result = -0.35354
+i = 292	 hw_result = -0.0431519	 sw_result = 0.002209
+i = 293	 hw_result = -0.431366	 sw_result = -0.435538
+i = 294	 hw_result = -0.427017	 sw_result = -0.436757
+i = 295	 hw_result = 0.788605	 sw_result = 0.040386
+Error threshold exceeded: i = 295  Expected: 0.040386  Got: 0.788605  Delta: 0.748219
+i = 296	 hw_result = -1.05998	 sw_result = -1.01705
+i = 297	 hw_result = -0.321259	 sw_result = -0.335011
+i = 298	 hw_result = 0.0424652	 sw_result = -0.000238
+i = 299	 hw_result = -0.687851	 sw_result = -0.584945
+Error threshold exceeded: i = 299  Expected: -0.584945  Got: -0.687851  Delta: -0.102906
+i = 300	 hw_result = 0.236496	 sw_result = 0.200943
+i = 301	 hw_result = -0.0523224	 sw_result = -0.068442
+i = 302	 hw_result = -0.186996	 sw_result = -0.196338
+i = 303	 hw_result = 0.0171814	 sw_result = -0.220428
+Error threshold exceeded: i = 303  Expected: -0.220428  Got: 0.0171814  Delta: 0.237609
+i = 304	 hw_result = -0.123993	 sw_result = -0.147824
+i = 305	 hw_result = -0.0575256	 sw_result = -0.107055
+i = 306	 hw_result = 0.200439	 sw_result = 0.182544
+i = 307	 hw_result = -0.190216	 sw_result = -0.205719
+i = 308	 hw_result = -0.416748	 sw_result = -0.396478
+i = 309	 hw_result = -0.550751	 sw_result = -0.545057
+i = 310	 hw_result = 0.537186	 sw_result = 0.50874
+i = 311	 hw_result = -0.272324	 sw_result = -0.193429
+i = 312	 hw_result = -0.381744	 sw_result = -0.40617
+i = 313	 hw_result = -0.291306	 sw_result = -0.225712
+i = 314	 hw_result = 0.0039978	 sw_result = -0.002235
+i = 315	 hw_result = 0.251205	 sw_result = 0.205921
+i = 316	 hw_result = -0.172623	 sw_result = -0.207398
+i = 317	 hw_result = -0.265442	 sw_result = -0.29036
+i = 318	 hw_result = -0.403076	 sw_result = -0.356664
+i = 319	 hw_result = -0.0916138	 sw_result = -0.123495
+i = 320	 hw_result = -0.0218964	 sw_result = -0.002503
+i = 321	 hw_result = -0.119263	 sw_result = -0.029052
+i = 322	 hw_result = 0.117096	 sw_result = 0.135061
+i = 323	 hw_result = 0.378479	 sw_result = 0.354948
+i = 324	 hw_result = -0.402374	 sw_result = -0.399769
+i = 325	 hw_result = 0.0375519	 sw_result = 0.049796
+i = 326	 hw_result = 0.246017	 sw_result = 0.267031
+i = 327	 hw_result = -0.454117	 sw_result = -0.507912
+i = 328	 hw_result = -0.788895	 sw_result = -0.753724
+i = 329	 hw_result = -0.293854	 sw_result = -0.263251
+i = 330	 hw_result = 0.177795	 sw_result = 0.140658
+i = 331	 hw_result = 0.530197	 sw_result = 0.459512
+i = 332	 hw_result = 0.229919	 sw_result = 0.139801
+i = 333	 hw_result = -0.259598	 sw_result = -0.210133
+i = 334	 hw_result = -1.48387	 sw_result = -0.808516
+Error threshold exceeded: i = 334  Expected: -0.808516  Got: -1.48387  Delta: -0.675355
+i = 335	 hw_result = -0.935196	 sw_result = -0.962059
+i = 336	 hw_result = -0.505096	 sw_result = -0.465439
+i = 337	 hw_result = 0.511017	 sw_result = 0.484996
+i = 338	 hw_result = 0.980499	 sw_result = 0.08203
+Error threshold exceeded: i = 338  Expected: 0.08203  Got: 0.980499  Delta: 0.898469
+i = 339	 hw_result = -0.0189819	 sw_result = -0.042017
+i = 340	 hw_result = -0.140549	 sw_result = -0.151827
+i = 341	 hw_result = -0.610764	 sw_result = -0.5934
+i = 342	 hw_result = -0.00849915	 sw_result = 0.120218
+Error threshold exceeded: i = 342  Expected: 0.120218  Got: -0.00849915  Delta: -0.128717
+i = 343	 hw_result = 0.579315	 sw_result = 0.570599
+i = 344	 hw_result = -0.0909271	 sw_result = -0.004868
+i = 345	 hw_result = -0.325256	 sw_result = -0.346588
+i = 346	 hw_result = -0.291061	 sw_result = -0.287483
+i = 347	 hw_result = -0.267487	 sw_result = -0.241306
+i = 348	 hw_result = -0.0561829	 sw_result = -0.099126
+i = 349	 hw_result = -0.0732117	 sw_result = -0.147416
+i = 350	 hw_result = 0.0831299	 sw_result = 0.060184
+i = 351	 hw_result = -0.246246	 sw_result = -0.283012
+i = 352	 hw_result = -0.154053	 sw_result = -0.204502
+i = 353	 hw_result = 0.264252	 sw_result = 0.250373
+i = 354	 hw_result = 0.00344849	 sw_result = -0.051765
+i = 355	 hw_result = -1.08035	 sw_result = -1.11546
+i = 356	 hw_result = 0.0177612	 sw_result = 0.04053
+i = 357	 hw_result = 0.447617	 sw_result = 0.371492
+i = 358	 hw_result = -0.129669	 sw_result = -0.219265
+i = 359	 hw_result = -0.436432	 sw_result = -0.481773
+i = 360	 hw_result = -0.0380096	 sw_result = -0.05848
+i = 361	 hw_result = -0.30545	 sw_result = -0.320722
+i = 362	 hw_result = 0.117279	 sw_result = 0.0726
+i = 363	 hw_result = 0.250565	 sw_result = 0.211123
+i = 364	 hw_result = 0.228226	 sw_result = 0.170449
+i = 365	 hw_result = -0.339706	 sw_result = -0.333713
+i = 366	 hw_result = -0.317566	 sw_result = -0.284007
+i = 367	 hw_result = -0.490662	 sw_result = -0.42631
+i = 368	 hw_result = -0.270554	 sw_result = -0.323145
+i = 369	 hw_result = 0.390854	 sw_result = 0.40697
+i = 370	 hw_result = 0.21077	 sw_result = 0.165313
+i = 371	 hw_result = -0.506882	 sw_result = -0.50464
+i = 372	 hw_result = -0.795258	 sw_result = -0.858458
+i = 373	 hw_result = -0.510483	 sw_result = -0.486202
+i = 374	 hw_result = 0.192917	 sw_result = 0.205776
+i = 375	 hw_result = -0.202316	 sw_result = -0.270693
+i = 376	 hw_result = 0.122299	 sw_result = 0.076368
+i = 377	 hw_result = -0.643372	 sw_result = -0.080616
+Error threshold exceeded: i = 377  Expected: -0.080616  Got: -0.643372  Delta: -0.562756
+i = 378	 hw_result = -0.353592	 sw_result = -0.355232
+i = 379	 hw_result = -0.493637	 sw_result = -0.512102
+i = 380	 hw_result = -0.572189	 sw_result = -0.550308
+i = 381	 hw_result = 0.32959	 sw_result = -0.259912
+Error threshold exceeded: i = 381  Expected: -0.259912  Got: 0.32959  Delta: 0.589502
+i = 382	 hw_result = -0.1241	 sw_result = -0.137972
+i = 383	 hw_result = -0.134567	 sw_result = -0.142994
+i = 384	 hw_result = 0.215179	 sw_result = 0.141613
+i = 385	 hw_result = -0.575043	 sw_result = -0.889211
+Error threshold exceeded: i = 385  Expected: -0.889211  Got: -0.575043  Delta: 0.314168
+i = 386	 hw_result = -0.742905	 sw_result = -0.723698
+i = 387	 hw_result = 0.685638	 sw_result = 0.664448
+i = 388	 hw_result = -0.170197	 sw_result = -0.122648
+i = 389	 hw_result = -0.0156708	 sw_result = 0.017001
+i = 390	 hw_result = 0.389954	 sw_result = 0.392893
+i = 391	 hw_result = 0.109177	 sw_result = 0.102108
+i = 392	 hw_result = -0.40123	 sw_result = -0.349167
+i = 393	 hw_result = 0.0800629	 sw_result = 0.119145
+i = 394	 hw_result = -0.362946	 sw_result = -0.280553
+i = 395	 hw_result = -0.160126	 sw_result = -0.178933
+i = 396	 hw_result = 0.106216	 sw_result = 0.080388
+i = 397	 hw_result = -0.0143127	 sw_result = -0.004722
+i = 398	 hw_result = 0.0933075	 sw_result = 0.09757
+i = 399	 hw_result = 0.703232	 sw_result = 0.65822
+i = 400	 hw_result = 0.25174	 sw_result = 0.23522
+i = 401	 hw_result = -0.68605	 sw_result = -0.710396
+i = 402	 hw_result = -1.13519	 sw_result = -1.0733
+i = 403	 hw_result = 0.331726	 sw_result = 0.236292
+i = 404	 hw_result = 0.246948	 sw_result = 0.303141
+i = 405	 hw_result = -0.563278	 sw_result = -0.605703
+i = 406	 hw_result = -0.40509	 sw_result = -0.412528
+i = 407	 hw_result = 0.527695	 sw_result = 0.574938
+i = 408	 hw_result = -0.341476	 sw_result = -0.349988
+i = 409	 hw_result = 0.0933685	 sw_result = 0.012759
+i = 410	 hw_result = 0.562149	 sw_result = 0.569967
+i = 411	 hw_result = 0.00411987	 sw_result = 0.087183
+i = 412	 hw_result = -0.0128326	 sw_result = 0.00128
+i = 413	 hw_result = 0.675339	 sw_result = 0.652285
+i = 414	 hw_result = 0.456573	 sw_result = 0.482853
+i = 415	 hw_result = 0.128983	 sw_result = 0.082521
+i = 416	 hw_result = -0.776703	 sw_result = -0.732921
+i = 417	 hw_result = 0.139114	 sw_result = 0.095371
+i = 418	 hw_result = 0.61528	 sw_result = 0.612072
+i = 419	 hw_result = 0.550583	 sw_result = 0.505603
+i = 420	 hw_result = 1.34315	 sw_result = 0.387255
+Error threshold exceeded: i = 420  Expected: 0.387255  Got: 1.34315  Delta: 0.9559
+i = 421	 hw_result = -0.943192	 sw_result = -1.12136
+Error threshold exceeded: i = 421  Expected: -1.12136  Got: -0.943192  Delta: 0.17817
+i = 422	 hw_result = -0.371277	 sw_result = -0.394927
+i = 423	 hw_result = -0.061676	 sw_result = -0.027082
+i = 424	 hw_result = 0.141251	 sw_result = 0.549192
+Error threshold exceeded: i = 424  Expected: 0.549192  Got: 0.141251  Delta: -0.407941
+i = 425	 hw_result = 0.532318	 sw_result = 0.535238
+i = 426	 hw_result = -0.419037	 sw_result = -0.392502
+i = 427	 hw_result = 0.0912323	 sw_result = 0.050686
+i = 428	 hw_result = 0.815857	 sw_result = 0.63356
+Error threshold exceeded: i = 428  Expected: 0.63356  Got: 0.815857  Delta: 0.182297
+i = 429	 hw_result = 0.235031	 sw_result = 0.22825
+i = 430	 hw_result = 0.853683	 sw_result = 0.779491
+i = 431	 hw_result = 0.403061	 sw_result = 0.407444
+i = 432	 hw_result = -0.553574	 sw_result = -0.561356
+i = 433	 hw_result = -0.788086	 sw_result = -0.799252
+i = 434	 hw_result = 0.268127	 sw_result = 0.212828
+i = 435	 hw_result = -0.315765	 sw_result = -0.327561
+i = 436	 hw_result = -0.0940247	 sw_result = -0.111227
+i = 437	 hw_result = 0.207565	 sw_result = 0.179667
+i = 438	 hw_result = 0.115387	 sw_result = 0.072567
+i = 439	 hw_result = -0.0424805	 sw_result = -0.049531
+i = 440	 hw_result = 0.224869	 sw_result = 0.211086
+i = 441	 hw_result = -0.0733795	 sw_result = -0.03477
+i = 442	 hw_result = 0.016449	 sw_result = 0.0194
+i = 443	 hw_result = 0.199753	 sw_result = 0.174711
+i = 444	 hw_result = 0.410873	 sw_result = 0.369032
+i = 445	 hw_result = 0.623703	 sw_result = 0.624706
+i = 446	 hw_result = -0.0772095	 sw_result = -0.032327
+i = 447	 hw_result = -0.0348969	 sw_result = 0.033271
+i = 448	 hw_result = 0.777161	 sw_result = 0.77384
+i = 449	 hw_result = -0.357208	 sw_result = -0.3773
+i = 450	 hw_result = -0.0313263	 sw_result = 0.003376
+i = 451	 hw_result = 0.461121	 sw_result = 0.546951
+i = 452	 hw_result = 0.31842	 sw_result = 0.287987
+i = 453	 hw_result = -0.586029	 sw_result = -0.514463
+i = 454	 hw_result = 0.526596	 sw_result = 0.418695
+Error threshold exceeded: i = 454  Expected: 0.418695  Got: 0.526596  Delta: 0.107901
+i = 455	 hw_result = 0.408417	 sw_result = 0.403111
+i = 456	 hw_result = -0.0844574	 sw_result = -0.100485
+i = 457	 hw_result = 0.278534	 sw_result = 0.280386
+i = 458	 hw_result = 0.602646	 sw_result = 0.510478
+i = 459	 hw_result = -0.524429	 sw_result = -0.305579
+Error threshold exceeded: i = 459  Expected: -0.305579  Got: -0.524429  Delta: -0.21885
+i = 460	 hw_result = -0.0745087	 sw_result = -0.11615
+i = 461	 hw_result = 0.714035	 sw_result = 0.665308
+i = 462	 hw_result = 0.218384	 sw_result = 0.225863
+i = 463	 hw_result = -1.2765	 sw_result = -0.01352
+Error threshold exceeded: i = 463  Expected: -0.01352  Got: -1.2765  Delta: -1.26298
+i = 464	 hw_result = -0.464554	 sw_result = -0.465004
+i = 465	 hw_result = -0.349396	 sw_result = -0.374068
+i = 466	 hw_result = -0.185196	 sw_result = -0.070119
+Error threshold exceeded: i = 466  Expected: -0.070119  Got: -0.185196  Delta: -0.115077
+i = 467	 hw_result = 0.336853	 sw_result = 0.158169
+Error threshold exceeded: i = 467  Expected: 0.158169  Got: 0.336853  Delta: 0.178684
+i = 468	 hw_result = 0.458542	 sw_result = 0.502369
+i = 469	 hw_result = 0.432831	 sw_result = 0.388585
+i = 470	 hw_result = -0.326492	 sw_result = -0.344367
+i = 471	 hw_result = -0.566986	 sw_result = -0.573065
+i = 472	 hw_result = -0.537415	 sw_result = -0.51404
+i = 473	 hw_result = -0.588028	 sw_result = -0.553635
+i = 474	 hw_result = 0.150116	 sw_result = 0.156789
+i = 475	 hw_result = 0.169556	 sw_result = 0.168971
+i = 476	 hw_result = -0.0604095	 sw_result = -0.072148
+i = 477	 hw_result = 0.732941	 sw_result = 0.667349
+i = 478	 hw_result = 0.882813	 sw_result = 0.780068
+Error threshold exceeded: i = 478  Expected: 0.780068  Got: 0.882813  Delta: 0.102744
+i = 479	 hw_result = 0.251556	 sw_result = 0.271239
+i = 480	 hw_result = -0.678894	 sw_result = -0.633827
+i = 481	 hw_result = -0.20195	 sw_result = -0.254528
+i = 482	 hw_result = -0.418625	 sw_result = -0.435566
+i = 483	 hw_result = -0.589157	 sw_result = -0.6065
+i = 484	 hw_result = 0.0537567	 sw_result = 0.060179
+i = 485	 hw_result = 0.344254	 sw_result = 0.326837
+i = 486	 hw_result = -0.385727	 sw_result = -0.390805
+i = 487	 hw_result = -0.718658	 sw_result = -0.640717
+i = 488	 hw_result = -0.39801	 sw_result = -0.419125
+i = 489	 hw_result = -0.245544	 sw_result = -0.251801
+i = 490	 hw_result = 0.104218	 sw_result = 0.114503
+i = 491	 hw_result = -0.460526	 sw_result = -0.423306
+i = 492	 hw_result = -0.320114	 sw_result = -0.352196
+i = 493	 hw_result = 0.0900116	 sw_result = 0.042623
+i = 494	 hw_result = 0.104156	 sw_result = 0.07074
+i = 495	 hw_result = -0.610916	 sw_result = -0.615006
+i = 496	 hw_result = 0.442627	 sw_result = 0.4029
+i = 497	 hw_result = 0.320572	 sw_result = 0.343461
+i = 498	 hw_result = -0.386108	 sw_result = -0.371553
+i = 499	 hw_result = -0.615051	 sw_result = -0.534201
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/opt/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_demodulationFM_top glbl -prj demodulationFM.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims -L unisims_ver -L xpm --initfile /opt/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s demodulationFM -debug wave 
+Multi-threading is on. Using 6 slave threads.
+Determining compilation order of HDL files.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/AESL_sim_pkg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/shift_cos_table.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift_cos_table_rom'
+INFO: [VRFC 10-3107] analyzing entity 'shift_cos_table'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/AESL_automem_y_Q_V.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AESL_automem_y_Q_V'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/AESL_automem_y_demod_d_V.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AESL_automem_y_demod_d_V'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/demodulationFM_sdibs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_sdibs_div_u'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_sdibs_div'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_sdibs'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/shift_sin_table.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift_sin_table_rom'
+INFO: [VRFC 10-3107] analyzing entity 'shift_sin_table'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/fir.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fir'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/demodulationFM_y_bkb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_y_bkb_ram'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_y_bkb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/demodulationFM_y_fYi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_y_fYi_ram'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_y_fYi'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/AESL_automem_y_I_V.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AESL_automem_y_I_V'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/demodulationFM.autotb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'apatb_demodulationFM_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/fir_coef.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fir_coef_rom'
+INFO: [VRFC 10-3107] analyzing entity 'fir_coef'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/demodulationFM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/demodulationFM_y_hbi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_y_hbi_ram'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_y_hbi'
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling module work.glbl
+Compiling architecture rtl of entity xil_defaultlib.demodulationFM_y_bkb_ram [\demodulationFM_y_bkb_ram(1,5)\]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_y_bkb [demodulationfm_y_bkb_default]
+Compiling architecture rtl of entity xil_defaultlib.demodulationFM_y_fYi_ram [\demodulationFM_y_fYi_ram(1,5)\]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_y_fYi [demodulationfm_y_fyi_default]
+Compiling architecture rtl of entity xil_defaultlib.demodulationFM_y_hbi_ram [\demodulationFM_y_hbi_ram(1,5)\]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_y_hbi [demodulationfm_y_hbi_default]
+Compiling architecture rtl of entity xil_defaultlib.shift_cos_table_rom [shift_cos_table_rom_default]
+Compiling architecture arch of entity xil_defaultlib.shift_cos_table [shift_cos_table_default]
+Compiling architecture rtl of entity xil_defaultlib.shift_sin_table_rom [shift_sin_table_rom_default]
+Compiling architecture arch of entity xil_defaultlib.shift_sin_table [shift_sin_table_default]
+Compiling architecture behav of entity xil_defaultlib.shift [shift_default]
+Compiling architecture rtl of entity xil_defaultlib.fir_coef_rom [fir_coef_rom_default]
+Compiling architecture arch of entity xil_defaultlib.fir_coef [fir_coef_default]
+Compiling architecture behav of entity xil_defaultlib.fir [fir_default]
+Compiling architecture rtl of entity xil_defaultlib.demodulationFM_sdibs_div_u [\demodulationFM_sdibs_div_u(in0_...]
+Compiling architecture rtl of entity xil_defaultlib.demodulationFM_sdibs_div [\demodulationFM_sdibs_div(in0_wi...]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_sdibs [\demodulationFM_sdibs(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.demodulationFM [demodulationfm_default]
+Compiling architecture behav of entity xil_defaultlib.AESL_automem_y_I_V [aesl_automem_y_i_v_default]
+Compiling architecture behav of entity xil_defaultlib.AESL_automem_y_Q_V [aesl_automem_y_q_v_default]
+Compiling architecture behav of entity xil_defaultlib.AESL_automem_y_demod_d_V [aesl_automem_y_demod_d_v_default]
+Compiling architecture behav of entity xil_defaultlib.apatb_demodulationfm_top
+Built simulation snapshot demodulationFM
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source /home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/xsim.dir/demodulationFM/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Mar 28 11:58:41 2020...
+
+****** xsim v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/demodulationFM/xsim_script.tcl
+# xsim {demodulationFM} -autoloadwcfg -tclbatch {demodulationFM.tcl}
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source demodulationFM.tcl
+## log_wave [get_objects -filter {type == in_port || type == out_port || type == inout_port || type == port} /apatb_demodulationFM_top/AESL_inst_demodulationFM/*]
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set return_group [add_wave_group return(wire) -into $coutputgroup]
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_return -into $return_group -radix hex
+## set y_demod_d_group [add_wave_group y_demod_d(memory) -into $coutputgroup]
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/y_demod_d_V_d0 -into $y_demod_d_group -radix hex
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/y_demod_d_V_we0 -into $y_demod_d_group -color #ffff00 -radix hex
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/y_demod_d_V_ce0 -into $y_demod_d_group -color #ffff00 -radix hex
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/y_demod_d_V_address0 -into $y_demod_d_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set y_Q_group [add_wave_group y_Q(memory) -into $cinputgroup]
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/y_Q_V_q0 -into $y_Q_group -radix hex
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/y_Q_V_ce0 -into $y_Q_group -color #ffff00 -radix hex
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/y_Q_V_address0 -into $y_Q_group -radix hex
+## set y_I_group [add_wave_group y_I(memory) -into $cinputgroup]
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/y_I_V_q0 -into $y_I_group -radix hex
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/y_I_V_ce0 -into $y_I_group -color #ffff00 -radix hex
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/y_I_V_address0 -into $y_I_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_start -into $blocksiggroup
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_done -into $blocksiggroup
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_idle -into $blocksiggroup
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_rst -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_clk -into $clockgroup
+## save_wave_config demodulationFM.wcfg
+## run all
+Note: simulation done!
+Time: 45330425 ns  Iteration: 1  Process: /apatb_demodulationFM_top/generate_sim_done_proc  File: /home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/demodulationFM.autotb.vhd
+Failure: NORMAL EXIT (note: failure is to force the simulator to stop)
+Time: 45330425 ns  Iteration: 1  Process: /apatb_demodulationFM_top/generate_sim_done_proc  File: /home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/demodulationFM.autotb.vhd
+$finish called at time : 45330425 ns
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:51 . Memory (MB): peak = 1531.398 ; gain = 8.004 ; free physical = 181 ; free virtual = 2716
+## quit
+INFO: [Common 17-206] Exiting xsim at Sat Mar 28 11:59:44 2020...
+i = 0	 hw_result = 0	 sw_result = 0
+i = 1	 hw_result = 0.0210724	 sw_result = 0.031036
+i = 2	 hw_result = -0.203217	 sw_result = -0.102852
+Error threshold exceeded: i = 2  Expected: -0.102852  Got: -0.203217  Delta: -0.100365
+i = 3	 hw_result = -0.258347	 sw_result = -0.198282
+i = 4	 hw_result = 0.891586	 sw_result = 0.988485
+i = 5	 hw_result = 0.366043	 sw_result = 0.409941
+i = 6	 hw_result = 0.240936	 sw_result = -0.104715
+Error threshold exceeded: i = 6  Expected: -0.104715  Got: 0.240936  Delta: 0.345651
+i = 7	 hw_result = -0.15654	 sw_result = -0.18878
+i = 8	 hw_result = -0.324326	 sw_result = -0.319376
+i = 9	 hw_result = -0.386856	 sw_result = -0.411561
+i = 10	 hw_result = -0.169006	 sw_result = -0.514769
+Error threshold exceeded: i = 10  Expected: -0.514769  Got: -0.169006  Delta: 0.345763
+i = 11	 hw_result = -0.127518	 sw_result = -0.105018
+i = 12	 hw_result = -0.0090332	 sw_result = -0.071882
+i = 13	 hw_result = -0.798126	 sw_result = -0.807407
+i = 14	 hw_result = -0.0136719	 sw_result = -0.056616
+i = 15	 hw_result = 0.727783	 sw_result = 0.753207
+i = 16	 hw_result = 0.657257	 sw_result = 0.594493
+i = 17	 hw_result = -0.233765	 sw_result = -0.241263
+i = 18	 hw_result = -0.107208	 sw_result = -0.136271
+i = 19	 hw_result = -0.200638	 sw_result = -0.179734
+i = 20	 hw_result = 0.0936279	 sw_result = 0.095363
+i = 21	 hw_result = 0.708069	 sw_result = 0.690985
+i = 22	 hw_result = 0.297974	 sw_result = 0.352289
+i = 23	 hw_result = -0.000808716	 sw_result = -0.100742
+i = 24	 hw_result = 0.130249	 sw_result = 0.180484
+i = 25	 hw_result = 0.0399323	 sw_result = 0.046797
+i = 26	 hw_result = -0.771011	 sw_result = -0.755451
+i = 27	 hw_result = -0.626358	 sw_result = -0.606344
+i = 28	 hw_result = -0.426361	 sw_result = -0.365765
+i = 29	 hw_result = 0.030426	 sw_result = 0.026992
+i = 30	 hw_result = -0.284988	 sw_result = -0.34469
+i = 31	 hw_result = -0.746323	 sw_result = -0.801346
+i = 32	 hw_result = -0.426239	 sw_result = -0.394685
+i = 33	 hw_result = -0.128754	 sw_result = -0.134354
+i = 34	 hw_result = -0.252747	 sw_result = -0.236158
+i = 35	 hw_result = 0.610672	 sw_result = 0.530252
+i = 36	 hw_result = 0.119263	 sw_result = 0.155826
+i = 37	 hw_result = -0.61908	 sw_result = -0.636433
+i = 38	 hw_result = -0.194504	 sw_result = -0.150171
+i = 39	 hw_result = 0.452698	 sw_result = 0.523708
+i = 40	 hw_result = 0.403442	 sw_result = 0.418164
+i = 41	 hw_result = -0.236145	 sw_result = -0.176027
+i = 42	 hw_result = -0.0396881	 sw_result = -0.027172
+i = 43	 hw_result = -0.313278	 sw_result = -0.325323
+i = 44	 hw_result = -0.738281	 sw_result = -0.743624
+i = 45	 hw_result = -0.369339	 sw_result = -0.192409
+Error threshold exceeded: i = 45  Expected: -0.192409  Got: -0.369339  Delta: -0.17693
+i = 46	 hw_result = -0.463058	 sw_result = -0.477336
+i = 47	 hw_result = -0.455276	 sw_result = -0.457018
+i = 48	 hw_result = -0.428619	 sw_result = -0.395483
+i = 49	 hw_result = -0.0521698	 sw_result = -0.135103
+i = 50	 hw_result = -0.414017	 sw_result = -0.452385
+i = 51	 hw_result = -0.268402	 sw_result = -0.276219
+i = 52	 hw_result = 0.271988	 sw_result = 0.286166
+i = 53	 hw_result = -0.127045	 sw_result = -0.00583
+Error threshold exceeded: i = 53  Expected: -0.00583  Got: -0.127045  Delta: -0.121215
+i = 54	 hw_result = -0.894043	 sw_result = -0.886823
+i = 55	 hw_result = -0.00979614	 sw_result = -0.017543
+i = 56	 hw_result = 0.245483	 sw_result = 0.229753
+i = 57	 hw_result = -0.203568	 sw_result = -0.227446
+i = 58	 hw_result = -0.387329	 sw_result = -0.359693
+i = 59	 hw_result = 0.129974	 sw_result = 0.092859
+i = 60	 hw_result = -0.419601	 sw_result = -0.400561
+i = 61	 hw_result = -0.198273	 sw_result = -0.235605
+i = 62	 hw_result = -0.088623	 sw_result = -0.116689
+i = 63	 hw_result = -0.696548	 sw_result = -0.695508
+i = 64	 hw_result = -0.666748	 sw_result = -0.621314
+i = 65	 hw_result = 0.463425	 sw_result = 0.456788
+i = 66	 hw_result = -0.550842	 sw_result = -0.512384
+i = 67	 hw_result = -0.722	 sw_result = -0.732989
+i = 68	 hw_result = 0.263306	 sw_result = 0.212316
+i = 69	 hw_result = -1.11298	 sw_result = -1.18417
+i = 70	 hw_result = -0.645309	 sw_result = -0.671379
+i = 71	 hw_result = -0.146362	 sw_result = -0.09952
+i = 72	 hw_result = -0.120132	 sw_result = -0.091727
+i = 73	 hw_result = -0.247482	 sw_result = -0.256773
+i = 74	 hw_result = -0.306656	 sw_result = -0.283967
+i = 75	 hw_result = -0.767181	 sw_result = -0.706908
+i = 76	 hw_result = -0.66188	 sw_result = -0.642613
+i = 77	 hw_result = 0.241104	 sw_result = 0.193034
+i = 78	 hw_result = -0.78125	 sw_result = -0.874868
+i = 79	 hw_result = -0.666	 sw_result = -0.634082
+i = 80	 hw_result = -0.13652	 sw_result = -0.138524
+i = 81	 hw_result = -0.45546	 sw_result = -0.417614
+i = 82	 hw_result = -0.896149	 sw_result = -0.821406
+i = 83	 hw_result = 0.18663	 sw_result = 0.20927
+i = 84	 hw_result = -0.424835	 sw_result = -0.432404
+i = 85	 hw_result = -0.53064	 sw_result = -0.564545
+i = 86	 hw_result = 0.292175	 sw_result = 0.300902
+i = 87	 hw_result = -0.90831	 sw_result = -0.937803
+i = 88	 hw_result = -3.37323	 sw_result = -1.01229
+Error threshold exceeded: i = 88  Expected: -1.01229  Got: -3.37323  Delta: -2.36094
+i = 89	 hw_result = -0.361481	 sw_result = -0.342952
+i = 90	 hw_result = -0.368988	 sw_result = -0.401771
+i = 91	 hw_result = -0.742279	 sw_result = -0.772399
+i = 92	 hw_result = -0.531418	 sw_result = -0.325846
+Error threshold exceeded: i = 92  Expected: -0.325846  Got: -0.531418  Delta: -0.205572
+i = 93	 hw_result = 0.130508	 sw_result = 0.107498
+i = 94	 hw_result = -0.445038	 sw_result = -0.431957
+i = 95	 hw_result = -0.673096	 sw_result = -0.735519
+i = 96	 hw_result = -0.298904	 sw_result = -0.336093
+i = 97	 hw_result = -0.254196	 sw_result = -0.306101
+i = 98	 hw_result = -0.324036	 sw_result = -0.318595
+i = 99	 hw_result = -0.700592	 sw_result = -0.643238
+i = 100	 hw_result = -0.704956	 sw_result = -0.764563
+i = 101	 hw_result = -0.104065	 sw_result = -0.089158
+i = 102	 hw_result = -0.0694122	 sw_result = -0.034554
+i = 103	 hw_result = -0.25412	 sw_result = -0.251642
+i = 104	 hw_result = -0.636856	 sw_result = -0.64
+i = 105	 hw_result = -0.393097	 sw_result = -0.394277
+i = 106	 hw_result = 0.183578	 sw_result = 0.152377
+i = 107	 hw_result = -1.02982	 sw_result = -1.01421
+i = 108	 hw_result = -1.17209	 sw_result = -1.16375
+i = 109	 hw_result = -0.393173	 sw_result = -0.341174
+i = 110	 hw_result = 0.0289307	 sw_result = 0.003146
+i = 111	 hw_result = -0.682419	 sw_result = -0.696206
+i = 112	 hw_result = -0.542419	 sw_result = -0.557487
+i = 113	 hw_result = -0.532013	 sw_result = -0.489691
+i = 114	 hw_result = 0.00622559	 sw_result = -0.036145
+i = 115	 hw_result = -0.754608	 sw_result = -0.753313
+i = 116	 hw_result = -0.0266724	 sw_result = -0.057619
+i = 117	 hw_result = 0.182449	 sw_result = 0.211355
+i = 118	 hw_result = 0.067215	 sw_result = 0.074838
+i = 119	 hw_result = -0.682083	 sw_result = -0.628498
+i = 120	 hw_result = -0.395859	 sw_result = -0.407986
+i = 121	 hw_result = -0.225021	 sw_result = -0.207968
+i = 122	 hw_result = -0.0317078	 sw_result = -0.108091
+i = 123	 hw_result = 0.0246887	 sw_result = 0.008983
+i = 124	 hw_result = -0.783066	 sw_result = -0.819807
+i = 125	 hw_result = -0.54863	 sw_result = -0.557212
+i = 126	 hw_result = 0.218964	 sw_result = 0.203612
+i = 127	 hw_result = 0.307541	 sw_result = 0.402232
+i = 128	 hw_result = -0.484482	 sw_result = -0.437293
+i = 129	 hw_result = -0.291901	 sw_result = -0.282236
+i = 130	 hw_result = 0.219193	 sw_result = 0.193452
+i = 131	 hw_result = -0.36528	 sw_result = -0.245395
+Error threshold exceeded: i = 131  Expected: -0.245395  Got: -0.36528  Delta: -0.119885
+i = 132	 hw_result = -0.108215	 sw_result = -0.145531
+i = 133	 hw_result = -0.332947	 sw_result = -0.353387
+i = 134	 hw_result = -0.332809	 sw_result = -0.391432
+i = 135	 hw_result = -0.293625	 sw_result = -0.062902
+Error threshold exceeded: i = 135  Expected: -0.062902  Got: -0.293625  Delta: -0.230723
+i = 136	 hw_result = 0.584137	 sw_result = 0.586777
+i = 137	 hw_result = 0.237762	 sw_result = 0.212539
+i = 138	 hw_result = -0.822571	 sw_result = -0.81253
+i = 139	 hw_result = -0.0614166	 sw_result = -0.049522
+i = 140	 hw_result = -0.144745	 sw_result = -0.216829
+i = 141	 hw_result = -0.280304	 sw_result = -0.265053
+i = 142	 hw_result = -0.064682	 sw_result = -0.047041
+i = 143	 hw_result = -0.420395	 sw_result = -0.434017
+i = 144	 hw_result = -0.426758	 sw_result = -0.437864
+i = 145	 hw_result = -0.153107	 sw_result = -0.1505
+i = 146	 hw_result = -0.451492	 sw_result = -0.464423
+i = 147	 hw_result = -0.228058	 sw_result = -0.19549
+i = 148	 hw_result = 0.652008	 sw_result = 0.586232
+i = 149	 hw_result = -0.12854	 sw_result = -0.1019
+i = 150	 hw_result = -0.437134	 sw_result = -0.358061
+i = 151	 hw_result = -0.345001	 sw_result = -0.367727
+i = 152	 hw_result = -0.36145	 sw_result = -0.365268
+i = 153	 hw_result = -0.24086	 sw_result = -0.219317
+i = 154	 hw_result = -0.290192	 sw_result = -0.254286
+i = 155	 hw_result = -0.420303	 sw_result = -0.450363
+i = 156	 hw_result = -0.00990295	 sw_result = -0.072787
+i = 157	 hw_result = -0.135651	 sw_result = -0.143178
+i = 158	 hw_result = -0.326736	 sw_result = -0.325786
+i = 159	 hw_result = -0.350616	 sw_result = -0.281271
+i = 160	 hw_result = 0.245468	 sw_result = 0.243457
+i = 161	 hw_result = -0.102005	 sw_result = -0.076233
+i = 162	 hw_result = -0.0210266	 sw_result = 0.025225
+i = 163	 hw_result = -0.145126	 sw_result = -0.111215
+i = 164	 hw_result = -0.0288544	 sw_result = 0.035085
+i = 165	 hw_result = 0.106018	 sw_result = 0.131688
+i = 166	 hw_result = -0.150192	 sw_result = -0.121995
+i = 167	 hw_result = 0.0139771	 sw_result = 0.034747
+i = 168	 hw_result = 0.171509	 sw_result = 0.179268
+i = 169	 hw_result = 0.376221	 sw_result = 0.411056
+i = 170	 hw_result = -0.380737	 sw_result = -0.046952
+Error threshold exceeded: i = 170  Expected: -0.046952  Got: -0.380737  Delta: -0.333785
+i = 171	 hw_result = 0.218857	 sw_result = 0.238305
+i = 172	 hw_result = -0.153503	 sw_result = -0.114003
+i = 173	 hw_result = -0.270416	 sw_result = -0.345681
+i = 174	 hw_result = -0.170593	 sw_result = 0.117854
+Error threshold exceeded: i = 174  Expected: 0.117854  Got: -0.170593  Delta: -0.288447
+i = 175	 hw_result = 0.0958862	 sw_result = 0.12796
+i = 176	 hw_result = -0.117004	 sw_result = -0.141174
+i = 177	 hw_result = 0.413879	 sw_result = 0.341848
+i = 178	 hw_result = -0.0847778	 sw_result = -0.079305
+i = 179	 hw_result = -0.7453	 sw_result = -0.752067
+i = 180	 hw_result = -0.054245	 sw_result = -0.040144
+i = 181	 hw_result = 0.145584	 sw_result = 0.168706
+i = 182	 hw_result = -0.0863953	 sw_result = -0.103375
+i = 183	 hw_result = -0.0433197	 sw_result = 0.004203
+i = 184	 hw_result = 0.426514	 sw_result = 0.361972
+i = 185	 hw_result = -0.013443	 sw_result = -0.001043
+i = 186	 hw_result = -0.252853	 sw_result = -0.289812
+i = 187	 hw_result = 0.00828552	 sw_result = 0.035513
+i = 188	 hw_result = 0.0288696	 sw_result = 0.019224
+i = 189	 hw_result = -0.0964966	 sw_result = -0.063861
+i = 190	 hw_result = -0.0991211	 sw_result = -0.133018
+i = 191	 hw_result = 0.0567627	 sw_result = 0.046484
+i = 192	 hw_result = -0.308273	 sw_result = -0.289067
+i = 193	 hw_result = -0.329514	 sw_result = -0.30186
+i = 194	 hw_result = -0.0429382	 sw_result = -0.016277
+i = 195	 hw_result = -0.192139	 sw_result = -0.162543
+i = 196	 hw_result = -0.51152	 sw_result = -0.561817
+i = 197	 hw_result = -0.254822	 sw_result = -0.211858
+i = 198	 hw_result = -0.117233	 sw_result = -0.119909
+i = 199	 hw_result = -0.385056	 sw_result = -0.343564
+i = 200	 hw_result = 0.0469208	 sw_result = 0.099523
+i = 201	 hw_result = -0.376984	 sw_result = -0.321171
+i = 202	 hw_result = -0.417999	 sw_result = -0.422005
+i = 203	 hw_result = 0.17186	 sw_result = 0.148901
+i = 204	 hw_result = -0.0788879	 sw_result = -0.095472
+i = 205	 hw_result = 0.083847	 sw_result = 0.146494
+i = 206	 hw_result = 0.140793	 sw_result = 0.107543
+i = 207	 hw_result = 0.0710602	 sw_result = -0.01289
+i = 208	 hw_result = -0.245697	 sw_result = -0.169361
+i = 209	 hw_result = -0.497833	 sw_result = -0.512614
+i = 210	 hw_result = -0.0838165	 sw_result = -0.105394
+i = 211	 hw_result = 0.178314	 sw_result = 0.165743
+i = 212	 hw_result = -0.0733185	 sw_result = -0.025211
+i = 213	 hw_result = 0.660461	 sw_result = 0.048287
+Error threshold exceeded: i = 213  Expected: 0.048287  Got: 0.660461  Delta: 0.612174
+i = 214	 hw_result = -0.200989	 sw_result = -0.180588
+i = 215	 hw_result = -0.414047	 sw_result = -0.442193
+i = 216	 hw_result = -0.463303	 sw_result = -0.410949
+i = 217	 hw_result = 0.0557098	 sw_result = -0.143319
+Error threshold exceeded: i = 217  Expected: -0.143319  Got: 0.0557098  Delta: 0.199029
+i = 218	 hw_result = -0.137589	 sw_result = -0.121447
+i = 219	 hw_result = -0.521744	 sw_result = -0.537558
+i = 220	 hw_result = -0.477859	 sw_result = -0.464183
+i = 221	 hw_result = 0.0250854	 sw_result = -0.050428
+i = 222	 hw_result = -0.191483	 sw_result = -0.16674
+i = 223	 hw_result = -0.00950623	 sw_result = -0.007736
+i = 224	 hw_result = -0.102783	 sw_result = -0.145097
+i = 225	 hw_result = -0.402512	 sw_result = -0.444088
+i = 226	 hw_result = -0.124634	 sw_result = -0.098746
+i = 227	 hw_result = -0.38681	 sw_result = -0.374678
+i = 228	 hw_result = -0.134445	 sw_result = -0.097007
+i = 229	 hw_result = 0.0159302	 sw_result = 0.025617
+i = 230	 hw_result = -0.250595	 sw_result = -0.251834
+i = 231	 hw_result = -0.501205	 sw_result = -0.520863
+i = 232	 hw_result = -0.851364	 sw_result = -0.799306
+i = 233	 hw_result = -0.264908	 sw_result = -0.278181
+i = 234	 hw_result = -0.134476	 sw_result = -0.143871
+i = 235	 hw_result = -0.343506	 sw_result = -0.333585
+i = 236	 hw_result = 0.121368	 sw_result = 0.090006
+i = 237	 hw_result = 0.0126495	 sw_result = 0.015607
+i = 238	 hw_result = -0.0467224	 sw_result = -0.062914
+i = 239	 hw_result = -0.450516	 sw_result = -0.45369
+i = 240	 hw_result = -0.525681	 sw_result = -0.448547
+i = 241	 hw_result = -0.277252	 sw_result = -0.264936
+i = 242	 hw_result = -0.123627	 sw_result = -0.110844
+i = 243	 hw_result = 0.139679	 sw_result = 0.093156
+i = 244	 hw_result = -0.270187	 sw_result = -0.285742
+i = 245	 hw_result = -0.598068	 sw_result = -0.605385
+i = 246	 hw_result = -0.0580139	 sw_result = -0.042996
+i = 247	 hw_result = 0.0986023	 sw_result = 0.083772
+i = 248	 hw_result = -0.540649	 sw_result = -0.493028
+i = 249	 hw_result = -0.239975	 sw_result = -0.228157
+i = 250	 hw_result = -0.520386	 sw_result = -0.516794
+i = 251	 hw_result = -0.573792	 sw_result = -0.60625
+i = 252	 hw_result = -0.87616	 sw_result = -0.397927
+Error threshold exceeded: i = 252  Expected: -0.397927  Got: -0.87616  Delta: -0.478233
+i = 253	 hw_result = 0.00958252	 sw_result = -0.022191
+i = 254	 hw_result = -0.106506	 sw_result = -0.135976
+i = 255	 hw_result = -0.151871	 sw_result = -0.170438
+i = 256	 hw_result = -0.264114	 sw_result = 0.197841
+Error threshold exceeded: i = 256  Expected: 0.197841  Got: -0.264114  Delta: -0.461955
+i = 257	 hw_result = 0.464615	 sw_result = 0.434689
+i = 258	 hw_result = -0.766296	 sw_result = -0.784242
+i = 259	 hw_result = -0.265839	 sw_result = -0.264118
+i = 260	 hw_result = 0.137375	 sw_result = -0.24418
+Error threshold exceeded: i = 260  Expected: -0.24418  Got: 0.137375  Delta: 0.381555
+i = 261	 hw_result = 0.139496	 sw_result = 0.159241
+i = 262	 hw_result = 0.0448151	 sw_result = 0.056525
+i = 263	 hw_result = -0.550232	 sw_result = -0.522027
+i = 264	 hw_result = -0.752457	 sw_result = -0.737601
+i = 265	 hw_result = -0.409866	 sw_result = -0.424286
+i = 266	 hw_result = -0.206284	 sw_result = -0.200537
+i = 267	 hw_result = -0.449036	 sw_result = -0.428611
+i = 268	 hw_result = -0.399078	 sw_result = -0.414261
+i = 269	 hw_result = -0.197357	 sw_result = -0.219205
+i = 270	 hw_result = -0.256317	 sw_result = -0.264786
+i = 271	 hw_result = -0.484344	 sw_result = -0.47651
+i = 272	 hw_result = -0.209	 sw_result = -0.212033
+i = 273	 hw_result = -0.626602	 sw_result = -0.634586
+i = 274	 hw_result = -0.476807	 sw_result = -0.478133
+i = 275	 hw_result = 0.341766	 sw_result = 0.318837
+i = 276	 hw_result = 0.377716	 sw_result = 0.381433
+i = 277	 hw_result = 0.10144	 sw_result = 0.07048
+i = 278	 hw_result = -0.615707	 sw_result = -0.613459
+i = 279	 hw_result = -0.410934	 sw_result = -0.451342
+i = 280	 hw_result = -0.0294952	 sw_result = 0.004222
+i = 281	 hw_result = 0.458694	 sw_result = 0.394483
+i = 282	 hw_result = 0.355103	 sw_result = 0.374131
+i = 283	 hw_result = -0.520905	 sw_result = -0.531488
+i = 284	 hw_result = -0.848526	 sw_result = -0.817441
+i = 285	 hw_result = -0.697861	 sw_result = -0.681055
+i = 286	 hw_result = -0.291138	 sw_result = -0.316023
+i = 287	 hw_result = -0.186111	 sw_result = -0.217449
+i = 288	 hw_result = -0.124786	 sw_result = -0.142016
+i = 289	 hw_result = 0.378235	 sw_result = 0.359918
+i = 290	 hw_result = -0.0159607	 sw_result = -0.074572
+i = 291	 hw_result = -0.333862	 sw_result = -0.35354
+i = 292	 hw_result = -0.0431519	 sw_result = 0.002209
+i = 293	 hw_result = -0.431366	 sw_result = -0.435538
+i = 294	 hw_result = -0.427017	 sw_result = -0.436757
+i = 295	 hw_result = 0.788605	 sw_result = 0.040386
+Error threshold exceeded: i = 295  Expected: 0.040386  Got: 0.788605  Delta: 0.748219
+i = 296	 hw_result = -1.05998	 sw_result = -1.01705
+i = 297	 hw_result = -0.321259	 sw_result = -0.335011
+i = 298	 hw_result = 0.0424652	 sw_result = -0.000238
+i = 299	 hw_result = -0.687851	 sw_result = -0.584945
+Error threshold exceeded: i = 299  Expected: -0.584945  Got: -0.687851  Delta: -0.102906
+i = 300	 hw_result = 0.236496	 sw_result = 0.200943
+i = 301	 hw_result = -0.0523224	 sw_result = -0.068442
+i = 302	 hw_result = -0.186996	 sw_result = -0.196338
+i = 303	 hw_result = 0.0171814	 sw_result = -0.220428
+Error threshold exceeded: i = 303  Expected: -0.220428  Got: 0.0171814  Delta: 0.237609
+i = 304	 hw_result = -0.123993	 sw_result = -0.147824
+i = 305	 hw_result = -0.0575256	 sw_result = -0.107055
+i = 306	 hw_result = 0.200439	 sw_result = 0.182544
+i = 307	 hw_result = -0.190216	 sw_result = -0.205719
+i = 308	 hw_result = -0.416748	 sw_result = -0.396478
+i = 309	 hw_result = -0.550751	 sw_result = -0.545057
+i = 310	 hw_result = 0.537186	 sw_result = 0.50874
+i = 311	 hw_result = -0.272324	 sw_result = -0.193429
+i = 312	 hw_result = -0.381744	 sw_result = -0.40617
+i = 313	 hw_result = -0.291306	 sw_result = -0.225712
+i = 314	 hw_result = 0.0039978	 sw_result = -0.002235
+i = 315	 hw_result = 0.251205	 sw_result = 0.205921
+i = 316	 hw_result = -0.172623	 sw_result = -0.207398
+i = 317	 hw_result = -0.265442	 sw_result = -0.29036
+i = 318	 hw_result = -0.403076	 sw_result = -0.356664
+i = 319	 hw_result = -0.0916138	 sw_result = -0.123495
+i = 320	 hw_result = -0.0218964	 sw_result = -0.002503
+i = 321	 hw_result = -0.119263	 sw_result = -0.029052
+i = 322	 hw_result = 0.117096	 sw_result = 0.135061
+i = 323	 hw_result = 0.378479	 sw_result = 0.354948
+i = 324	 hw_result = -0.402374	 sw_result = -0.399769
+i = 325	 hw_result = 0.0375519	 sw_result = 0.049796
+i = 326	 hw_result = 0.246017	 sw_result = 0.267031
+i = 327	 hw_result = -0.454117	 sw_result = -0.507912
+i = 328	 hw_result = -0.788895	 sw_result = -0.753724
+i = 329	 hw_result = -0.293854	 sw_result = -0.263251
+i = 330	 hw_result = 0.177795	 sw_result = 0.140658
+i = 331	 hw_result = 0.530197	 sw_result = 0.459512
+i = 332	 hw_result = 0.229919	 sw_result = 0.139801
+i = 333	 hw_result = -0.259598	 sw_result = -0.210133
+i = 334	 hw_result = -1.48387	 sw_result = -0.808516
+Error threshold exceeded: i = 334  Expected: -0.808516  Got: -1.48387  Delta: -0.675355
+i = 335	 hw_result = -0.935196	 sw_result = -0.962059
+i = 336	 hw_result = -0.505096	 sw_result = -0.465439
+i = 337	 hw_result = 0.511017	 sw_result = 0.484996
+i = 338	 hw_result = 0.980499	 sw_result = 0.08203
+Error threshold exceeded: i = 338  Expected: 0.08203  Got: 0.980499  Delta: 0.898469
+i = 339	 hw_result = -0.0189819	 sw_result = -0.042017
+i = 340	 hw_result = -0.140549	 sw_result = -0.151827
+i = 341	 hw_result = -0.610764	 sw_result = -0.5934
+i = 342	 hw_result = -0.00849915	 sw_result = 0.120218
+Error threshold exceeded: i = 342  Expected: 0.120218  Got: -0.00849915  Delta: -0.128717
+i = 343	 hw_result = 0.579315	 sw_result = 0.570599
+i = 344	 hw_result = -0.0909271	 sw_result = -0.004868
+i = 345	 hw_result = -0.325256	 sw_result = -0.346588
+i = 346	 hw_result = -0.291061	 sw_result = -0.287483
+i = 347	 hw_result = -0.267487	 sw_result = -0.241306
+i = 348	 hw_result = -0.0561829	 sw_result = -0.099126
+i = 349	 hw_result = -0.0732117	 sw_result = -0.147416
+i = 350	 hw_result = 0.0831299	 sw_result = 0.060184
+i = 351	 hw_result = -0.246246	 sw_result = -0.283012
+i = 352	 hw_result = -0.154053	 sw_result = -0.204502
+i = 353	 hw_result = 0.264252	 sw_result = 0.250373
+i = 354	 hw_result = 0.00344849	 sw_result = -0.051765
+i = 355	 hw_result = -1.08035	 sw_result = -1.11546
+i = 356	 hw_result = 0.0177612	 sw_result = 0.04053
+i = 357	 hw_result = 0.447617	 sw_result = 0.371492
+i = 358	 hw_result = -0.129669	 sw_result = -0.219265
+i = 359	 hw_result = -0.436432	 sw_result = -0.481773
+i = 360	 hw_result = -0.0380096	 sw_result = -0.05848
+i = 361	 hw_result = -0.30545	 sw_result = -0.320722
+i = 362	 hw_result = 0.117279	 sw_result = 0.0726
+i = 363	 hw_result = 0.250565	 sw_result = 0.211123
+i = 364	 hw_result = 0.228226	 sw_result = 0.170449
+i = 365	 hw_result = -0.339706	 sw_result = -0.333713
+i = 366	 hw_result = -0.317566	 sw_result = -0.284007
+i = 367	 hw_result = -0.490662	 sw_result = -0.42631
+i = 368	 hw_result = -0.270554	 sw_result = -0.323145
+i = 369	 hw_result = 0.390854	 sw_result = 0.40697
+i = 370	 hw_result = 0.21077	 sw_result = 0.165313
+i = 371	 hw_result = -0.506882	 sw_result = -0.50464
+i = 372	 hw_result = -0.795258	 sw_result = -0.858458
+i = 373	 hw_result = -0.510483	 sw_result = -0.486202
+i = 374	 hw_result = 0.192917	 sw_result = 0.205776
+i = 375	 hw_result = -0.202316	 sw_result = -0.270693
+i = 376	 hw_result = 0.122299	 sw_result = 0.076368
+i = 377	 hw_result = -0.643372	 sw_result = -0.080616
+Error threshold exceeded: i = 377  Expected: -0.080616  Got: -0.643372  Delta: -0.562756
+i = 378	 hw_result = -0.353592	 sw_result = -0.355232
+i = 379	 hw_result = -0.493637	 sw_result = -0.512102
+i = 380	 hw_result = -0.572189	 sw_result = -0.550308
+i = 381	 hw_result = 0.32959	 sw_result = -0.259912
+Error threshold exceeded: i = 381  Expected: -0.259912  Got: 0.32959  Delta: 0.589502
+i = 382	 hw_result = -0.1241	 sw_result = -0.137972
+i = 383	 hw_result = -0.134567	 sw_result = -0.142994
+i = 384	 hw_result = 0.215179	 sw_result = 0.141613
+i = 385	 hw_result = -0.575043	 sw_result = -0.889211
+Error threshold exceeded: i = 385  Expected: -0.889211  Got: -0.575043  Delta: 0.314168
+i = 386	 hw_result = -0.742905	 sw_result = -0.723698
+i = 387	 hw_result = 0.685638	 sw_result = 0.664448
+i = 388	 hw_result = -0.170197	 sw_result = -0.122648
+i = 389	 hw_result = -0.0156708	 sw_result = 0.017001
+i = 390	 hw_result = 0.389954	 sw_result = 0.392893
+i = 391	 hw_result = 0.109177	 sw_result = 0.102108
+i = 392	 hw_result = -0.40123	 sw_result = -0.349167
+i = 393	 hw_result = 0.0800629	 sw_result = 0.119145
+i = 394	 hw_result = -0.362946	 sw_result = -0.280553
+i = 395	 hw_result = -0.160126	 sw_result = -0.178933
+i = 396	 hw_result = 0.106216	 sw_result = 0.080388
+i = 397	 hw_result = -0.0143127	 sw_result = -0.004722
+i = 398	 hw_result = 0.0933075	 sw_result = 0.09757
+i = 399	 hw_result = 0.703232	 sw_result = 0.65822
+i = 400	 hw_result = 0.25174	 sw_result = 0.23522
+i = 401	 hw_result = -0.68605	 sw_result = -0.710396
+i = 402	 hw_result = -1.13519	 sw_result = -1.0733
+i = 403	 hw_result = 0.331726	 sw_result = 0.236292
+i = 404	 hw_result = 0.246948	 sw_result = 0.303141
+i = 405	 hw_result = -0.563278	 sw_result = -0.605703
+i = 406	 hw_result = -0.40509	 sw_result = -0.412528
+i = 407	 hw_result = 0.527695	 sw_result = 0.574938
+i = 408	 hw_result = -0.341476	 sw_result = -0.349988
+i = 409	 hw_result = 0.0933685	 sw_result = 0.012759
+i = 410	 hw_result = 0.562149	 sw_result = 0.569967
+i = 411	 hw_result = 0.00411987	 sw_result = 0.087183
+i = 412	 hw_result = -0.0128326	 sw_result = 0.00128
+i = 413	 hw_result = 0.675339	 sw_result = 0.652285
+i = 414	 hw_result = 0.456573	 sw_result = 0.482853
+i = 415	 hw_result = 0.128983	 sw_result = 0.082521
+i = 416	 hw_result = -0.776703	 sw_result = -0.732921
+i = 417	 hw_result = 0.139114	 sw_result = 0.095371
+i = 418	 hw_result = 0.61528	 sw_result = 0.612072
+i = 419	 hw_result = 0.550583	 sw_result = 0.505603
+i = 420	 hw_result = 1.34315	 sw_result = 0.387255
+Error threshold exceeded: i = 420  Expected: 0.387255  Got: 1.34315  Delta: 0.9559
+i = 421	 hw_result = -0.943192	 sw_result = -1.12136
+Error threshold exceeded: i = 421  Expected: -1.12136  Got: -0.943192  Delta: 0.17817
+i = 422	 hw_result = -0.371277	 sw_result = -0.394927
+i = 423	 hw_result = -0.061676	 sw_result = -0.027082
+i = 424	 hw_result = 0.141251	 sw_result = 0.549192
+Error threshold exceeded: i = 424  Expected: 0.549192  Got: 0.141251  Delta: -0.407941
+i = 425	 hw_result = 0.532318	 sw_result = 0.535238
+i = 426	 hw_result = -0.419037	 sw_result = -0.392502
+i = 427	 hw_result = 0.0912323	 sw_result = 0.050686
+i = 428	 hw_result = 0.815857	 sw_result = 0.63356
+Error threshold exceeded: i = 428  Expected: 0.63356  Got: 0.815857  Delta: 0.182297
+i = 429	 hw_result = 0.235031	 sw_result = 0.22825
+i = 430	 hw_result = 0.853683	 sw_result = 0.779491
+i = 431	 hw_result = 0.403061	 sw_result = 0.407444
+i = 432	 hw_result = -0.553574	 sw_result = -0.561356
+i = 433	 hw_result = -0.788086	 sw_result = -0.799252
+i = 434	 hw_result = 0.268127	 sw_result = 0.212828
+i = 435	 hw_result = -0.315765	 sw_result = -0.327561
+i = 436	 hw_result = -0.0940247	 sw_result = -0.111227
+i = 437	 hw_result = 0.207565	 sw_result = 0.179667
+i = 438	 hw_result = 0.115387	 sw_result = 0.072567
+i = 439	 hw_result = -0.0424805	 sw_result = -0.049531
+i = 440	 hw_result = 0.224869	 sw_result = 0.211086
+i = 441	 hw_result = -0.0733795	 sw_result = -0.03477
+i = 442	 hw_result = 0.016449	 sw_result = 0.0194
+i = 443	 hw_result = 0.199753	 sw_result = 0.174711
+i = 444	 hw_result = 0.410873	 sw_result = 0.369032
+i = 445	 hw_result = 0.623703	 sw_result = 0.624706
+i = 446	 hw_result = -0.0772095	 sw_result = -0.032327
+i = 447	 hw_result = -0.0348969	 sw_result = 0.033271
+i = 448	 hw_result = 0.777161	 sw_result = 0.77384
+i = 449	 hw_result = -0.357208	 sw_result = -0.3773
+i = 450	 hw_result = -0.0313263	 sw_result = 0.003376
+i = 451	 hw_result = 0.461121	 sw_result = 0.546951
+i = 452	 hw_result = 0.31842	 sw_result = 0.287987
+i = 453	 hw_result = -0.586029	 sw_result = -0.514463
+i = 454	 hw_result = 0.526596	 sw_result = 0.418695
+Error threshold exceeded: i = 454  Expected: 0.418695  Got: 0.526596  Delta: 0.107901
+i = 455	 hw_result = 0.408417	 sw_result = 0.403111
+i = 456	 hw_result = -0.0844574	 sw_result = -0.100485
+i = 457	 hw_result = 0.278534	 sw_result = 0.280386
+i = 458	 hw_result = 0.602646	 sw_result = 0.510478
+i = 459	 hw_result = -0.524429	 sw_result = -0.305579
+Error threshold exceeded: i = 459  Expected: -0.305579  Got: -0.524429  Delta: -0.21885
+i = 460	 hw_result = -0.0745087	 sw_result = -0.11615
+i = 461	 hw_result = 0.714035	 sw_result = 0.665308
+i = 462	 hw_result = 0.218384	 sw_result = 0.225863
+i = 463	 hw_result = -1.2765	 sw_result = -0.01352
+Error threshold exceeded: i = 463  Expected: -0.01352  Got: -1.2765  Delta: -1.26298
+i = 464	 hw_result = -0.464554	 sw_result = -0.465004
+i = 465	 hw_result = -0.349396	 sw_result = -0.374068
+i = 466	 hw_result = -0.185196	 sw_result = -0.070119
+Error threshold exceeded: i = 466  Expected: -0.070119  Got: -0.185196  Delta: -0.115077
+i = 467	 hw_result = 0.336853	 sw_result = 0.158169
+Error threshold exceeded: i = 467  Expected: 0.158169  Got: 0.336853  Delta: 0.178684
+i = 468	 hw_result = 0.458542	 sw_result = 0.502369
+i = 469	 hw_result = 0.432831	 sw_result = 0.388585
+i = 470	 hw_result = -0.326492	 sw_result = -0.344367
+i = 471	 hw_result = -0.566986	 sw_result = -0.573065
+i = 472	 hw_result = -0.537415	 sw_result = -0.51404
+i = 473	 hw_result = -0.588028	 sw_result = -0.553635
+i = 474	 hw_result = 0.150116	 sw_result = 0.156789
+i = 475	 hw_result = 0.169556	 sw_result = 0.168971
+i = 476	 hw_result = -0.0604095	 sw_result = -0.072148
+i = 477	 hw_result = 0.732941	 sw_result = 0.667349
+i = 478	 hw_result = 0.882813	 sw_result = 0.780068
+Error threshold exceeded: i = 478  Expected: 0.780068  Got: 0.882813  Delta: 0.102744
+i = 479	 hw_result = 0.251556	 sw_result = 0.271239
+i = 480	 hw_result = -0.678894	 sw_result = -0.633827
+i = 481	 hw_result = -0.20195	 sw_result = -0.254528
+i = 482	 hw_result = -0.418625	 sw_result = -0.435566
+i = 483	 hw_result = -0.589157	 sw_result = -0.6065
+i = 484	 hw_result = 0.0537567	 sw_result = 0.060179
+i = 485	 hw_result = 0.344254	 sw_result = 0.326837
+i = 486	 hw_result = -0.385727	 sw_result = -0.390805
+i = 487	 hw_result = -0.718658	 sw_result = -0.640717
+i = 488	 hw_result = -0.39801	 sw_result = -0.419125
+i = 489	 hw_result = -0.245544	 sw_result = -0.251801
+i = 490	 hw_result = 0.104218	 sw_result = 0.114503
+i = 491	 hw_result = -0.460526	 sw_result = -0.423306
+i = 492	 hw_result = -0.320114	 sw_result = -0.352196
+i = 493	 hw_result = 0.0900116	 sw_result = 0.042623
+i = 494	 hw_result = 0.104156	 sw_result = 0.07074
+i = 495	 hw_result = -0.610916	 sw_result = -0.615006
+i = 496	 hw_result = 0.442627	 sw_result = 0.4029
+i = 497	 hw_result = 0.320572	 sw_result = 0.343461
+i = 498	 hw_result = -0.386108	 sw_result = -0.371553
+i = 499	 hw_result = -0.615051	 sw_result = -0.534201

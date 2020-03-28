@@ -1,0 +1,216 @@
+
+
+================================================================
+== Vivado HLS Report for 'fir'
+================================================================
+* Date:           Sat Mar 28 17:54:10 2020
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        demodulation_FM1
+* Solution:       solution1
+* Product family: kintex7
+* Target device:  xc7k70t-fbv676-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 8.367 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+---------+---------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |      Interval     | Pipeline|
+    |   min   |   max   |    min    |    max    |   min   |   max   |   Type  |
+    +---------+---------+-----------+-----------+---------+---------+---------+
+    |  3797119|  3797119| 37.971 ms | 37.971 ms |  3797119|  3797119|   none  |
+    +---------+---------+-----------+-----------+---------+---------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+---------+---------+----------+-----------+-----------+-------+----------+
+        |             |  Latency (cycles) | Iteration|  Initiation Interval  |  Trip |          |
+        |  Loop Name  |   min   |   max   |  Latency |  achieved |   target  | Count | Pipelined|
+        +-------------+---------+---------+----------+-----------+-----------+-------+----------+
+        |- Loop 1     |       62|       62|         2|          -|          -|     31|    no    |
+        |- Loop 2     |  3797055|  3797055|        95|          -|          -|  39969|    no    |
+        | + Loop 2.1  |       93|       93|         3|          -|          -|     31|    no    |
+        +-------------+---------+---------+----------+-----------+-----------+-------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 7
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 4 
+3 --> 2 
+4 --> 5 
+5 --> 6 4 
+6 --> 7 
+7 --> 5 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.06>
+ST_1 : Operation 8 [1/1] (1.06ns)   --->   "br label %1" [demodulation_FM.cpp:37]   --->   Operation 8 'br' <Predicate = true> <Delay = 1.06>
+
+State 2 <SV = 1> <Delay = 2.66>
+ST_2 : Operation 9 [1/1] (0.00ns)   --->   "%j_0 = phi i5 [ 0, %0 ], [ %j, %2 ]"   --->   Operation 9 'phi' 'j_0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 10 [1/1] (1.11ns)   --->   "%icmp_ln37 = icmp eq i5 %j_0, -1" [demodulation_FM.cpp:37]   --->   Operation 10 'icmp' 'icmp_ln37' <Predicate = true> <Delay = 1.11> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.11> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 11 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 31, i64 31, i64 31)"   --->   Operation 11 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 12 [1/1] (1.33ns)   --->   "%j = add i5 %j_0, 1" [demodulation_FM.cpp:37]   --->   Operation 12 'add' 'j' <Predicate = true> <Delay = 1.33> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.48> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 13 [1/1] (0.00ns)   --->   "br i1 %icmp_ln37, label %.preheader.preheader, label %2" [demodulation_FM.cpp:37]   --->   Operation 13 'br' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%zext_ln39 = zext i5 %j_0 to i64" [demodulation_FM.cpp:39]   --->   Operation 14 'zext' 'zext_ln39' <Predicate = (!icmp_ln37)> <Delay = 0.00>
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%x_V_addr = getelementptr [40000 x i32]* %x_V, i64 0, i64 %zext_ln39" [demodulation_FM.cpp:39]   --->   Operation 15 'getelementptr' 'x_V_addr' <Predicate = (!icmp_ln37)> <Delay = 0.00>
+ST_2 : Operation 16 [2/2] (2.66ns)   --->   "%x_V_load = load i32* %x_V_addr, align 4" [demodulation_FM.cpp:39]   --->   Operation 16 'load' 'x_V_load' <Predicate = (!icmp_ln37)> <Delay = 2.66> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 40000> <RAM>
+ST_2 : Operation 17 [1/1] (1.06ns)   --->   "br label %.preheader" [demodulation_FM.cpp:41]   --->   Operation 17 'br' <Predicate = (icmp_ln37)> <Delay = 1.06>
+
+State 3 <SV = 2> <Delay = 5.32>
+ST_3 : Operation 18 [1/2] (2.66ns)   --->   "%x_V_load = load i32* %x_V_addr, align 4" [demodulation_FM.cpp:39]   --->   Operation 18 'load' 'x_V_load' <Predicate = true> <Delay = 2.66> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 40000> <RAM>
+ST_3 : Operation 19 [1/1] (0.00ns)   --->   "%y_V_addr = getelementptr [40000 x i32]* %y_V, i64 0, i64 %zext_ln39" [demodulation_FM.cpp:39]   --->   Operation 19 'getelementptr' 'y_V_addr' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 20 [1/1] (2.66ns)   --->   "store i32 %x_V_load, i32* %y_V_addr, align 4" [demodulation_FM.cpp:39]   --->   Operation 20 'store' <Predicate = true> <Delay = 2.66> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 40000> <RAM>
+ST_3 : Operation 21 [1/1] (0.00ns)   --->   "br label %1" [demodulation_FM.cpp:37]   --->   Operation 21 'br' <Predicate = true> <Delay = 0.00>
+
+State 4 <SV = 2> <Delay = 1.49>
+ST_4 : Operation 22 [1/1] (0.00ns)   --->   "%l_0 = phi i16 [ %l, %3 ], [ 31, %.preheader.preheader ]"   --->   Operation 22 'phi' 'l_0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 23 [1/1] (1.49ns)   --->   "%icmp_ln41 = icmp eq i16 %l_0, -25536" [demodulation_FM.cpp:41]   --->   Operation 23 'icmp' 'icmp_ln41' <Predicate = true> <Delay = 1.49> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.11> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 24 [1/1] (0.00ns)   --->   "%empty_11 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 39969, i64 39969, i64 39969)"   --->   Operation 24 'speclooptripcount' 'empty_11' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 25 [1/1] (0.00ns)   --->   "br i1 %icmp_ln41, label %4, label %.preheader9.preheader" [demodulation_FM.cpp:41]   --->   Operation 25 'br' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 26 [1/1] (1.06ns)   --->   "br label %.preheader9" [demodulation_FM.cpp:44]   --->   Operation 26 'br' <Predicate = (!icmp_ln41)> <Delay = 1.06>
+ST_4 : Operation 27 [1/1] (0.00ns)   --->   "ret void" [demodulation_FM.cpp:50]   --->   Operation 27 'ret' <Predicate = (icmp_ln41)> <Delay = 0.00>
+
+State 5 <SV = 3> <Delay = 4.15>
+ST_5 : Operation 28 [1/1] (0.00ns)   --->   "%p_Val2_s = phi i32 [ %somme_r_V, %_ZN13ap_fixed_baseILi65ELi33ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC1ILi32ELi16ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i ], [ 0, %.preheader9.preheader ]"   --->   Operation 28 'phi' 'p_Val2_s' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 29 [1/1] (0.00ns)   --->   "%k_0 = phi i5 [ %k, %_ZN13ap_fixed_baseILi65ELi33ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC1ILi32ELi16ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i ], [ 0, %.preheader9.preheader ]"   --->   Operation 29 'phi' 'k_0' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 30 [1/1] (0.00ns)   --->   "%zext_ln44 = zext i5 %k_0 to i16" [demodulation_FM.cpp:44]   --->   Operation 30 'zext' 'zext_ln44' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 31 [1/1] (1.11ns)   --->   "%icmp_ln44 = icmp eq i5 %k_0, -1" [demodulation_FM.cpp:44]   --->   Operation 31 'icmp' 'icmp_ln44' <Predicate = true> <Delay = 1.11> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.11> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 32 [1/1] (0.00ns)   --->   "%empty_12 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 31, i64 31, i64 31)"   --->   Operation 32 'speclooptripcount' 'empty_12' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 33 [1/1] (1.33ns)   --->   "%k = add i5 %k_0, 1" [demodulation_FM.cpp:44]   --->   Operation 33 'add' 'k' <Predicate = true> <Delay = 1.33> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.48> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 34 [1/1] (0.00ns)   --->   "br i1 %icmp_ln44, label %3, label %_ZN13ap_fixed_baseILi65ELi33ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC1ILi32ELi16ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i" [demodulation_FM.cpp:44]   --->   Operation 34 'br' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 35 [1/1] (0.00ns)   --->   "%zext_ln46 = zext i5 %k_0 to i64" [demodulation_FM.cpp:46]   --->   Operation 35 'zext' 'zext_ln46' <Predicate = (!icmp_ln44)> <Delay = 0.00>
+ST_5 : Operation 36 [1/1] (1.48ns)   --->   "%sub_ln46 = sub i16 %l_0, %zext_ln44" [demodulation_FM.cpp:46]   --->   Operation 36 'sub' 'sub_ln46' <Predicate = (!icmp_ln44)> <Delay = 1.48> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.48> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 37 [1/1] (0.00ns)   --->   "%zext_ln46_1 = zext i16 %sub_ln46 to i64" [demodulation_FM.cpp:46]   --->   Operation 37 'zext' 'zext_ln46_1' <Predicate = (!icmp_ln44)> <Delay = 0.00>
+ST_5 : Operation 38 [1/1] (0.00ns)   --->   "%coef_addr = getelementptr [31 x i14]* @coef, i64 0, i64 %zext_ln46" [demodulation_FM.cpp:46]   --->   Operation 38 'getelementptr' 'coef_addr' <Predicate = (!icmp_ln44)> <Delay = 0.00>
+ST_5 : Operation 39 [2/2] (2.66ns)   --->   "%coef_load = load i14* %coef_addr, align 2" [demodulation_FM.cpp:46]   --->   Operation 39 'load' 'coef_load' <Predicate = (!icmp_ln44)> <Delay = 2.66> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 14> <Depth = 31> <ROM>
+ST_5 : Operation 40 [1/1] (0.00ns)   --->   "%x_V_addr_1 = getelementptr [40000 x i32]* %x_V, i64 0, i64 %zext_ln46_1" [demodulation_FM.cpp:46]   --->   Operation 40 'getelementptr' 'x_V_addr_1' <Predicate = (!icmp_ln44)> <Delay = 0.00>
+ST_5 : Operation 41 [2/2] (2.66ns)   --->   "%x_V_load_1 = load i32* %x_V_addr_1, align 4" [demodulation_FM.cpp:46]   --->   Operation 41 'load' 'x_V_load_1' <Predicate = (!icmp_ln44)> <Delay = 2.66> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 40000> <RAM>
+ST_5 : Operation 42 [1/1] (0.00ns)   --->   "%zext_ln48 = zext i16 %l_0 to i64" [demodulation_FM.cpp:48]   --->   Operation 42 'zext' 'zext_ln48' <Predicate = (icmp_ln44)> <Delay = 0.00>
+ST_5 : Operation 43 [1/1] (0.00ns)   --->   "%y_V_addr_1 = getelementptr [40000 x i32]* %y_V, i64 0, i64 %zext_ln48" [demodulation_FM.cpp:48]   --->   Operation 43 'getelementptr' 'y_V_addr_1' <Predicate = (icmp_ln44)> <Delay = 0.00>
+ST_5 : Operation 44 [1/1] (2.66ns)   --->   "store i32 %p_Val2_s, i32* %y_V_addr_1, align 4" [demodulation_FM.cpp:48]   --->   Operation 44 'store' <Predicate = (icmp_ln44)> <Delay = 2.66> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 40000> <RAM>
+ST_5 : Operation 45 [1/1] (1.48ns)   --->   "%l = add i16 %l_0, 1" [demodulation_FM.cpp:41]   --->   Operation 45 'add' 'l' <Predicate = (icmp_ln44)> <Delay = 1.48> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.48> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 46 [1/1] (0.00ns)   --->   "br label %.preheader" [demodulation_FM.cpp:41]   --->   Operation 46 'br' <Predicate = (icmp_ln44)> <Delay = 0.00>
+
+State 6 <SV = 4> <Delay = 2.66>
+ST_6 : Operation 47 [1/2] (2.66ns)   --->   "%coef_load = load i14* %coef_addr, align 2" [demodulation_FM.cpp:46]   --->   Operation 47 'load' 'coef_load' <Predicate = true> <Delay = 2.66> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 14> <Depth = 31> <ROM>
+ST_6 : Operation 48 [1/2] (2.66ns)   --->   "%x_V_load_1 = load i32* %x_V_addr_1, align 4" [demodulation_FM.cpp:46]   --->   Operation 48 'load' 'x_V_load_1' <Predicate = true> <Delay = 2.66> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.66> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 40000> <RAM>
+
+State 7 <SV = 5> <Delay = 8.36>
+ST_7 : Operation 49 [1/1] (0.00ns)   --->   "%sext_ln1117 = sext i14 %coef_load to i46" [demodulation_FM.cpp:46]   --->   Operation 49 'sext' 'sext_ln1117' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 50 [1/1] (0.00ns)   --->   "%sext_ln1118 = sext i32 %x_V_load_1 to i46" [demodulation_FM.cpp:46]   --->   Operation 50 'sext' 'sext_ln1118' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 51 [1/1] (6.58ns)   --->   "%r_V = mul i46 %sext_ln1117, %sext_ln1118" [demodulation_FM.cpp:46]   --->   Operation 51 'mul' 'r_V' <Predicate = true> <Delay = 6.58> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 6.58> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 52 [1/1] (0.00ns)   --->   "%lhs_V = call i48 @_ssdm_op_BitConcatenate.i48.i32.i16(i32 %p_Val2_s, i16 0)" [demodulation_FM.cpp:46]   --->   Operation 52 'bitconcatenate' 'lhs_V' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 53 [1/1] (0.00ns)   --->   "%sext_ln1192 = sext i46 %r_V to i48" [demodulation_FM.cpp:46]   --->   Operation 53 'sext' 'sext_ln1192' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 54 [1/1] (1.78ns)   --->   "%ret_V = add i48 %lhs_V, %sext_ln1192" [demodulation_FM.cpp:46]   --->   Operation 54 'add' 'ret_V' <Predicate = true> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.48> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 55 [1/1] (0.00ns)   --->   "%somme_r_V = call i32 @_ssdm_op_PartSelect.i32.i48.i32.i32(i48 %ret_V, i32 16, i32 47)" [demodulation_FM.cpp:46]   --->   Operation 55 'partselect' 'somme_r_V' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 56 [1/1] (0.00ns)   --->   "br label %.preheader9" [demodulation_FM.cpp:44]   --->   Operation 56 'br' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 1.06ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('j') with incoming values : ('j', demodulation_FM.cpp:37) [7]  (1.06 ns)
+
+ <State 2>: 2.66ns
+The critical path consists of the following:
+	'phi' operation ('j') with incoming values : ('j', demodulation_FM.cpp:37) [7]  (0 ns)
+	'getelementptr' operation ('x_V_addr', demodulation_FM.cpp:39) [14]  (0 ns)
+	'load' operation ('x_V_load', demodulation_FM.cpp:39) on array 'x_V' [15]  (2.66 ns)
+
+ <State 3>: 5.33ns
+The critical path consists of the following:
+	'load' operation ('x_V_load', demodulation_FM.cpp:39) on array 'x_V' [15]  (2.66 ns)
+	'store' operation ('store_ln39', demodulation_FM.cpp:39) of variable 'x_V_load', demodulation_FM.cpp:39 on array 'y_V' [17]  (2.66 ns)
+
+ <State 4>: 1.5ns
+The critical path consists of the following:
+	'phi' operation ('l') with incoming values : ('l', demodulation_FM.cpp:41) [22]  (0 ns)
+	'icmp' operation ('icmp_ln41', demodulation_FM.cpp:41) [23]  (1.5 ns)
+
+ <State 5>: 4.15ns
+The critical path consists of the following:
+	'phi' operation ('k') with incoming values : ('k', demodulation_FM.cpp:44) [30]  (0 ns)
+	'sub' operation ('sub_ln46', demodulation_FM.cpp:46) [38]  (1.49 ns)
+	'getelementptr' operation ('x_V_addr_1', demodulation_FM.cpp:46) [43]  (0 ns)
+	'load' operation ('x_V_load_1', demodulation_FM.cpp:46) on array 'x_V' [44]  (2.66 ns)
+
+ <State 6>: 2.66ns
+The critical path consists of the following:
+	'load' operation ('coef_load', demodulation_FM.cpp:46) on array 'coef' [41]  (2.66 ns)
+
+ <State 7>: 8.37ns
+The critical path consists of the following:
+	'mul' operation ('r.V', demodulation_FM.cpp:46) [46]  (6.58 ns)
+	'add' operation ('ret.V', demodulation_FM.cpp:46) [49]  (1.79 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

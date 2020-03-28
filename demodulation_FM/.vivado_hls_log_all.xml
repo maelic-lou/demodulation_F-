@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [HLS 200-40] Cannot find library 'xilinx/Kintex-7/Kintex-7'." projectName="demodulation_FM1" solutionName="solution1" date="2020-03-28T17:53:24.934+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find library '/opt/Xilinx/Vivado/2019.2/common/technology/xilinx/Kintex-7/Kintex-7.lib'." projectName="demodulation_FM1" solutionName="solution1" date="2020-03-28T17:53:23.869+0100" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

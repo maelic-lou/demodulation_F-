@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="demodulationFM.wdb" id="1">
+         <top_modules>
+            <top_module name="apatb_demodulationFM_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="1" />
+   <wvobject type="group" fp_name="group1">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group2">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="group3">
+            <obj_property name="label">return(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_return">
+               <obj_property name="ElementShortName">ap_return[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ap_return[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group5">
+            <obj_property name="label">y_demod_d(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/y_demod_d_V_d0">
+               <obj_property name="ElementShortName">y_demod_d_V_d0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">y_demod_d_V_d0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/y_demod_d_V_we0">
+               <obj_property name="ElementShortName">y_demod_d_V_we0</obj_property>
+               <obj_property name="ObjectShortName">y_demod_d_V_we0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/y_demod_d_V_ce0">
+               <obj_property name="ElementShortName">y_demod_d_V_ce0</obj_property>
+               <obj_property name="ObjectShortName">y_demod_d_V_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/y_demod_d_V_address0">
+               <obj_property name="ElementShortName">y_demod_d_V_address0[15:0]</obj_property>
+               <obj_property name="ObjectShortName">y_demod_d_V_address0[15:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group10">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="group11">
+            <obj_property name="label">y_Q(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/y_Q_V_q0">
+               <obj_property name="ElementShortName">y_Q_V_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">y_Q_V_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/y_Q_V_ce0">
+               <obj_property name="ElementShortName">y_Q_V_ce0</obj_property>
+               <obj_property name="ObjectShortName">y_Q_V_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/y_Q_V_address0">
+               <obj_property name="ElementShortName">y_Q_V_address0[15:0]</obj_property>
+               <obj_property name="ObjectShortName">y_Q_V_address0[15:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group15">
+            <obj_property name="label">y_I(memory)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/y_I_V_q0">
+               <obj_property name="ElementShortName">y_I_V_q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">y_I_V_q0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/y_I_V_ce0">
+               <obj_property name="ElementShortName">y_I_V_ce0</obj_property>
+               <obj_property name="ObjectShortName">y_I_V_ce0</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/y_I_V_address0">
+               <obj_property name="ElementShortName">y_I_V_address0[15:0]</obj_property>
+               <obj_property name="ObjectShortName">y_I_V_address0[15:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group19">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_start">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_done">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_idle">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_ready">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group24">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_rst">
+            <obj_property name="ElementShortName">ap_rst</obj_property>
+            <obj_property name="ObjectShortName">ap_rst</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group26">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_demodulationFM_top/AESL_inst_demodulationFM/ap_clk">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

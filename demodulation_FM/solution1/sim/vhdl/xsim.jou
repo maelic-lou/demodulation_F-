@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# xsim v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Mar 28 11:58:42 2020
+# Process ID: 22315
+# Current directory: /home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl
+# Command line: xsim -mode tcl -source {xsim.dir/demodulationFM/xsim_script.tcl}
+# Log file: /home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/xsim.log
+# Journal file: /home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM/demodulation_FM1/solution1/sim/vhdl/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/demodulationFM/xsim_script.tcl
+source demodulationFM.tcl

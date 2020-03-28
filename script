@@ -1,0 +1,2 @@
+gcc -o demodulation.out demodulation.c -lm && ./demodulation.out
+matlab -r "try, run('affichage_courbe.m'); end;"

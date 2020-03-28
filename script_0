@@ -1,0 +1,1 @@
+gcc -o demodulation.out demodulation.c -lm && ./demodulation.out
