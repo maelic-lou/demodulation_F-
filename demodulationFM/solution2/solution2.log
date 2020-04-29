@@ -1,0 +1,320 @@
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/opt/Xilinx/Vivado/2019.2/common/technology/xilinx/Kintex-7/Kintex-7.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/Kintex-7/Kintex-7'.
+INFO: [HLS 200-10] Setting target device to 'xc7k70t-fbv676-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'demodulation_FM.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 892.961 ; gain = 459.035 ; free physical = 343 ; free virtual = 5612
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 892.961 ; gain = 459.035 ; free physical = 343 ; free virtual = 5612
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 892.961 ; gain = 459.035 ; free physical = 294 ; free virtual = 5561
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'demodulation' into 'demodulationFM' (demodulation_FM.cpp:429) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:54 ; elapsed = 00:00:54 . Memory (MB): peak = 972.965 ; gain = 539.039 ; free physical = 230 ; free virtual = 5502
+INFO: [XFORM 203-602] Inlining function 'demodulation' into 'demodulationFM' (demodulation_FM.cpp:429) automatically.
+WARNING: [XFORM 203-124] Array  'y_demod_d.V': may have improper streaming access(es), possible reasons: (1) some entries are accessed more than once; (2) some entries are not used; (3) the entries are not accessed in sequential order.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (demodulation_FM.cpp:165:12) to (demodulation_FM.cpp:193:5) in function 'shift'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (demodulation_FM.cpp:48:48) to (demodulation_FM.cpp:48:42) in function 'fir'... converting 3 basic blocks.
+INFO: [XFORM 203-602] Inlining function 'cos_lookup' into 'shift' (demodulation_FM.cpp:191) automatically.
+INFO: [XFORM 203-602] Inlining function 'sin_lookup' into 'shift' (demodulation_FM.cpp:191) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:01:14 ; elapsed = 00:01:15 . Memory (MB): peak = 1052.965 ; gain = 619.039 ; free physical = 198 ; free virtual = 5472
+INFO: [HLS 200-472] Inferring partial write operation for 'ary_r_s.V' (demodulation_FM.cpp:195:20)
+INFO: [HLS 200-472] Inferring partial write operation for 'ary_i_s.V' (demodulation_FM.cpp:196:20)
+INFO: [HLS 200-472] Inferring partial write operation for 'ary_r_s.V' (demodulation_FM.cpp:200:20)
+INFO: [HLS 200-472] Inferring partial write operation for 'ary_i_s.V' (demodulation_FM.cpp:201:20)
+INFO: [HLS 200-472] Inferring partial write operation for 'ary_r_s.V' (demodulation_FM.cpp:205:7)
+INFO: [HLS 200-472] Inferring partial write operation for 'ary_i_s.V' (demodulation_FM.cpp:206:7)
+INFO: [HLS 200-472] Inferring partial write operation for 'y.V' (demodulation_FM.cpp:41:3)
+INFO: [HLS 200-472] Inferring partial write operation for 'hwin.V' (demodulation_FM.cpp:42:3)
+INFO: [HLS 200-472] Inferring partial write operation for 'hwin.V' (demodulation_FM.cpp:49:17)
+INFO: [HLS 200-472] Inferring partial write operation for 'y.V' (demodulation_FM.cpp:53:17)
+INFO: [HLS 200-472] Inferring partial write operation for 'y_demod_nd.V' (demodulation_FM.cpp:247:2)
+INFO: [HLS 200-472] Inferring partial write operation for 'y_demod_nd.V' (demodulation_FM.cpp:259:80)
+INFO: [HLS 200-472] Inferring partial write operation for 'new_ary.V' (demodulation_FM.cpp:222:4)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:01:17 ; elapsed = 00:01:18 . Memory (MB): peak = 1053.523 ; gain = 619.598 ; free physical = 161 ; free virtual = 5436
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'demodulationFM' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'shift' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 77.64 seconds; current allocated memory: 226.440 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.07 seconds; current allocated memory: 226.998 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.12 seconds; current allocated memory: 227.257 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.04 seconds; current allocated memory: 227.469 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'decimation1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.06 seconds; current allocated memory: 227.601 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.01 seconds; current allocated memory: 227.684 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'decimation2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.05 seconds; current allocated memory: 227.778 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.02 seconds; current allocated memory: 227.876 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'demodulationFM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.05 seconds; current allocated memory: 228.272 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.21 seconds; current allocated memory: 228.876 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'shift' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'shift'.
+INFO: [HLS 200-111]  Elapsed time: 0.2 seconds; current allocated memory: 229.839 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/opt/Xilinx/Vivado/2019.2/common/technology/xilinx/Kintex-7/Kintex-7.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/Kintex-7/Kintex-7'.
+INFO: [HLS 200-10] Setting target device to 'xc7k70t-fbv676-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'demodulation_FM.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 418 ; free virtual = 4779
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 418 ; free virtual = 4779
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 372 ; free virtual = 4725
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'demodulation' into 'demodulationFM' (demodulation_FM.cpp:493) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:47 ; elapsed = 00:00:47 . Memory (MB): peak = 992.492 ; gain = 558.566 ; free physical = 249 ; free virtual = 4604
+INFO: [XFORM 203-602] Inlining function 'demodulation' into 'demodulationFM' (demodulation_FM.cpp:493) automatically.
+WARNING: [XFORM 203-124] Array  'y_demod_d.V': may have improper streaming access(es), possible reasons: (1) some entries are accessed more than once; (2) some entries are not used; (3) the entries are not accessed in sequential order.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (demodulation_FM.cpp:48:48) to (demodulation_FM.cpp:48:42) in function 'fir'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (demodulation_FM.cpp:332:13) to (demodulation_FM.cpp:360:6) in function 'demodulationFM'... converting 3 basic blocks.
+INFO: [XFORM 203-602] Inlining function 'cos_lookup' into 'demodulationFM' (demodulation_FM.cpp:358) automatically.
+INFO: [XFORM 203-602] Inlining function 'sin_lookup' into 'demodulationFM' (demodulation_FM.cpp:358) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:01:10 ; elapsed = 00:01:10 . Memory (MB): peak = 1119.934 ; gain = 686.008 ; free physical = 199 ; free virtual = 4567
+INFO: [HLS 200-472] Inferring partial write operation for 'y.V' (demodulation_FM.cpp:41:3)
+INFO: [HLS 200-472] Inferring partial write operation for 'hwin.V' (demodulation_FM.cpp:42:3)
+INFO: [HLS 200-472] Inferring partial write operation for 'hwin.V' (demodulation_FM.cpp:49:17)
+INFO: [HLS 200-472] Inferring partial write operation for 'y.V' (demodulation_FM.cpp:53:17)
+INFO: [HLS 200-472] Inferring partial write operation for 'y_I_s.V' (demodulation_FM.cpp:362:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'y_Q_s.V' (demodulation_FM.cpp:363:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'y_I_s.V' (demodulation_FM.cpp:367:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'y_Q_s.V' (demodulation_FM.cpp:368:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'y_I_s.V' (demodulation_FM.cpp:372:7)
+INFO: [HLS 200-472] Inferring partial write operation for 'y_Q_s.V' (demodulation_FM.cpp:373:7)
+INFO: [HLS 200-472] Inferring partial write operation for 'y_demod_nd.V' (demodulation_FM.cpp:247:2)
+INFO: [HLS 200-472] Inferring partial write operation for 'y_demod_nd.V' (demodulation_FM.cpp:259:80)
+INFO: [HLS 200-472] Inferring partial write operation for 'new_ary.V' (demodulation_FM.cpp:222:4)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:01:12 ; elapsed = 00:01:13 . Memory (MB): peak = 1119.934 ; gain = 686.008 ; free physical = 186 ; free virtual = 4550
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'demodulationFM' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 73.16 seconds; current allocated memory: 250.075 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.06 seconds; current allocated memory: 250.304 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'decimation1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.09 seconds; current allocated memory: 250.429 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.03 seconds; current allocated memory: 250.517 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'decimation2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.08 seconds; current allocated memory: 250.740 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.04 seconds; current allocated memory: 250.838 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'demodulationFM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.22 seconds; current allocated memory: 251.605 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.27 seconds; current allocated memory: 252.676 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir'.
+INFO: [HLS 200-111]  Elapsed time: 0.26 seconds; current allocated memory: 253.222 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'decimation1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'decimation1'.
+INFO: [HLS 200-111]  Elapsed time: 0.13 seconds; current allocated memory: 254.370 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'decimation2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'decimation2'.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/opt/Xilinx/Vivado/2019.2/common/technology/xilinx/Kintex-7/Kintex-7.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/Kintex-7/Kintex-7'.
+INFO: [HLS 200-10] Setting target device to 'xc7k70t-fbv676-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'demodulation_FM.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 2675 ; free virtual = 4634
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 2675 ; free virtual = 4634
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 2613 ; free virtual = 4580
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'demodulation' into 'demodulationFM' (demodulation_FM.cpp:429) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 975.934 ; gain = 542.008 ; free physical = 2556 ; free virtual = 4522
+INFO: [XFORM 203-602] Inlining function 'demodulation' into 'demodulationFM' (demodulation_FM.cpp:429) automatically.
+WARNING: [XFORM 203-124] Array  'y_demod_d.V': may have improper streaming access(es), possible reasons: (1) some entries are accessed more than once; (2) some entries are not used; (3) the entries are not accessed in sequential order.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (demodulation_FM.cpp:165:12) to (demodulation_FM.cpp:193:5) in function 'shift'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (demodulation_FM.cpp:48:48) to (demodulation_FM.cpp:48:42) in function 'fir'... converting 3 basic blocks.
+INFO: [XFORM 203-602] Inlining function 'cos_lookup' into 'shift' (demodulation_FM.cpp:191) automatically.
+INFO: [XFORM 203-602] Inlining function 'sin_lookup' into 'shift' (demodulation_FM.cpp:191) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:01:14 ; elapsed = 00:01:16 . Memory (MB): peak = 1055.934 ; gain = 622.008 ; free physical = 2517 ; free virtual = 4490
+INFO: [HLS 200-472] Inferring partial write operation for 'ary_r_s.V' (demodulation_FM.cpp:195:20)
+INFO: [HLS 200-472] Inferring partial write operation for 'ary_i_s.V' (demodulation_FM.cpp:196:20)
+INFO: [HLS 200-472] Inferring partial write operation for 'ary_r_s.V' (demodulation_FM.cpp:200:20)
+INFO: [HLS 200-472] Inferring partial write operation for 'ary_i_s.V' (demodulation_FM.cpp:201:20)
+INFO: [HLS 200-472] Inferring partial write operation for 'ary_r_s.V' (demodulation_FM.cpp:205:7)
+INFO: [HLS 200-472] Inferring partial write operation for 'ary_i_s.V' (demodulation_FM.cpp:206:7)
+INFO: [HLS 200-472] Inferring partial write operation for 'y.V' (demodulation_FM.cpp:41:3)
+INFO: [HLS 200-472] Inferring partial write operation for 'hwin.V' (demodulation_FM.cpp:42:3)
+INFO: [HLS 200-472] Inferring partial write operation for 'hwin.V' (demodulation_FM.cpp:49:17)
+INFO: [HLS 200-472] Inferring partial write operation for 'y.V' (demodulation_FM.cpp:53:17)
+INFO: [HLS 200-472] Inferring partial write operation for 'y_demod_nd.V' (demodulation_FM.cpp:247:2)
+INFO: [HLS 200-472] Inferring partial write operation for 'y_demod_nd.V' (demodulation_FM.cpp:259:80)
+INFO: [HLS 200-472] Inferring partial write operation for 'new_ary.V' (demodulation_FM.cpp:222:4)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:01:17 ; elapsed = 00:01:18 . Memory (MB): peak = 1055.934 ; gain = 622.008 ; free physical = 2479 ; free virtual = 4453
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'demodulationFM' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'shift' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 78.15 seconds; current allocated memory: 226.417 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.08 seconds; current allocated memory: 226.992 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fir' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.12 seconds; current allocated memory: 227.250 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.03 seconds; current allocated memory: 227.499 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'decimation1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.06 seconds; current allocated memory: 227.595 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.01 seconds; current allocated memory: 227.679 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'decimation2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.05 seconds; current allocated memory: 227.774 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.01 seconds; current allocated memory: 227.873 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'demodulationFM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.06 seconds; current allocated memory: 228.273 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.21 seconds; current allocated memory: 228.860 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'shift' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'shift'.
+INFO: [HLS 200-111]  Elapsed time: 0.19 seconds; current allocated memory: 229.825 MB.

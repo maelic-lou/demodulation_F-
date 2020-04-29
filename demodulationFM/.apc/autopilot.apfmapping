@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="demodulation_FM.cpp" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulationFM_RAM/demodulation_FM.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="data1_i.dat" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulationFM_RAM/data1_i.dat"/>
+    <originFiles name="data1_r.dat" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulationFM_RAM/data1_r.dat"/>
+    <originFiles name="data2_i.dat" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulationFM_RAM/data2_i.dat"/>
+    <originFiles name="data2_r.dat" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulationFM_RAM/data2_r.dat"/>
+    <originFiles name="data3_i.dat" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulationFM_RAM/data3_i.dat"/>
+    <originFiles name="data3_r.dat" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulationFM_RAM/data3_r.dat"/>
+    <originFiles name="data4_i.dat" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulationFM_RAM/data4_i.dat"/>
+    <originFiles name="data4_r.dat" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulationFM_RAM/data4_r.dat"/>
+    <originFiles name="data5.dat" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulationFM_RAM/data5.dat"/>
+    <originFiles name="demodulation_FM_test.cpp" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulationFM_RAM/demodulation_FM_test.cpp"/>
+    <originFiles name="FMcapture1.dat" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulationFM_RAM/FMcapture1.dat"/>
+    <originFiles name="data6.dat" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulationFM_RAM/data6.dat"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
