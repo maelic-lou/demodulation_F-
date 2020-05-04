@@ -143,38 +143,9 @@ int demodulationFM(hls::stream<in_t> &y_I,hls::stream<in_t> &y_Q,hls::stream<in_
 			0.001060,
 			0.000411
 	};
-//	for (int m = 0; m < LENGTH_WIN_CONV; m++)
-//	{
-//		value = value +c;
-//		if (value>DATA_SIZE)
-//		{
-//			value = value - DATA_SIZE;
-//		}
-//		n = value;
-//		value_r = y_I[m];
-//		value_i = y_Q[m];
-//		real = cos_lookup(n) * value_r + sin_lookup(n) * value_i;
-//		imag = cos_lookup(n) * value_i - sin_lookup(n) * value_r;
-//		if (n == 0)
-//		{
-//			y_I[m] = -real;
-//			y_Q[m] = -imag;
-//		}
-//		else if (n == 64)
-//		{
-//			y_I[m] = -real;
-//			y_Q[m] = -imag;
-//		}
-//		else
-//		{
-//			y_I[m] = real;
-//			y_Q[m] = imag;
-//		}
-//		hwin_I[m]=y_I[m];
-//		hwin_Q[m]=y_Q[m];
-//	}
 	HConvH:for (int l = 0; l < BK_SIZE; l++)
 	{
+		//Shift
 		value = value +c;
 		if (value>DATA_SIZE)
 		{
@@ -183,8 +154,6 @@ int demodulationFM(hls::stream<in_t> &y_I,hls::stream<in_t> &y_Q,hls::stream<in_
 		n = value;
 		tmp_r = y_I.read();
 		tmp_i = y_Q.read();
-//		tmp_r_s<<tmp_r;
-//		tmp_i_s<<tmp_i;
 		real = cos_lookup(n) * tmp_r + sin_lookup(n) * tmp_i;
 		imag = cos_lookup(n) * tmp_i - sin_lookup(n) * tmp_r;
 		if (n == 0)
@@ -202,8 +171,8 @@ int demodulationFM(hls::stream<in_t> &y_I,hls::stream<in_t> &y_Q,hls::stream<in_
 			tmp_r = real;
 			tmp_i = imag;
 		}
-//		in_t in_val_I = tmp_r_s;
-//		in_t in_val_Q = tmp_i_s;
+
+		// FIR
 		in_t out_val_I = 0.0;
 		in_t out_val_Q = 0.0;
 		HConv:for(int i = 0; i < LENGTH_WIN_CONV; i++) {
@@ -214,8 +183,8 @@ int demodulationFM(hls::stream<in_t> &y_I,hls::stream<in_t> &y_Q,hls::stream<in_
 		}
 		tmp_r = out_val_I;
 		tmp_i = out_val_Q;
-//		value_r=tmp_r_f;
-//		value_i=tmp_i_f;
+
+		// Decimation1 , Demodulation, Decimation2
 		if(l%DECIM1==0)
 		{
 			ary_r_value_1=tmp_r;
