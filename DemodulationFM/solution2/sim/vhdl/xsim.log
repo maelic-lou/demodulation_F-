@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# xsim v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon May  4 11:45:51 2020
+# Process ID: 14699
+# Current directory: /home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl
+# Command line: xsim -mode tcl -source {xsim.dir/demodulationFM/xsim_script.tcl}
+# Log file: /home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/xsim.log
+# Journal file: /home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/demodulationFM/xsim_script.tcl
+# xsim {demodulationFM} -autoloadwcfg -tclbatch {demodulationFM.tcl}
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source demodulationFM.tcl
+## run all
+Note: simulation done!
+Time: 1001015 ns  Iteration: 1  Process: /apatb_demodulationFM_top/generate_sim_done_proc  File: /home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM.autotb.vhd
+Failure: NORMAL EXIT (note: failure is to force the simulator to stop)
+Time: 1001015 ns  Iteration: 1  Process: /apatb_demodulationFM_top/generate_sim_done_proc  File: /home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM.autotb.vhd
+$finish called at time : 1001015 ns
+run: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:58 . Memory (MB): peak = 1472.652 ; gain = 0.000 ; free physical = 180 ; free virtual = 4761
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon May  4 11:46:59 2020...

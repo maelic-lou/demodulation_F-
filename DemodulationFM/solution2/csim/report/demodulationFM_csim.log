@@ -1,0 +1,2508 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../demodulation_FM_test.cpp in debug mode
+   Generating csim.exe
+Checking results against a tolerance of 0.3
+i = 0	 hw_result = 0.00000	 sw_result = 0.00000	 err = 0.00000	 mean_err0.00000
+0.00000
+i = 1	 hw_result = 0.03149	 sw_result = 0.02981	 err = 0.00169	 mean_err0.00000
+0.00000
+i = 2	 hw_result = -0.10376	 sw_result = -0.10561	 err = 0.00185	 mean_err0.00000
+0.00000
+i = 3	 hw_result = -0.19775	 sw_result = -0.19757	 err = 0.00019	 mean_err0.00000
+0.00000
+i = 4	 hw_result = 0.99243	 sw_result = 0.99290	 err = 0.00047	 mean_err0.00000
+0.00000
+i = 5	 hw_result = 0.41089	 sw_result = 0.41024	 err = 0.00065	 mean_err0.00000
+0.00000
+i = 6	 hw_result = -0.10400	 sw_result = -0.10493	 err = 0.00093	 mean_err0.00000
+0.00000
+i = 7	 hw_result = -0.18994	 sw_result = -0.18899	 err = 0.00095	 mean_err0.00001
+0.00001
+i = 8	 hw_result = -0.31787	 sw_result = -0.31841	 err = 0.00054	 mean_err0.00001
+0.00001
+i = 9	 hw_result = -0.41187	 sw_result = -0.41389	 err = 0.00203	 mean_err0.00001
+0.00001
+i = 10	 hw_result = -0.50928	 sw_result = -0.51213	 err = 0.00285	 mean_err0.00001
+0.00001
+i = 11	 hw_result = -0.10352	 sw_result = -0.10353	 err = 0.00001	 mean_err0.00001
+0.00001
+i = 12	 hw_result = -0.07495	 sw_result = -0.07464	 err = 0.00031	 mean_err0.00001
+0.00001
+i = 13	 hw_result = -0.80591	 sw_result = -0.80610	 err = 0.00019	 mean_err0.00001
+0.00001
+i = 14	 hw_result = -0.05444	 sw_result = -0.05578	 err = 0.00134	 mean_err0.00001
+0.00001
+i = 15	 hw_result = 0.76514	 sw_result = 0.76016	 err = 0.00498	 mean_err0.00002
+0.00002
+i = 16	 hw_result = 0.59497	 sw_result = 0.59694	 err = 0.00197	 mean_err0.00002
+0.00002
+i = 17	 hw_result = -0.24048	 sw_result = -0.24175	 err = 0.00127	 mean_err0.00002
+0.00002
+i = 18	 hw_result = -0.13452	 sw_result = -0.13731	 err = 0.00279	 mean_err0.00002
+0.00002
+i = 19	 hw_result = -0.17847	 sw_result = -0.17960	 err = 0.00114	 mean_err0.00002
+0.00002
+i = 20	 hw_result = 0.09326	 sw_result = 0.09238	 err = 0.00088	 mean_err0.00002
+0.00002
+i = 21	 hw_result = 0.68750	 sw_result = 0.68946	 err = 0.00196	 mean_err0.00002
+0.00002
+i = 22	 hw_result = 0.34424	 sw_result = 0.34880	 err = 0.00456	 mean_err0.00003
+0.00003
+i = 23	 hw_result = -0.10034	 sw_result = -0.09993	 err = 0.00041	 mean_err0.00003
+0.00003
+i = 24	 hw_result = 0.18140	 sw_result = 0.18282	 err = 0.00142	 mean_err0.00003
+0.00003
+i = 25	 hw_result = 0.04761	 sw_result = 0.04793	 err = 0.00032	 mean_err0.00003
+0.00003
+i = 26	 hw_result = -0.75244	 sw_result = -0.75488	 err = 0.00244	 mean_err0.00003
+0.00003
+i = 27	 hw_result = -0.60400	 sw_result = -0.60320	 err = 0.00080	 mean_err0.00003
+0.00003
+i = 28	 hw_result = -0.36719	 sw_result = -0.36668	 err = 0.00051	 mean_err0.00003
+0.00003
+i = 29	 hw_result = 0.02954	 sw_result = 0.02937	 err = 0.00017	 mean_err0.00003
+0.00003
+i = 30	 hw_result = -0.34473	 sw_result = -0.34586	 err = 0.00114	 mean_err0.00003
+0.00003
+i = 31	 hw_result = -0.80762	 sw_result = -0.80706	 err = 0.00056	 mean_err0.00003
+0.00003
+i = 32	 hw_result = -0.39380	 sw_result = -0.39436	 err = 0.00056	 mean_err0.00003
+0.00003
+i = 33	 hw_result = -0.13403	 sw_result = -0.13463	 err = 0.00060	 mean_err0.00003
+0.00003
+i = 34	 hw_result = -0.23730	 sw_result = -0.23824	 err = 0.00094	 mean_err0.00003
+0.00003
+i = 35	 hw_result = 0.53101	 sw_result = 0.52790	 err = 0.00311	 mean_err0.00004
+0.00004
+i = 36	 hw_result = 0.15869	 sw_result = 0.15797	 err = 0.00072	 mean_err0.00004
+0.00004
+i = 37	 hw_result = -0.63892	 sw_result = -0.63918	 err = 0.00026	 mean_err0.00004
+0.00004
+i = 38	 hw_result = -0.15137	 sw_result = -0.15185	 err = 0.00048	 mean_err0.00004
+0.00004
+i = 39	 hw_result = 0.52319	 sw_result = 0.52472	 err = 0.00152	 mean_err0.00004
+0.00004
+i = 40	 hw_result = 0.41797	 sw_result = 0.42000	 err = 0.00203	 mean_err0.00004
+0.00004
+i = 41	 hw_result = -0.17700	 sw_result = -0.17792	 err = 0.00092	 mean_err0.00004
+0.00004
+i = 42	 hw_result = -0.02686	 sw_result = -0.02744	 err = 0.00058	 mean_err0.00004
+0.00004
+i = 43	 hw_result = -0.32568	 sw_result = -0.32511	 err = 0.00057	 mean_err0.00004
+0.00004
+i = 44	 hw_result = -0.74341	 sw_result = -0.74011	 err = 0.00329	 mean_err0.00005
+0.00005
+i = 45	 hw_result = -0.19434	 sw_result = -0.19475	 err = 0.00041	 mean_err0.00005
+0.00005
+i = 46	 hw_result = -0.47485	 sw_result = -0.47478	 err = 0.00008	 mean_err0.00005
+0.00005
+i = 47	 hw_result = -0.45776	 sw_result = -0.45773	 err = 0.00003	 mean_err0.00005
+0.00005
+i = 48	 hw_result = -0.39331	 sw_result = -0.39381	 err = 0.00050	 mean_err0.00005
+0.00005
+i = 49	 hw_result = -0.13721	 sw_result = -0.13442	 err = 0.00279	 mean_err0.00005
+0.00005
+i = 50	 hw_result = -0.45605	 sw_result = -0.45687	 err = 0.00081	 mean_err0.00005
+0.00005
+i = 51	 hw_result = -0.27856	 sw_result = -0.27776	 err = 0.00080	 mean_err0.00005
+0.00005
+i = 52	 hw_result = 0.28833	 sw_result = 0.28714	 err = 0.00119	 mean_err0.00005
+0.00005
+i = 53	 hw_result = -0.00708	 sw_result = -0.00801	 err = 0.00093	 mean_err0.00005
+0.00005
+i = 54	 hw_result = -0.88354	 sw_result = -0.88424	 err = 0.00070	 mean_err0.00005
+0.00005
+i = 55	 hw_result = -0.02051	 sw_result = -0.01927	 err = 0.00124	 mean_err0.00005
+0.00005
+i = 56	 hw_result = 0.23071	 sw_result = 0.22960	 err = 0.00111	 mean_err0.00005
+0.00005
+i = 57	 hw_result = -0.22681	 sw_result = -0.22573	 err = 0.00108	 mean_err0.00005
+0.00005
+i = 58	 hw_result = -0.35767	 sw_result = -0.35749	 err = 0.00018	 mean_err0.00006
+0.00006
+i = 59	 hw_result = 0.09351	 sw_result = 0.09184	 err = 0.00166	 mean_err0.00006
+0.00006
+i = 60	 hw_result = -0.40088	 sw_result = -0.40220	 err = 0.00132	 mean_err0.00006
+0.00006
+i = 61	 hw_result = -0.23242	 sw_result = -0.23328	 err = 0.00086	 mean_err0.00006
+0.00006
+i = 62	 hw_result = -0.11890	 sw_result = -0.11814	 err = 0.00076	 mean_err0.00006
+0.00006
+i = 63	 hw_result = -0.69336	 sw_result = -0.69285	 err = 0.00050	 mean_err0.00006
+0.00006
+i = 64	 hw_result = -0.62329	 sw_result = -0.62301	 err = 0.00028	 mean_err0.00006
+0.00006
+i = 65	 hw_result = 0.45557	 sw_result = 0.45496	 err = 0.00061	 mean_err0.00006
+0.00006
+i = 66	 hw_result = -0.51245	 sw_result = -0.51472	 err = 0.00227	 mean_err0.00006
+0.00006
+i = 67	 hw_result = -0.73364	 sw_result = -0.73241	 err = 0.00123	 mean_err0.00006
+0.00006
+i = 68	 hw_result = 0.21118	 sw_result = 0.21193	 err = 0.00075	 mean_err0.00006
+0.00006
+i = 69	 hw_result = -1.17700	 sw_result = -1.17802	 err = 0.00102	 mean_err0.00006
+0.00006
+i = 70	 hw_result = -0.67065	 sw_result = -0.66974	 err = 0.00091	 mean_err0.00006
+0.00006
+i = 71	 hw_result = -0.10278	 sw_result = -0.10129	 err = 0.00150	 mean_err0.00007
+0.00007
+i = 72	 hw_result = -0.09058	 sw_result = -0.09030	 err = 0.00027	 mean_err0.00007
+0.00007
+i = 73	 hw_result = -0.25928	 sw_result = -0.25910	 err = 0.00018	 mean_err0.00007
+0.00007
+i = 74	 hw_result = -0.28345	 sw_result = -0.28432	 err = 0.00087	 mean_err0.00007
+0.00007
+i = 75	 hw_result = -0.70410	 sw_result = -0.70325	 err = 0.00085	 mean_err0.00007
+0.00007
+i = 76	 hw_result = -0.64307	 sw_result = -0.64374	 err = 0.00068	 mean_err0.00007
+0.00007
+i = 77	 hw_result = 0.19141	 sw_result = 0.19485	 err = 0.00344	 mean_err0.00007
+0.00007
+i = 78	 hw_result = -0.87427	 sw_result = -0.87354	 err = 0.00073	 mean_err0.00007
+0.00007
+i = 79	 hw_result = -0.63525	 sw_result = -0.63525	 err = 0.00000	 mean_err0.00007
+0.00007
+i = 80	 hw_result = -0.13940	 sw_result = -0.14027	 err = 0.00086	 mean_err0.00007
+0.00007
+i = 81	 hw_result = -0.41748	 sw_result = -0.41803	 err = 0.00055	 mean_err0.00007
+0.00007
+i = 82	 hw_result = -0.82031	 sw_result = -0.82039	 err = 0.00008	 mean_err0.00007
+0.00007
+i = 83	 hw_result = 0.20532	 sw_result = 0.20537	 err = 0.00005	 mean_err0.00007
+0.00007
+i = 84	 hw_result = -0.43677	 sw_result = -0.43628	 err = 0.00049	 mean_err0.00007
+0.00007
+i = 85	 hw_result = -0.56421	 sw_result = -0.56413	 err = 0.00008	 mean_err0.00007
+0.00007
+i = 86	 hw_result = 0.29956	 sw_result = 0.29920	 err = 0.00036	 mean_err0.00007
+0.00007
+i = 87	 hw_result = -0.93506	 sw_result = -0.93373	 err = 0.00133	 mean_err0.00007
+0.00007
+i = 88	 hw_result = -1.01562	 sw_result = -1.01296	 err = 0.00266	 mean_err0.00008
+0.00008
+i = 89	 hw_result = -0.33862	 sw_result = -0.33989	 err = 0.00126	 mean_err0.00008
+0.00008
+i = 90	 hw_result = -0.40308	 sw_result = -0.40326	 err = 0.00019	 mean_err0.00008
+0.00008
+i = 91	 hw_result = -0.77319	 sw_result = -0.77453	 err = 0.00134	 mean_err0.00008
+0.00008
+i = 92	 hw_result = -0.32397	 sw_result = -0.32434	 err = 0.00037	 mean_err0.00008
+0.00008
+i = 93	 hw_result = 0.10913	 sw_result = 0.10914	 err = 0.00001	 mean_err0.00008
+0.00008
+i = 94	 hw_result = -0.43213	 sw_result = -0.43062	 err = 0.00150	 mean_err0.00008
+0.00008
+i = 95	 hw_result = -0.73804	 sw_result = -0.73816	 err = 0.00012	 mean_err0.00008
+0.00008
+i = 96	 hw_result = -0.33496	 sw_result = -0.33489	 err = 0.00007	 mean_err0.00008
+0.00008
+i = 97	 hw_result = -0.30322	 sw_result = -0.30423	 err = 0.00101	 mean_err0.00008
+0.00008
+i = 98	 hw_result = -0.31836	 sw_result = -0.31846	 err = 0.00010	 mean_err0.00008
+0.00008
+i = 99	 hw_result = -0.63965	 sw_result = -0.64050	 err = 0.00085	 mean_err0.00008
+0.00008
+i = 100	 hw_result = -0.76562	 sw_result = -0.76422	 err = 0.00140	 mean_err0.00008
+0.00008
+i = 101	 hw_result = -0.09155	 sw_result = -0.09213	 err = 0.00058	 mean_err0.00008
+0.00008
+i = 102	 hw_result = -0.03833	 sw_result = -0.03688	 err = 0.00145	 mean_err0.00008
+0.00008
+i = 103	 hw_result = -0.25269	 sw_result = -0.25244	 err = 0.00025	 mean_err0.00009
+0.00009
+i = 104	 hw_result = -0.64233	 sw_result = -0.63990	 err = 0.00243	 mean_err0.00009
+0.00009
+i = 105	 hw_result = -0.39624	 sw_result = -0.39556	 err = 0.00068	 mean_err0.00009
+0.00009
+i = 106	 hw_result = 0.15674	 sw_result = 0.15325	 err = 0.00349	 mean_err0.00009
+0.00009
+i = 107	 hw_result = -1.00757	 sw_result = -1.01011	 err = 0.00254	 mean_err0.00009
+0.00009
+i = 108	 hw_result = -1.15747	 sw_result = -1.16050	 err = 0.00302	 mean_err0.00009
+0.00009
+i = 109	 hw_result = -0.33936	 sw_result = -0.33821	 err = 0.00114	 mean_err0.00010
+0.00010
+i = 110	 hw_result = 0.00488	 sw_result = 0.00481	 err = 0.00007	 mean_err0.00010
+0.00010
+i = 111	 hw_result = -0.69629	 sw_result = -0.69541	 err = 0.00088	 mean_err0.00010
+0.00010
+i = 112	 hw_result = -0.55688	 sw_result = -0.55395	 err = 0.00294	 mean_err0.00010
+0.00010
+i = 113	 hw_result = -0.48633	 sw_result = -0.48958	 err = 0.00325	 mean_err0.00010
+0.00010
+i = 114	 hw_result = -0.03589	 sw_result = -0.03740	 err = 0.00151	 mean_err0.00010
+0.00010
+i = 115	 hw_result = -0.75391	 sw_result = -0.75403	 err = 0.00012	 mean_err0.00010
+0.00010
+i = 116	 hw_result = -0.05933	 sw_result = -0.05820	 err = 0.00112	 mean_err0.00010
+0.00010
+i = 117	 hw_result = 0.20947	 sw_result = 0.20811	 err = 0.00137	 mean_err0.00010
+0.00010
+i = 118	 hw_result = 0.07471	 sw_result = 0.07323	 err = 0.00148	 mean_err0.00011
+0.00011
+i = 119	 hw_result = -0.62793	 sw_result = -0.62769	 err = 0.00024	 mean_err0.00011
+0.00011
+i = 120	 hw_result = -0.41138	 sw_result = -0.40997	 err = 0.00140	 mean_err0.00011
+0.00011
+i = 121	 hw_result = -0.20435	 sw_result = -0.20818	 err = 0.00384	 mean_err0.00011
+0.00011
+i = 122	 hw_result = -0.10596	 sw_result = -0.10617	 err = 0.00021	 mean_err0.00011
+0.00011
+i = 123	 hw_result = 0.01270	 sw_result = 0.01265	 err = 0.00004	 mean_err0.00011
+0.00011
+i = 124	 hw_result = -0.81836	 sw_result = -0.81887	 err = 0.00051	 mean_err0.00011
+0.00011
+i = 125	 hw_result = -0.55762	 sw_result = -0.55548	 err = 0.00214	 mean_err0.00011
+0.00011
+i = 126	 hw_result = 0.19922	 sw_result = 0.19948	 err = 0.00026	 mean_err0.00011
+0.00011
+i = 127	 hw_result = 0.40308	 sw_result = 0.40018	 err = 0.00290	 mean_err0.00012
+0.00012
+i = 128	 hw_result = -0.43848	 sw_result = -0.43851	 err = 0.00004	 mean_err0.00012
+0.00012
+i = 129	 hw_result = -0.28271	 sw_result = -0.28297	 err = 0.00026	 mean_err0.00012
+0.00012
+i = 130	 hw_result = 0.19507	 sw_result = 0.19293	 err = 0.00214	 mean_err0.00012
+0.00012
+i = 131	 hw_result = -0.24585	 sw_result = -0.24769	 err = 0.00185	 mean_err0.00012
+0.00012
+i = 132	 hw_result = -0.14795	 sw_result = -0.14654	 err = 0.00141	 mean_err0.00012
+0.00012
+i = 133	 hw_result = -0.35352	 sw_result = -0.35196	 err = 0.00155	 mean_err0.00012
+0.00012
+i = 134	 hw_result = -0.39209	 sw_result = -0.39052	 err = 0.00157	 mean_err0.00012
+0.00012
+i = 135	 hw_result = -0.06201	 sw_result = -0.06345	 err = 0.00144	 mean_err0.00012
+0.00012
+i = 136	 hw_result = 0.58716	 sw_result = 0.58646	 err = 0.00070	 mean_err0.00012
+0.00012
+i = 137	 hw_result = 0.21289	 sw_result = 0.21402	 err = 0.00113	 mean_err0.00012
+0.00012
+i = 138	 hw_result = -0.80933	 sw_result = -0.81087	 err = 0.00154	 mean_err0.00013
+0.00013
+i = 139	 hw_result = -0.04761	 sw_result = -0.04873	 err = 0.00112	 mean_err0.00013
+0.00013
+i = 140	 hw_result = -0.21484	 sw_result = -0.21638	 err = 0.00154	 mean_err0.00013
+0.00013
+i = 141	 hw_result = -0.26514	 sw_result = -0.26576	 err = 0.00063	 mean_err0.00013
+0.00013
+i = 142	 hw_result = -0.04395	 sw_result = -0.04519	 err = 0.00124	 mean_err0.00013
+0.00013
+i = 143	 hw_result = -0.43652	 sw_result = -0.43544	 err = 0.00108	 mean_err0.00013
+0.00013
+i = 144	 hw_result = -0.44141	 sw_result = -0.44094	 err = 0.00047	 mean_err0.00013
+0.00013
+i = 145	 hw_result = -0.14893	 sw_result = -0.14835	 err = 0.00057	 mean_err0.00013
+0.00013
+i = 146	 hw_result = -0.46069	 sw_result = -0.46345	 err = 0.00276	 mean_err0.00013
+0.00013
+i = 147	 hw_result = -0.19482	 sw_result = -0.19656	 err = 0.00173	 mean_err0.00014
+0.00014
+i = 148	 hw_result = 0.58838	 sw_result = 0.58732	 err = 0.00106	 mean_err0.00014
+0.00014
+i = 149	 hw_result = -0.10132	 sw_result = -0.10029	 err = 0.00103	 mean_err0.00014
+0.00014
+i = 150	 hw_result = -0.35571	 sw_result = -0.35632	 err = 0.00061	 mean_err0.00014
+0.00014
+i = 151	 hw_result = -0.36841	 sw_result = -0.36879	 err = 0.00038	 mean_err0.00014
+0.00014
+i = 152	 hw_result = -0.36426	 sw_result = -0.36413	 err = 0.00013	 mean_err0.00014
+0.00014
+i = 153	 hw_result = -0.21655	 sw_result = -0.21832	 err = 0.00177	 mean_err0.00014
+0.00014
+i = 154	 hw_result = -0.25122	 sw_result = -0.25136	 err = 0.00014	 mean_err0.00014
+0.00014
+i = 155	 hw_result = -0.45093	 sw_result = -0.45081	 err = 0.00012	 mean_err0.00014
+0.00014
+i = 156	 hw_result = -0.07178	 sw_result = -0.07089	 err = 0.00088	 mean_err0.00014
+0.00014
+i = 157	 hw_result = -0.14429	 sw_result = -0.14309	 err = 0.00119	 mean_err0.00014
+0.00014
+i = 158	 hw_result = -0.32666	 sw_result = -0.32717	 err = 0.00051	 mean_err0.00014
+0.00014
+i = 159	 hw_result = -0.27661	 sw_result = -0.27667	 err = 0.00005	 mean_err0.00014
+0.00014
+i = 160	 hw_result = 0.24634	 sw_result = 0.24441	 err = 0.00193	 mean_err0.00014
+0.00014
+i = 161	 hw_result = -0.07617	 sw_result = -0.07830	 err = 0.00213	 mean_err0.00014
+0.00014
+i = 162	 hw_result = 0.02808	 sw_result = 0.02679	 err = 0.00128	 mean_err0.00015
+0.00015
+i = 163	 hw_result = -0.11133	 sw_result = -0.11061	 err = 0.00072	 mean_err0.00015
+0.00015
+i = 164	 hw_result = 0.03491	 sw_result = 0.03409	 err = 0.00082	 mean_err0.00015
+0.00015
+i = 165	 hw_result = 0.13135	 sw_result = 0.13278	 err = 0.00143	 mean_err0.00015
+0.00015
+i = 166	 hw_result = -0.12256	 sw_result = -0.12126	 err = 0.00130	 mean_err0.00015
+0.00015
+i = 167	 hw_result = 0.03394	 sw_result = 0.03521	 err = 0.00128	 mean_err0.00015
+0.00015
+i = 168	 hw_result = 0.18018	 sw_result = 0.17979	 err = 0.00038	 mean_err0.00015
+0.00015
+i = 169	 hw_result = 0.41431	 sw_result = 0.41458	 err = 0.00028	 mean_err0.00015
+0.00015
+i = 170	 hw_result = -0.04810	 sw_result = -0.04857	 err = 0.00047	 mean_err0.00015
+0.00015
+i = 171	 hw_result = 0.23853	 sw_result = 0.23834	 err = 0.00019	 mean_err0.00015
+0.00015
+i = 172	 hw_result = -0.11694	 sw_result = -0.11606	 err = 0.00088	 mean_err0.00015
+0.00015
+i = 173	 hw_result = -0.34570	 sw_result = -0.34528	 err = 0.00042	 mean_err0.00015
+0.00015
+i = 174	 hw_result = 0.11353	 sw_result = 0.11454	 err = 0.00102	 mean_err0.00015
+0.00015
+i = 175	 hw_result = 0.12891	 sw_result = 0.12884	 err = 0.00006	 mean_err0.00015
+0.00015
+i = 176	 hw_result = -0.14038	 sw_result = -0.14121	 err = 0.00083	 mean_err0.00015
+0.00015
+i = 177	 hw_result = 0.34204	 sw_result = 0.34026	 err = 0.00178	 mean_err0.00016
+0.00016
+i = 178	 hw_result = -0.07837	 sw_result = -0.07965	 err = 0.00128	 mean_err0.00016
+0.00016
+i = 179	 hw_result = -0.75049	 sw_result = -0.74934	 err = 0.00115	 mean_err0.00016
+0.00016
+i = 180	 hw_result = -0.04004	 sw_result = -0.04014	 err = 0.00010	 mean_err0.00016
+0.00016
+i = 181	 hw_result = 0.16748	 sw_result = 0.16967	 err = 0.00219	 mean_err0.00016
+0.00016
+i = 182	 hw_result = -0.10327	 sw_result = -0.10414	 err = 0.00087	 mean_err0.00016
+0.00016
+i = 183	 hw_result = 0.00269	 sw_result = 0.00203	 err = 0.00066	 mean_err0.00016
+0.00016
+i = 184	 hw_result = 0.36108	 sw_result = 0.35920	 err = 0.00188	 mean_err0.00016
+0.00016
+i = 185	 hw_result = 0.00098	 sw_result = 0.00014	 err = 0.00084	 mean_err0.00016
+0.00016
+i = 186	 hw_result = -0.29126	 sw_result = -0.29114	 err = 0.00012	 mean_err0.00016
+0.00016
+i = 187	 hw_result = 0.03613	 sw_result = 0.03445	 err = 0.00169	 mean_err0.00016
+0.00016
+i = 188	 hw_result = 0.02148	 sw_result = 0.02092	 err = 0.00056	 mean_err0.00016
+0.00016
+i = 189	 hw_result = -0.06470	 sw_result = -0.06344	 err = 0.00126	 mean_err0.00017
+0.00017
+i = 190	 hw_result = -0.13232	 sw_result = -0.13034	 err = 0.00199	 mean_err0.00017
+0.00017
+i = 191	 hw_result = 0.04468	 sw_result = 0.04716	 err = 0.00249	 mean_err0.00017
+0.00017
+i = 192	 hw_result = -0.29297	 sw_result = -0.29263	 err = 0.00034	 mean_err0.00017
+0.00017
+i = 193	 hw_result = -0.29932	 sw_result = -0.29792	 err = 0.00140	 mean_err0.00017
+0.00017
+i = 194	 hw_result = -0.01465	 sw_result = -0.01589	 err = 0.00124	 mean_err0.00017
+0.00017
+i = 195	 hw_result = -0.15796	 sw_result = -0.15920	 err = 0.00124	 mean_err0.00017
+0.00017
+i = 196	 hw_result = -0.56104	 sw_result = -0.56222	 err = 0.00118	 mean_err0.00017
+0.00017
+i = 197	 hw_result = -0.21338	 sw_result = -0.21434	 err = 0.00096	 mean_err0.00017
+0.00017
+i = 198	 hw_result = -0.11719	 sw_result = -0.11871	 err = 0.00153	 mean_err0.00018
+0.00018
+i = 199	 hw_result = -0.34448	 sw_result = -0.34396	 err = 0.00052	 mean_err0.00018
+0.00018
+i = 200	 hw_result = 0.10254	 sw_result = 0.10153	 err = 0.00101	 mean_err0.00018
+0.00018
+i = 201	 hw_result = -0.32129	 sw_result = -0.32274	 err = 0.00145	 mean_err0.00018
+0.00018
+i = 202	 hw_result = -0.41992	 sw_result = -0.42167	 err = 0.00174	 mean_err0.00018
+0.00018
+i = 203	 hw_result = 0.15308	 sw_result = 0.15249	 err = 0.00059	 mean_err0.00018
+0.00018
+i = 204	 hw_result = -0.09399	 sw_result = -0.09432	 err = 0.00033	 mean_err0.00018
+0.00018
+i = 205	 hw_result = 0.14355	 sw_result = 0.14654	 err = 0.00298	 mean_err0.00018
+0.00018
+i = 206	 hw_result = 0.10669	 sw_result = 0.10581	 err = 0.00088	 mean_err0.00018
+0.00018
+i = 207	 hw_result = -0.01172	 sw_result = -0.01175	 err = 0.00004	 mean_err0.00018
+0.00018
+i = 208	 hw_result = -0.17041	 sw_result = -0.17004	 err = 0.00037	 mean_err0.00018
+0.00018
+i = 209	 hw_result = -0.51001	 sw_result = -0.51291	 err = 0.00290	 mean_err0.00019
+0.00019
+i = 210	 hw_result = -0.10327	 sw_result = -0.10325	 err = 0.00002	 mean_err0.00019
+0.00019
+i = 211	 hw_result = 0.16309	 sw_result = 0.16464	 err = 0.00155	 mean_err0.00019
+0.00019
+i = 212	 hw_result = -0.02319	 sw_result = -0.02274	 err = 0.00045	 mean_err0.00019
+0.00019
+i = 213	 hw_result = 0.04492	 sw_result = 0.04511	 err = 0.00019	 mean_err0.00019
+0.00019
+i = 214	 hw_result = -0.18604	 sw_result = -0.18478	 err = 0.00126	 mean_err0.00019
+0.00019
+i = 215	 hw_result = -0.43921	 sw_result = -0.43753	 err = 0.00168	 mean_err0.00019
+0.00019
+i = 216	 hw_result = -0.41357	 sw_result = -0.41298	 err = 0.00060	 mean_err0.00019
+0.00019
+i = 217	 hw_result = -0.14209	 sw_result = -0.14344	 err = 0.00135	 mean_err0.00019
+0.00019
+i = 218	 hw_result = -0.11841	 sw_result = -0.12006	 err = 0.00165	 mean_err0.00019
+0.00019
+i = 219	 hw_result = -0.53809	 sw_result = -0.53815	 err = 0.00006	 mean_err0.00019
+0.00019
+i = 220	 hw_result = -0.46362	 sw_result = -0.46303	 err = 0.00060	 mean_err0.00019
+0.00019
+i = 221	 hw_result = -0.04810	 sw_result = -0.04941	 err = 0.00132	 mean_err0.00019
+0.00019
+i = 222	 hw_result = -0.16504	 sw_result = -0.16771	 err = 0.00267	 mean_err0.00020
+0.00020
+i = 223	 hw_result = -0.00635	 sw_result = -0.00580	 err = 0.00054	 mean_err0.00020
+0.00020
+i = 224	 hw_result = -0.14233	 sw_result = -0.14144	 err = 0.00089	 mean_err0.00020
+0.00020
+i = 225	 hw_result = -0.44336	 sw_result = -0.44615	 err = 0.00279	 mean_err0.00020
+0.00020
+i = 226	 hw_result = -0.09473	 sw_result = -0.09728	 err = 0.00255	 mean_err0.00020
+0.00020
+i = 227	 hw_result = -0.37451	 sw_result = -0.37567	 err = 0.00116	 mean_err0.00020
+0.00020
+i = 228	 hw_result = -0.09473	 sw_result = -0.09511	 err = 0.00038	 mean_err0.00020
+0.00020
+i = 229	 hw_result = 0.02368	 sw_result = 0.02383	 err = 0.00015	 mean_err0.00020
+0.00020
+i = 230	 hw_result = -0.25415	 sw_result = -0.25250	 err = 0.00165	 mean_err0.00020
+0.00020
+i = 231	 hw_result = -0.52246	 sw_result = -0.52222	 err = 0.00024	 mean_err0.00020
+0.00020
+i = 232	 hw_result = -0.79565	 sw_result = -0.79545	 err = 0.00020	 mean_err0.00020
+0.00020
+i = 233	 hw_result = -0.27808	 sw_result = -0.27950	 err = 0.00142	 mean_err0.00021
+0.00021
+i = 234	 hw_result = -0.14038	 sw_result = -0.14264	 err = 0.00226	 mean_err0.00021
+0.00021
+i = 235	 hw_result = -0.33691	 sw_result = -0.33560	 err = 0.00132	 mean_err0.00021
+0.00021
+i = 236	 hw_result = 0.09155	 sw_result = 0.09100	 err = 0.00055	 mean_err0.00021
+0.00021
+i = 237	 hw_result = 0.01343	 sw_result = 0.01299	 err = 0.00043	 mean_err0.00021
+0.00021
+i = 238	 hw_result = -0.06543	 sw_result = -0.06283	 err = 0.00260	 mean_err0.00021
+0.00021
+i = 239	 hw_result = -0.45483	 sw_result = -0.45421	 err = 0.00062	 mean_err0.00021
+0.00021
+i = 240	 hw_result = -0.44824	 sw_result = -0.45090	 err = 0.00266	 mean_err0.00021
+0.00021
+i = 241	 hw_result = -0.26440	 sw_result = -0.26371	 err = 0.00069	 mean_err0.00021
+0.00021
+i = 242	 hw_result = -0.11060	 sw_result = -0.11008	 err = 0.00051	 mean_err0.00021
+0.00021
+i = 243	 hw_result = 0.09277	 sw_result = 0.09383	 err = 0.00105	 mean_err0.00022
+0.00022
+i = 244	 hw_result = -0.28784	 sw_result = -0.28773	 err = 0.00011	 mean_err0.00022
+0.00022
+i = 245	 hw_result = -0.60815	 sw_result = -0.60725	 err = 0.00091	 mean_err0.00022
+0.00022
+i = 246	 hw_result = -0.04199	 sw_result = -0.04125	 err = 0.00075	 mean_err0.00022
+0.00022
+i = 247	 hw_result = 0.08203	 sw_result = 0.08155	 err = 0.00048	 mean_err0.00022
+0.00022
+i = 248	 hw_result = -0.49219	 sw_result = -0.49294	 err = 0.00076	 mean_err0.00022
+0.00022
+i = 249	 hw_result = -0.22803	 sw_result = -0.22653	 err = 0.00150	 mean_err0.00022
+0.00022
+i = 250	 hw_result = -0.51685	 sw_result = -0.51854	 err = 0.00169	 mean_err0.00022
+0.00022
+i = 251	 hw_result = -0.61133	 sw_result = -0.61079	 err = 0.00054	 mean_err0.00022
+0.00022
+i = 252	 hw_result = -0.39502	 sw_result = -0.39465	 err = 0.00037	 mean_err0.00022
+0.00022
+i = 253	 hw_result = -0.02271	 sw_result = -0.02018	 err = 0.00253	 mean_err0.00022
+0.00022
+i = 254	 hw_result = -0.13794	 sw_result = -0.13712	 err = 0.00082	 mean_err0.00022
+0.00022
+i = 255	 hw_result = -0.17139	 sw_result = -0.16942	 err = 0.00197	 mean_err0.00023
+0.00023
+i = 256	 hw_result = 0.19946	 sw_result = 0.20042	 err = 0.00096	 mean_err0.00023
+0.00023
+i = 257	 hw_result = 0.43994	 sw_result = 0.43823	 err = 0.00171	 mean_err0.00023
+0.00023
+i = 258	 hw_result = -0.78345	 sw_result = -0.78179	 err = 0.00166	 mean_err0.00023
+0.00023
+i = 259	 hw_result = -0.26636	 sw_result = -0.26556	 err = 0.00080	 mean_err0.00023
+0.00023
+i = 260	 hw_result = -0.24561	 sw_result = -0.24446	 err = 0.00115	 mean_err0.00023
+0.00023
+i = 261	 hw_result = 0.15845	 sw_result = 0.16104	 err = 0.00259	 mean_err0.00023
+0.00023
+i = 262	 hw_result = 0.05420	 sw_result = 0.05717	 err = 0.00297	 mean_err0.00024
+0.00024
+i = 263	 hw_result = -0.52271	 sw_result = -0.52332	 err = 0.00062	 mean_err0.00024
+0.00024
+i = 264	 hw_result = -0.73950	 sw_result = -0.74191	 err = 0.00241	 mean_err0.00024
+0.00024
+i = 265	 hw_result = -0.42310	 sw_result = -0.42722	 err = 0.00412	 mean_err0.00024
+0.00024
+i = 266	 hw_result = -0.19653	 sw_result = -0.19898	 err = 0.00245	 mean_err0.00024
+0.00024
+i = 267	 hw_result = -0.42407	 sw_result = -0.42496	 err = 0.00089	 mean_err0.00024
+0.00024
+i = 268	 hw_result = -0.41650	 sw_result = -0.41580	 err = 0.00070	 mean_err0.00024
+0.00024
+i = 269	 hw_result = -0.22119	 sw_result = -0.22063	 err = 0.00056	 mean_err0.00024
+0.00024
+i = 270	 hw_result = -0.26221	 sw_result = -0.26271	 err = 0.00050	 mean_err0.00024
+0.00024
+i = 271	 hw_result = -0.47559	 sw_result = -0.47478	 err = 0.00080	 mean_err0.00025
+0.00025
+i = 272	 hw_result = -0.21338	 sw_result = -0.21343	 err = 0.00005	 mean_err0.00025
+0.00025
+i = 273	 hw_result = -0.63379	 sw_result = -0.63282	 err = 0.00097	 mean_err0.00025
+0.00025
+i = 274	 hw_result = -0.47510	 sw_result = -0.47747	 err = 0.00237	 mean_err0.00025
+0.00025
+i = 275	 hw_result = 0.31982	 sw_result = 0.32076	 err = 0.00094	 mean_err0.00025
+0.00025
+i = 276	 hw_result = 0.38013	 sw_result = 0.38063	 err = 0.00050	 mean_err0.00025
+0.00025
+i = 277	 hw_result = 0.07153	 sw_result = 0.07345	 err = 0.00192	 mean_err0.00025
+0.00025
+i = 278	 hw_result = -0.61450	 sw_result = -0.61428	 err = 0.00022	 mean_err0.00025
+0.00025
+i = 279	 hw_result = -0.45459	 sw_result = -0.45306	 err = 0.00153	 mean_err0.00025
+0.00025
+i = 280	 hw_result = 0.00562	 sw_result = 0.00510	 err = 0.00051	 mean_err0.00025
+0.00025
+i = 281	 hw_result = 0.39502	 sw_result = 0.39368	 err = 0.00134	 mean_err0.00025
+0.00025
+i = 282	 hw_result = 0.37500	 sw_result = 0.37421	 err = 0.00079	 mean_err0.00025
+0.00025
+i = 283	 hw_result = -0.53271	 sw_result = -0.53022	 err = 0.00250	 mean_err0.00026
+0.00026
+i = 284	 hw_result = -0.82471	 sw_result = -0.81903	 err = 0.00568	 mean_err0.00026
+0.00026
+i = 285	 hw_result = -0.67993	 sw_result = -0.68062	 err = 0.00068	 mean_err0.00026
+0.00026
+i = 286	 hw_result = -0.31567	 sw_result = -0.31445	 err = 0.00122	 mean_err0.00026
+0.00026
+i = 287	 hw_result = -0.21753	 sw_result = -0.21621	 err = 0.00132	 mean_err0.00026
+0.00026
+i = 288	 hw_result = -0.14136	 sw_result = -0.14064	 err = 0.00072	 mean_err0.00026
+0.00026
+i = 289	 hw_result = 0.36426	 sw_result = 0.36242	 err = 0.00183	 mean_err0.00027
+0.00027
+i = 290	 hw_result = -0.07080	 sw_result = -0.07175	 err = 0.00095	 mean_err0.00027
+0.00027
+i = 291	 hw_result = -0.35010	 sw_result = -0.35284	 err = 0.00274	 mean_err0.00027
+0.00027
+i = 292	 hw_result = -0.00122	 sw_result = -0.00029	 err = 0.00093	 mean_err0.00027
+0.00027
+i = 293	 hw_result = -0.43555	 sw_result = -0.43519	 err = 0.00035	 mean_err0.00027
+0.00027
+i = 294	 hw_result = -0.43555	 sw_result = -0.43567	 err = 0.00012	 mean_err0.00027
+0.00027
+i = 295	 hw_result = 0.04077	 sw_result = 0.04113	 err = 0.00035	 mean_err0.00027
+0.00027
+i = 296	 hw_result = -1.02515	 sw_result = -1.02247	 err = 0.00267	 mean_err0.00027
+0.00027
+i = 297	 hw_result = -0.33618	 sw_result = -0.33598	 err = 0.00020	 mean_err0.00027
+0.00027
+i = 298	 hw_result = 0.00146	 sw_result = 0.00019	 err = 0.00128	 mean_err0.00027
+0.00027
+i = 299	 hw_result = -0.58301	 sw_result = -0.58250	 err = 0.00050	 mean_err0.00027
+0.00027
+i = 300	 hw_result = 0.20068	 sw_result = 0.20156	 err = 0.00088	 mean_err0.00027
+0.00027
+i = 301	 hw_result = -0.06714	 sw_result = -0.06701	 err = 0.00013	 mean_err0.00027
+0.00027
+i = 302	 hw_result = -0.19629	 sw_result = -0.19391	 err = 0.00238	 mean_err0.00028
+0.00028
+i = 303	 hw_result = -0.21948	 sw_result = -0.21760	 err = 0.00188	 mean_err0.00028
+0.00028
+i = 304	 hw_result = -0.14917	 sw_result = -0.14906	 err = 0.00011	 mean_err0.00028
+0.00028
+i = 305	 hw_result = -0.11011	 sw_result = -0.11018	 err = 0.00007	 mean_err0.00028
+0.00028
+i = 306	 hw_result = 0.18408	 sw_result = 0.18449	 err = 0.00041	 mean_err0.00028
+0.00028
+i = 307	 hw_result = -0.20752	 sw_result = -0.20750	 err = 0.00001	 mean_err0.00028
+0.00028
+i = 308	 hw_result = -0.39429	 sw_result = -0.39553	 err = 0.00125	 mean_err0.00028
+0.00028
+i = 309	 hw_result = -0.54346	 sw_result = -0.54259	 err = 0.00087	 mean_err0.00028
+0.00028
+i = 310	 hw_result = 0.50586	 sw_result = 0.50666	 err = 0.00080	 mean_err0.00028
+0.00028
+i = 311	 hw_result = -0.19360	 sw_result = -0.19309	 err = 0.00051	 mean_err0.00028
+0.00028
+i = 312	 hw_result = -0.40771	 sw_result = -0.40695	 err = 0.00077	 mean_err0.00028
+0.00028
+i = 313	 hw_result = -0.22339	 sw_result = -0.22606	 err = 0.00267	 mean_err0.00028
+0.00028
+i = 314	 hw_result = -0.00269	 sw_result = -0.00362	 err = 0.00093	 mean_err0.00028
+0.00028
+i = 315	 hw_result = 0.20825	 sw_result = 0.20896	 err = 0.00071	 mean_err0.00029
+0.00029
+i = 316	 hw_result = -0.20728	 sw_result = -0.20594	 err = 0.00133	 mean_err0.00029
+0.00029
+i = 317	 hw_result = -0.29028	 sw_result = -0.28789	 err = 0.00240	 mean_err0.00029
+0.00029
+i = 318	 hw_result = -0.36133	 sw_result = -0.35895	 err = 0.00238	 mean_err0.00029
+0.00029
+i = 319	 hw_result = -0.12183	 sw_result = -0.12234	 err = 0.00051	 mean_err0.00029
+0.00029
+i = 320	 hw_result = -0.00488	 sw_result = -0.00495	 err = 0.00007	 mean_err0.00029
+0.00029
+i = 321	 hw_result = -0.03052	 sw_result = -0.03252	 err = 0.00200	 mean_err0.00029
+0.00029
+i = 322	 hw_result = 0.13452	 sw_result = 0.13373	 err = 0.00079	 mean_err0.00029
+0.00029
+i = 323	 hw_result = 0.35352	 sw_result = 0.35417	 err = 0.00065	 mean_err0.00029
+0.00029
+i = 324	 hw_result = -0.39941	 sw_result = -0.39812	 err = 0.00129	 mean_err0.00029
+0.00029
+i = 325	 hw_result = 0.05078	 sw_result = 0.05158	 err = 0.00080	 mean_err0.00030
+0.00030
+i = 326	 hw_result = 0.26392	 sw_result = 0.26621	 err = 0.00230	 mean_err0.00030
+0.00030
+i = 327	 hw_result = -0.50757	 sw_result = -0.50492	 err = 0.00265	 mean_err0.00030
+0.00030
+i = 328	 hw_result = -0.75513	 sw_result = -0.75604	 err = 0.00092	 mean_err0.00030
+0.00030
+i = 329	 hw_result = -0.26025	 sw_result = -0.26503	 err = 0.00478	 mean_err0.00030
+0.00030
+i = 330	 hw_result = 0.13916	 sw_result = 0.13939	 err = 0.00023	 mean_err0.00030
+0.00030
+i = 331	 hw_result = 0.45679	 sw_result = 0.45888	 err = 0.00209	 mean_err0.00031
+0.00031
+i = 332	 hw_result = 0.14038	 sw_result = 0.13957	 err = 0.00081	 mean_err0.00031
+0.00031
+i = 333	 hw_result = -0.21265	 sw_result = -0.21179	 err = 0.00086	 mean_err0.00031
+0.00031
+i = 334	 hw_result = -0.81323	 sw_result = -0.81049	 err = 0.00274	 mean_err0.00031
+0.00031
+i = 335	 hw_result = -0.95435	 sw_result = -0.95809	 err = 0.00375	 mean_err0.00031
+0.00031
+i = 336	 hw_result = -0.46997	 sw_result = -0.46952	 err = 0.00045	 mean_err0.00031
+0.00031
+i = 337	 hw_result = 0.48340	 sw_result = 0.48469	 err = 0.00129	 mean_err0.00031
+0.00031
+i = 338	 hw_result = 0.07983	 sw_result = 0.07932	 err = 0.00051	 mean_err0.00031
+0.00031
+i = 339	 hw_result = -0.04175	 sw_result = -0.04214	 err = 0.00039	 mean_err0.00031
+0.00031
+i = 340	 hw_result = -0.15186	 sw_result = -0.15351	 err = 0.00165	 mean_err0.00032
+0.00032
+i = 341	 hw_result = -0.59277	 sw_result = -0.59437	 err = 0.00160	 mean_err0.00032
+0.00032
+i = 342	 hw_result = 0.12012	 sw_result = 0.11958	 err = 0.00054	 mean_err0.00032
+0.00032
+i = 343	 hw_result = 0.56689	 sw_result = 0.57184	 err = 0.00495	 mean_err0.00032
+0.00032
+i = 344	 hw_result = -0.00732	 sw_result = -0.00602	 err = 0.00130	 mean_err0.00032
+0.00032
+i = 345	 hw_result = -0.34595	 sw_result = -0.34822	 err = 0.00227	 mean_err0.00032
+0.00032
+i = 346	 hw_result = -0.28174	 sw_result = -0.28588	 err = 0.00414	 mean_err0.00033
+0.00033
+i = 347	 hw_result = -0.24341	 sw_result = -0.24212	 err = 0.00129	 mean_err0.00033
+0.00033
+i = 348	 hw_result = -0.09766	 sw_result = -0.09964	 err = 0.00198	 mean_err0.00033
+0.00033
+i = 349	 hw_result = -0.14819	 sw_result = -0.14592	 err = 0.00227	 mean_err0.00033
+0.00033
+i = 350	 hw_result = 0.06201	 sw_result = 0.06212	 err = 0.00011	 mean_err0.00033
+0.00033
+i = 351	 hw_result = -0.28882	 sw_result = -0.28695	 err = 0.00186	 mean_err0.00033
+0.00033
+i = 352	 hw_result = -0.20337	 sw_result = -0.20493	 err = 0.00156	 mean_err0.00033
+0.00033
+i = 353	 hw_result = 0.25342	 sw_result = 0.24958	 err = 0.00384	 mean_err0.00034
+0.00034
+i = 354	 hw_result = -0.04785	 sw_result = -0.04841	 err = 0.00056	 mean_err0.00034
+0.00034
+i = 355	 hw_result = -1.10693	 sw_result = -1.11154	 err = 0.00461	 mean_err0.00034
+0.00034
+i = 356	 hw_result = 0.04370	 sw_result = 0.04380	 err = 0.00010	 mean_err0.00034
+0.00034
+i = 357	 hw_result = 0.36841	 sw_result = 0.37088	 err = 0.00248	 mean_err0.00034
+0.00034
+i = 358	 hw_result = -0.21875	 sw_result = -0.21926	 err = 0.00051	 mean_err0.00034
+0.00034
+i = 359	 hw_result = -0.48315	 sw_result = -0.48286	 err = 0.00030	 mean_err0.00034
+0.00034
+i = 360	 hw_result = -0.05566	 sw_result = -0.05610	 err = 0.00043	 mean_err0.00034
+0.00034
+i = 361	 hw_result = -0.31909	 sw_result = -0.32041	 err = 0.00131	 mean_err0.00035
+0.00035
+i = 362	 hw_result = 0.07349	 sw_result = 0.07280	 err = 0.00068	 mean_err0.00035
+0.00035
+i = 363	 hw_result = 0.21436	 sw_result = 0.21307	 err = 0.00128	 mean_err0.00035
+0.00035
+i = 364	 hw_result = 0.16650	 sw_result = 0.16924	 err = 0.00273	 mean_err0.00035
+0.00035
+i = 365	 hw_result = -0.33130	 sw_result = -0.33237	 err = 0.00107	 mean_err0.00035
+0.00035
+i = 366	 hw_result = -0.28418	 sw_result = -0.28519	 err = 0.00101	 mean_err0.00035
+0.00035
+i = 367	 hw_result = -0.42798	 sw_result = -0.42597	 err = 0.00201	 mean_err0.00035
+0.00035
+i = 368	 hw_result = -0.32153	 sw_result = -0.32306	 err = 0.00153	 mean_err0.00035
+0.00035
+i = 369	 hw_result = 0.40649	 sw_result = 0.40591	 err = 0.00058	 mean_err0.00035
+0.00035
+i = 370	 hw_result = 0.16748	 sw_result = 0.16633	 err = 0.00115	 mean_err0.00036
+0.00036
+i = 371	 hw_result = -0.50122	 sw_result = -0.50095	 err = 0.00027	 mean_err0.00036
+0.00036
+i = 372	 hw_result = -0.86255	 sw_result = -0.86371	 err = 0.00116	 mean_err0.00036
+0.00036
+i = 373	 hw_result = -0.48682	 sw_result = -0.48789	 err = 0.00107	 mean_err0.00036
+0.00036
+i = 374	 hw_result = 0.20142	 sw_result = 0.20379	 err = 0.00237	 mean_err0.00036
+0.00036
+i = 375	 hw_result = -0.27368	 sw_result = -0.27334	 err = 0.00034	 mean_err0.00036
+0.00036
+i = 376	 hw_result = 0.07544	 sw_result = 0.07624	 err = 0.00080	 mean_err0.00036
+0.00036
+i = 377	 hw_result = -0.07935	 sw_result = -0.08017	 err = 0.00082	 mean_err0.00036
+0.00036
+i = 378	 hw_result = -0.35181	 sw_result = -0.35334	 err = 0.00154	 mean_err0.00036
+0.00036
+i = 379	 hw_result = -0.51416	 sw_result = -0.51548	 err = 0.00132	 mean_err0.00036
+0.00036
+i = 380	 hw_result = -0.55322	 sw_result = -0.55250	 err = 0.00072	 mean_err0.00036
+0.00036
+i = 381	 hw_result = -0.25952	 sw_result = -0.25992	 err = 0.00039	 mean_err0.00036
+0.00036
+i = 382	 hw_result = -0.14111	 sw_result = -0.13874	 err = 0.00237	 mean_err0.00037
+0.00037
+i = 383	 hw_result = -0.13989	 sw_result = -0.14180	 err = 0.00191	 mean_err0.00037
+0.00037
+i = 384	 hw_result = 0.13916	 sw_result = 0.13946	 err = 0.00030	 mean_err0.00037
+0.00037
+i = 385	 hw_result = -0.88916	 sw_result = -0.88924	 err = 0.00008	 mean_err0.00037
+0.00037
+i = 386	 hw_result = -0.72314	 sw_result = -0.72456	 err = 0.00141	 mean_err0.00037
+0.00037
+i = 387	 hw_result = 0.66577	 sw_result = 0.66230	 err = 0.00347	 mean_err0.00037
+0.00037
+i = 388	 hw_result = -0.12598	 sw_result = -0.12501	 err = 0.00097	 mean_err0.00037
+0.00037
+i = 389	 hw_result = 0.01367	 sw_result = 0.01651	 err = 0.00284	 mean_err0.00037
+0.00037
+i = 390	 hw_result = 0.39844	 sw_result = 0.39806	 err = 0.00038	 mean_err0.00038
+0.00038
+i = 391	 hw_result = 0.10156	 sw_result = 0.10078	 err = 0.00078	 mean_err0.00038
+0.00038
+i = 392	 hw_result = -0.34888	 sw_result = -0.34862	 err = 0.00026	 mean_err0.00038
+0.00038
+i = 393	 hw_result = 0.11670	 sw_result = 0.11579	 err = 0.00091	 mean_err0.00038
+0.00038
+i = 394	 hw_result = -0.28198	 sw_result = -0.28267	 err = 0.00069	 mean_err0.00038
+0.00038
+i = 395	 hw_result = -0.17651	 sw_result = -0.17696	 err = 0.00045	 mean_err0.00038
+0.00038
+i = 396	 hw_result = 0.07764	 sw_result = 0.07723	 err = 0.00041	 mean_err0.00038
+0.00038
+i = 397	 hw_result = -0.00439	 sw_result = -0.00291	 err = 0.00149	 mean_err0.00038
+0.00038
+i = 398	 hw_result = 0.09546	 sw_result = 0.09684	 err = 0.00138	 mean_err0.00038
+0.00038
+i = 399	 hw_result = 0.65771	 sw_result = 0.66171	 err = 0.00400	 mean_err0.00038
+0.00038
+i = 400	 hw_result = 0.23438	 sw_result = 0.23498	 err = 0.00061	 mean_err0.00038
+0.00038
+i = 401	 hw_result = -0.70703	 sw_result = -0.70839	 err = 0.00136	 mean_err0.00038
+0.00038
+i = 402	 hw_result = -1.07153	 sw_result = -1.07224	 err = 0.00070	 mean_err0.00039
+0.00039
+i = 403	 hw_result = 0.23389	 sw_result = 0.23306	 err = 0.00083	 mean_err0.00039
+0.00039
+i = 404	 hw_result = 0.30640	 sw_result = 0.30645	 err = 0.00006	 mean_err0.00039
+0.00039
+i = 405	 hw_result = -0.60645	 sw_result = -0.60544	 err = 0.00100	 mean_err0.00039
+0.00039
+i = 406	 hw_result = -0.41235	 sw_result = -0.41223	 err = 0.00013	 mean_err0.00039
+0.00039
+i = 407	 hw_result = 0.57666	 sw_result = 0.57339	 err = 0.00327	 mean_err0.00039
+0.00039
+i = 408	 hw_result = -0.35205	 sw_result = -0.35358	 err = 0.00153	 mean_err0.00039
+0.00039
+i = 409	 hw_result = 0.01660	 sw_result = 0.01605	 err = 0.00056	 mean_err0.00039
+0.00039
+i = 410	 hw_result = 0.43774	 sw_result = 0.56925	 err = 0.13151	 mean_err0.00050
+0.00050
+i = 411	 hw_result = 0.08984	 sw_result = 0.08810	 err = 0.00174	 mean_err0.00050
+0.00050
+i = 412	 hw_result = 0.00073	 sw_result = 0.00392	 err = 0.00319	 mean_err0.00050
+0.00050
+i = 413	 hw_result = 0.65332	 sw_result = 0.65242	 err = 0.00090	 mean_err0.00050
+0.00050
+i = 414	 hw_result = 0.48071	 sw_result = 0.48037	 err = 0.00035	 mean_err0.00050
+0.00050
+i = 415	 hw_result = 0.08350	 sw_result = 0.08215	 err = 0.00135	 mean_err0.00050
+0.00050
+i = 416	 hw_result = -0.73560	 sw_result = -0.73382	 err = 0.00177	 mean_err0.00050
+0.00050
+i = 417	 hw_result = 0.09521	 sw_result = 0.09465	 err = 0.00057	 mean_err0.00050
+0.00050
+i = 418	 hw_result = 0.60864	 sw_result = 0.60919	 err = 0.00054	 mean_err0.00050
+0.00050
+i = 419	 hw_result = 0.50757	 sw_result = 0.50524	 err = 0.00233	 mean_err0.00051
+0.00051
+i = 420	 hw_result = 0.38672	 sw_result = 0.38589	 err = 0.00083	 mean_err0.00051
+0.00051
+i = 421	 hw_result = -1.12549	 sw_result = -1.12694	 err = 0.00145	 mean_err0.00051
+0.00051
+i = 422	 hw_result = -0.39966	 sw_result = -0.39774	 err = 0.00192	 mean_err0.00051
+0.00051
+i = 423	 hw_result = -0.02539	 sw_result = -0.02526	 err = 0.00013	 mean_err0.00051
+0.00051
+i = 424	 hw_result = 0.54810	 sw_result = 0.54612	 err = 0.00198	 mean_err0.00051
+0.00051
+i = 425	 hw_result = 0.53394	 sw_result = 0.53395	 err = 0.00002	 mean_err0.00051
+0.00051
+i = 426	 hw_result = -0.39160	 sw_result = -0.39187	 err = 0.00027	 mean_err0.00051
+0.00051
+i = 427	 hw_result = 0.05347	 sw_result = 0.05107	 err = 0.00239	 mean_err0.00051
+0.00051
+i = 428	 hw_result = 0.63721	 sw_result = 0.63726	 err = 0.00006	 mean_err0.00051
+0.00051
+i = 429	 hw_result = 0.22852	 sw_result = 0.22997	 err = 0.00146	 mean_err0.00052
+0.00052
+i = 430	 hw_result = 0.77856	 sw_result = 0.77910	 err = 0.00054	 mean_err0.00052
+0.00052
+i = 431	 hw_result = 0.40918	 sw_result = 0.40852	 err = 0.00066	 mean_err0.00052
+0.00052
+i = 432	 hw_result = -0.56348	 sw_result = -0.56381	 err = 0.00034	 mean_err0.00052
+0.00052
+i = 433	 hw_result = -0.80298	 sw_result = -0.80133	 err = 0.00165	 mean_err0.00052
+0.00052
+i = 434	 hw_result = 0.21753	 sw_result = 0.21408	 err = 0.00345	 mean_err0.00052
+0.00052
+i = 435	 hw_result = -0.32642	 sw_result = -0.32757	 err = 0.00115	 mean_err0.00052
+0.00052
+i = 436	 hw_result = -0.11475	 sw_result = -0.11288	 err = 0.00187	 mean_err0.00052
+0.00052
+i = 437	 hw_result = 0.17749	 sw_result = 0.17970	 err = 0.00221	 mean_err0.00052
+0.00052
+i = 438	 hw_result = 0.06836	 sw_result = 0.07022	 err = 0.00186	 mean_err0.00053
+0.00053
+i = 439	 hw_result = -0.05176	 sw_result = -0.04936	 err = 0.00240	 mean_err0.00053
+0.00053
+i = 440	 hw_result = 0.21240	 sw_result = 0.20980	 err = 0.00260	 mean_err0.00053
+0.00053
+i = 441	 hw_result = -0.03735	 sw_result = -0.03759	 err = 0.00023	 mean_err0.00053
+0.00053
+i = 442	 hw_result = 0.02026	 sw_result = 0.02030	 err = 0.00004	 mean_err0.00053
+0.00053
+i = 443	 hw_result = 0.17163	 sw_result = 0.17250	 err = 0.00087	 mean_err0.00053
+0.00053
+i = 444	 hw_result = 0.37109	 sw_result = 0.37090	 err = 0.00020	 mean_err0.00053
+0.00053
+i = 445	 hw_result = 0.62207	 sw_result = 0.62842	 err = 0.00635	 mean_err0.00054
+0.00054
+i = 446	 hw_result = -0.03369	 sw_result = -0.03322	 err = 0.00047	 mean_err0.00054
+0.00054
+i = 447	 hw_result = 0.02856	 sw_result = 0.03046	 err = 0.00189	 mean_err0.00054
+0.00054
+i = 448	 hw_result = 0.77246	 sw_result = 0.77222	 err = 0.00024	 mean_err0.00054
+0.00054
+i = 449	 hw_result = -0.37769	 sw_result = -0.37757	 err = 0.00011	 mean_err0.00054
+0.00054
+i = 450	 hw_result = 0.00195	 sw_result = 0.00156	 err = 0.00039	 mean_err0.00054
+0.00054
+i = 451	 hw_result = 0.54761	 sw_result = 0.54495	 err = 0.00266	 mean_err0.00054
+0.00054
+i = 452	 hw_result = 0.28784	 sw_result = 0.28799	 err = 0.00015	 mean_err0.00054
+0.00054
+i = 453	 hw_result = -0.51489	 sw_result = -0.51280	 err = 0.00209	 mean_err0.00054
+0.00054
+i = 454	 hw_result = 0.41479	 sw_result = 0.41552	 err = 0.00072	 mean_err0.00054
+0.00054
+i = 455	 hw_result = 0.40308	 sw_result = 0.40547	 err = 0.00239	 mean_err0.00055
+0.00055
+i = 456	 hw_result = -0.10205	 sw_result = -0.10251	 err = 0.00046	 mean_err0.00055
+0.00055
+i = 457	 hw_result = 0.27588	 sw_result = 0.27719	 err = 0.00131	 mean_err0.00055
+0.00055
+i = 458	 hw_result = 0.50928	 sw_result = 0.51201	 err = 0.00273	 mean_err0.00055
+0.00055
+i = 459	 hw_result = -0.30591	 sw_result = -0.30606	 err = 0.00015	 mean_err0.00055
+0.00055
+i = 460	 hw_result = -0.11401	 sw_result = -0.11553	 err = 0.00152	 mean_err0.00055
+0.00055
+i = 461	 hw_result = 0.66455	 sw_result = 0.66443	 err = 0.00012	 mean_err0.00055
+0.00055
+i = 462	 hw_result = 0.22925	 sw_result = 0.22909	 err = 0.00015	 mean_err0.00055
+0.00055
+i = 463	 hw_result = -0.01611	 sw_result = -0.01528	 err = 0.00083	 mean_err0.00055
+0.00055
+i = 464	 hw_result = -0.46606	 sw_result = -0.46497	 err = 0.00110	 mean_err0.00055
+0.00055
+i = 465	 hw_result = -0.37207	 sw_result = -0.37410	 err = 0.00202	 mean_err0.00055
+0.00055
+i = 466	 hw_result = -0.06689	 sw_result = -0.06807	 err = 0.00117	 mean_err0.00055
+0.00055
+i = 467	 hw_result = 0.16284	 sw_result = 0.15930	 err = 0.00354	 mean_err0.00056
+0.00056
+i = 468	 hw_result = 0.49829	 sw_result = 0.50194	 err = 0.00365	 mean_err0.00056
+0.00056
+i = 469	 hw_result = 0.38770	 sw_result = 0.38891	 err = 0.00121	 mean_err0.00056
+0.00056
+i = 470	 hw_result = -0.34912	 sw_result = -0.34636	 err = 0.00276	 mean_err0.00056
+0.00056
+i = 471	 hw_result = -0.57495	 sw_result = -0.57297	 err = 0.00198	 mean_err0.00056
+0.00056
+i = 472	 hw_result = -0.51367	 sw_result = -0.51476	 err = 0.00108	 mean_err0.00057
+0.00057
+i = 473	 hw_result = -0.55713	 sw_result = -0.55593	 err = 0.00120	 mean_err0.00057
+0.00057
+i = 474	 hw_result = 0.16064	 sw_result = 0.15876	 err = 0.00188	 mean_err0.00057
+0.00057
+i = 475	 hw_result = 0.16626	 sw_result = 0.16623	 err = 0.00003	 mean_err0.00057
+0.00057
+i = 476	 hw_result = -0.07031	 sw_result = -0.07020	 err = 0.00011	 mean_err0.00057
+0.00057
+i = 477	 hw_result = 0.66528	 sw_result = 0.66525	 err = 0.00004	 mean_err0.00057
+0.00057
+i = 478	 hw_result = 0.78296	 sw_result = 0.77735	 err = 0.00561	 mean_err0.00057
+0.00057
+i = 479	 hw_result = 0.27075	 sw_result = 0.26978	 err = 0.00097	 mean_err0.00057
+0.00057
+i = 480	 hw_result = -0.64014	 sw_result = -0.63789	 err = 0.00225	 mean_err0.00058
+0.00058
+i = 481	 hw_result = -0.25464	 sw_result = -0.25426	 err = 0.00038	 mean_err0.00058
+0.00058
+i = 482	 hw_result = -0.43506	 sw_result = -0.43596	 err = 0.00090	 mean_err0.00058
+0.00058
+i = 483	 hw_result = -0.60718	 sw_result = -0.60631	 err = 0.00087	 mean_err0.00058
+0.00058
+i = 484	 hw_result = 0.06226	 sw_result = 0.06182	 err = 0.00043	 mean_err0.00058
+0.00058
+i = 485	 hw_result = 0.32495	 sw_result = 0.32408	 err = 0.00087	 mean_err0.00058
+0.00058
+i = 486	 hw_result = -0.39014	 sw_result = -0.39058	 err = 0.00044	 mean_err0.00058
+0.00058
+i = 487	 hw_result = -0.64307	 sw_result = -0.64229	 err = 0.00077	 mean_err0.00058
+0.00058
+i = 488	 hw_result = -0.41724	 sw_result = -0.41802	 err = 0.00078	 mean_err0.00058
+0.00058
+i = 489	 hw_result = -0.25171	 sw_result = -0.25293	 err = 0.00122	 mean_err0.00058
+0.00058
+i = 490	 hw_result = 0.11475	 sw_result = 0.11307	 err = 0.00168	 mean_err0.00058
+0.00058
+i = 491	 hw_result = -0.42065	 sw_result = -0.42325	 err = 0.00259	 mean_err0.00058
+0.00058
+i = 492	 hw_result = -0.35132	 sw_result = -0.35296	 err = 0.00164	 mean_err0.00059
+0.00059
+i = 493	 hw_result = 0.04370	 sw_result = 0.04464	 err = 0.00094	 mean_err0.00059
+0.00059
+i = 494	 hw_result = 0.06714	 sw_result = 0.06906	 err = 0.00192	 mean_err0.00059
+0.00059
+i = 495	 hw_result = -0.61304	 sw_result = -0.61369	 err = 0.00066	 mean_err0.00059
+0.00059
+i = 496	 hw_result = 0.40332	 sw_result = 0.40720	 err = 0.00388	 mean_err0.00059
+0.00059
+i = 497	 hw_result = 0.34106	 sw_result = 0.34007	 err = 0.00099	 mean_err0.00059
+0.00059
+i = 498	 hw_result = -0.37085	 sw_result = -0.37015	 err = 0.00070	 mean_err0.00059
+0.00059
+i = 499	 hw_result = -0.53833	 sw_result = -0.53570	 err = 0.00263	 mean_err0.00059
+0.00059
+i = 500	 hw_result = -0.25977	 sw_result = -0.26020	 err = 0.00043	 mean_err0.00060
+0.00060
+i = 501	 hw_result = -0.02686	 sw_result = -0.02866	 err = 0.00180	 mean_err0.00060
+0.00060
+i = 502	 hw_result = -0.39697	 sw_result = -0.39697	 err = 0.00001	 mean_err0.00060
+0.00060
+i = 503	 hw_result = -0.51514	 sw_result = -0.51453	 err = 0.00060	 mean_err0.00060
+0.00060
+i = 504	 hw_result = -0.50342	 sw_result = -0.50308	 err = 0.00033	 mean_err0.00060
+0.00060
+i = 505	 hw_result = -0.54370	 sw_result = -0.54506	 err = 0.00136	 mean_err0.00060
+0.00060
+i = 506	 hw_result = 0.13257	 sw_result = 0.13263	 err = 0.00006	 mean_err0.00060
+0.00060
+i = 507	 hw_result = 0.20264	 sw_result = 0.20188	 err = 0.00076	 mean_err0.00060
+0.00060
+i = 508	 hw_result = -0.60425	 sw_result = -0.60363	 err = 0.00062	 mean_err0.00060
+0.00060
+i = 509	 hw_result = -0.36133	 sw_result = -0.36070	 err = 0.00063	 mean_err0.00060
+0.00060
+i = 510	 hw_result = -0.74658	 sw_result = -0.74751	 err = 0.00093	 mean_err0.00060
+0.00060
+i = 511	 hw_result = -0.69214	 sw_result = -0.69309	 err = 0.00095	 mean_err0.00060
+0.00060
+i = 512	 hw_result = 0.64526	 sw_result = 0.64209	 err = 0.00317	 mean_err0.00060
+0.00060
+i = 513	 hw_result = -0.41553	 sw_result = -0.41876	 err = 0.00324	 mean_err0.00061
+0.00061
+i = 514	 hw_result = -0.79810	 sw_result = -0.79577	 err = 0.00232	 mean_err0.00061
+0.00061
+i = 515	 hw_result = -0.10913	 sw_result = -0.10679	 err = 0.00234	 mean_err0.00061
+0.00061
+i = 516	 hw_result = -0.02319	 sw_result = -0.02482	 err = 0.00163	 mean_err0.00061
+0.00061
+i = 517	 hw_result = -0.27417	 sw_result = -0.27335	 err = 0.00082	 mean_err0.00061
+0.00061
+i = 518	 hw_result = 0.20264	 sw_result = 0.20293	 err = 0.00029	 mean_err0.00061
+0.00061
+i = 519	 hw_result = -0.50879	 sw_result = -0.50948	 err = 0.00069	 mean_err0.00061
+0.00061
+i = 520	 hw_result = -0.87402	 sw_result = -0.87338	 err = 0.00064	 mean_err0.00061
+0.00061
+i = 521	 hw_result = -0.88354	 sw_result = -0.88491	 err = 0.00136	 mean_err0.00061
+0.00061
+i = 522	 hw_result = -0.16382	 sw_result = -0.16550	 err = 0.00168	 mean_err0.00062
+0.00062
+i = 523	 hw_result = -0.12012	 sw_result = -0.11968	 err = 0.00043	 mean_err0.00062
+0.00062
+i = 524	 hw_result = -0.36377	 sw_result = -0.36136	 err = 0.00241	 mean_err0.00062
+0.00062
+i = 525	 hw_result = -0.73340	 sw_result = -0.73323	 err = 0.00016	 mean_err0.00062
+0.00062
+i = 526	 hw_result = -0.90625	 sw_result = -0.90257	 err = 0.00368	 mean_err0.00062
+0.00062
+i = 527	 hw_result = -0.36060	 sw_result = -0.35949	 err = 0.00110	 mean_err0.00062
+0.00062
+i = 528	 hw_result = 0.32715	 sw_result = 0.32914	 err = 0.00199	 mean_err0.00062
+0.00062
+i = 529	 hw_result = -0.35229	 sw_result = -0.35419	 err = 0.00189	 mean_err0.00063
+0.00063
+i = 530	 hw_result = -0.84839	 sw_result = -0.84386	 err = 0.00453	 mean_err0.00063
+0.00063
+i = 531	 hw_result = -0.82178	 sw_result = -0.82061	 err = 0.00116	 mean_err0.00063
+0.00063
+i = 532	 hw_result = 0.09546	 sw_result = 0.09590	 err = 0.00044	 mean_err0.00063
+0.00063
+i = 533	 hw_result = -0.85034	 sw_result = -0.85100	 err = 0.00066	 mean_err0.00063
+0.00063
+i = 534	 hw_result = -0.73706	 sw_result = -0.73724	 err = 0.00018	 mean_err0.00063
+0.00063
+i = 535	 hw_result = -0.40601	 sw_result = -0.40548	 err = 0.00053	 mean_err0.00063
+0.00063
+i = 536	 hw_result = -0.76807	 sw_result = -0.76987	 err = 0.00181	 mean_err0.00063
+0.00063
+i = 537	 hw_result = -0.82886	 sw_result = -0.82995	 err = 0.00109	 mean_err0.00063
+0.00063
+i = 538	 hw_result = -0.06079	 sw_result = -0.06137	 err = 0.00058	 mean_err0.00063
+0.00063
+i = 539	 hw_result = -0.06421	 sw_result = -0.06473	 err = 0.00052	 mean_err0.00063
+0.00063
+i = 540	 hw_result = -0.71851	 sw_result = -0.71745	 err = 0.00105	 mean_err0.00064
+0.00064
+i = 541	 hw_result = -0.43652	 sw_result = -0.43754	 err = 0.00102	 mean_err0.00064
+0.00064
+i = 542	 hw_result = -0.19165	 sw_result = -0.19215	 err = 0.00050	 mean_err0.00064
+0.00064
+i = 543	 hw_result = -0.73608	 sw_result = -0.73525	 err = 0.00084	 mean_err0.00064
+0.00064
+i = 544	 hw_result = -0.68921	 sw_result = -0.69054	 err = 0.00133	 mean_err0.00064
+0.00064
+i = 545	 hw_result = -0.10449	 sw_result = -0.10488	 err = 0.00038	 mean_err0.00064
+0.00064
+i = 546	 hw_result = -0.92847	 sw_result = -0.92748	 err = 0.00099	 mean_err0.00064
+0.00064
+i = 547	 hw_result = 0.15991	 sw_result = 0.15683	 err = 0.00308	 mean_err0.00064
+0.00064
+i = 548	 hw_result = 0.16870	 sw_result = 0.16873	 err = 0.00003	 mean_err0.00064
+0.00064
+i = 549	 hw_result = -0.63330	 sw_result = -0.63363	 err = 0.00033	 mean_err0.00064
+0.00064
+i = 550	 hw_result = -0.78320	 sw_result = -0.78250	 err = 0.00071	 mean_err0.00064
+0.00064
+i = 551	 hw_result = -0.10791	 sw_result = -0.10709	 err = 0.00082	 mean_err0.00064
+0.00064
+i = 552	 hw_result = -0.35815	 sw_result = -0.35869	 err = 0.00053	 mean_err0.00064
+0.00064
+i = 553	 hw_result = -0.51904	 sw_result = -0.52159	 err = 0.00254	 mean_err0.00065
+0.00065
+i = 554	 hw_result = -0.22412	 sw_result = -0.22460	 err = 0.00048	 mean_err0.00065
+0.00065
+i = 555	 hw_result = -0.42163	 sw_result = -0.42214	 err = 0.00051	 mean_err0.00065
+0.00065
+i = 556	 hw_result = -0.91309	 sw_result = -0.91542	 err = 0.00234	 mean_err0.00065
+0.00065
+i = 557	 hw_result = -0.41846	 sw_result = -0.41696	 err = 0.00150	 mean_err0.00065
+0.00065
+i = 558	 hw_result = 0.15723	 sw_result = 0.15832	 err = 0.00110	 mean_err0.00065
+0.00065
+i = 559	 hw_result = 0.01245	 sw_result = 0.01453	 err = 0.00207	 mean_err0.00065
+0.00065
+i = 560	 hw_result = -0.11841	 sw_result = -0.11911	 err = 0.00070	 mean_err0.00065
+0.00065
+i = 561	 hw_result = -0.12305	 sw_result = -0.12339	 err = 0.00034	 mean_err0.00065
+0.00065
+i = 562	 hw_result = -0.27344	 sw_result = -0.27487	 err = 0.00143	 mean_err0.00065
+0.00065
+i = 563	 hw_result = -0.74292	 sw_result = -0.74181	 err = 0.00111	 mean_err0.00066
+0.00066
+i = 564	 hw_result = -0.50952	 sw_result = -0.50831	 err = 0.00121	 mean_err0.00066
+0.00066
+i = 565	 hw_result = -0.07300	 sw_result = -0.06974	 err = 0.00326	 mean_err0.00066
+0.00066
+i = 566	 hw_result = -0.57593	 sw_result = -0.57384	 err = 0.00208	 mean_err0.00066
+0.00066
+i = 567	 hw_result = -0.62036	 sw_result = -0.62016	 err = 0.00020	 mean_err0.00066
+0.00066
+i = 568	 hw_result = -0.29224	 sw_result = -0.29292	 err = 0.00068	 mean_err0.00066
+0.00066
+i = 569	 hw_result = -0.46460	 sw_result = -0.46656	 err = 0.00196	 mean_err0.00066
+0.00066
+i = 570	 hw_result = -0.34595	 sw_result = -0.34667	 err = 0.00073	 mean_err0.00066
+0.00066
+i = 571	 hw_result = -0.31738	 sw_result = -0.31733	 err = 0.00005	 mean_err0.00066
+0.00066
+i = 572	 hw_result = -0.20117	 sw_result = -0.20173	 err = 0.00056	 mean_err0.00066
+0.00066
+i = 573	 hw_result = -0.63525	 sw_result = -0.63631	 err = 0.00106	 mean_err0.00066
+0.00066
+i = 574	 hw_result = -0.67090	 sw_result = -0.66955	 err = 0.00135	 mean_err0.00067
+0.00067
+i = 575	 hw_result = 0.08301	 sw_result = 0.08255	 err = 0.00045	 mean_err0.00067
+0.00067
+i = 576	 hw_result = -0.28882	 sw_result = -0.28932	 err = 0.00050	 mean_err0.00067
+0.00067
+i = 577	 hw_result = -0.75049	 sw_result = -0.74901	 err = 0.00148	 mean_err0.00067
+0.00067
+i = 578	 hw_result = 0.46387	 sw_result = 0.46147	 err = 0.00239	 mean_err0.00067
+0.00067
+i = 579	 hw_result = -0.11426	 sw_result = -0.11465	 err = 0.00039	 mean_err0.00067
+0.00067
+i = 580	 hw_result = -0.26270	 sw_result = -0.26244	 err = 0.00025	 mean_err0.00067
+0.00067
+i = 581	 hw_result = -0.00073	 sw_result = -0.00008	 err = 0.00066	 mean_err0.00067
+0.00067
+i = 582	 hw_result = 0.08984	 sw_result = 0.08941	 err = 0.00044	 mean_err0.00067
+0.00067
+i = 583	 hw_result = -0.59204	 sw_result = -0.59379	 err = 0.00175	 mean_err0.00067
+0.00067
+i = 584	 hw_result = -0.40210	 sw_result = -0.40199	 err = 0.00011	 mean_err0.00067
+0.00067
+i = 585	 hw_result = -0.54175	 sw_result = -0.53992	 err = 0.00183	 mean_err0.00067
+0.00067
+i = 586	 hw_result = -0.59131	 sw_result = -0.59165	 err = 0.00034	 mean_err0.00067
+0.00067
+i = 587	 hw_result = -0.20996	 sw_result = -0.21162	 err = 0.00166	 mean_err0.00068
+0.00068
+i = 588	 hw_result = 0.32129	 sw_result = 0.32293	 err = 0.00164	 mean_err0.00068
+0.00068
+i = 589	 hw_result = -0.19336	 sw_result = -0.19347	 err = 0.00011	 mean_err0.00068
+0.00068
+i = 590	 hw_result = -0.46411	 sw_result = -0.46219	 err = 0.00192	 mean_err0.00068
+0.00068
+i = 591	 hw_result = -0.73755	 sw_result = -0.73752	 err = 0.00003	 mean_err0.00068
+0.00068
+i = 592	 hw_result = -0.45264	 sw_result = -0.45162	 err = 0.00102	 mean_err0.00068
+0.00068
+i = 593	 hw_result = -0.53638	 sw_result = -0.53451	 err = 0.00187	 mean_err0.00068
+0.00068
+i = 594	 hw_result = -0.04492	 sw_result = -0.04593	 err = 0.00101	 mean_err0.00068
+0.00068
+i = 595	 hw_result = 0.52539	 sw_result = 0.52260	 err = 0.00279	 mean_err0.00068
+0.00068
+i = 596	 hw_result = 0.40894	 sw_result = 0.41103	 err = 0.00209	 mean_err0.00069
+0.00069
+i = 597	 hw_result = -0.01807	 sw_result = -0.01605	 err = 0.00202	 mean_err0.00069
+0.00069
+i = 598	 hw_result = 0.00269	 sw_result = 0.00504	 err = 0.00235	 mean_err0.00069
+0.00069
+i = 599	 hw_result = -0.68457	 sw_result = -0.68378	 err = 0.00079	 mean_err0.00069
+0.00069
+i = 600	 hw_result = -0.70337	 sw_result = -0.70358	 err = 0.00021	 mean_err0.00069
+0.00069
+i = 601	 hw_result = 0.19238	 sw_result = 0.19249	 err = 0.00011	 mean_err0.00069
+0.00069
+i = 602	 hw_result = 0.14624	 sw_result = 0.14560	 err = 0.00064	 mean_err0.00069
+0.00069
+i = 603	 hw_result = -0.08984	 sw_result = -0.09180	 err = 0.00196	 mean_err0.00069
+0.00069
+i = 604	 hw_result = -0.05322	 sw_result = -0.05341	 err = 0.00019	 mean_err0.00069
+0.00069
+i = 605	 hw_result = -0.38306	 sw_result = -0.38352	 err = 0.00047	 mean_err0.00069
+0.00069
+i = 606	 hw_result = -0.87378	 sw_result = -0.87321	 err = 0.00057	 mean_err0.00069
+0.00069
+i = 607	 hw_result = 0.27124	 sw_result = 0.27319	 err = 0.00195	 mean_err0.00069
+0.00069
+i = 608	 hw_result = 0.64795	 sw_result = 0.64550	 err = 0.00245	 mean_err0.00070
+0.00070
+i = 609	 hw_result = 0.28662	 sw_result = 0.28527	 err = 0.00135	 mean_err0.00070
+0.00070
+i = 610	 hw_result = -0.16577	 sw_result = -0.16661	 err = 0.00083	 mean_err0.00070
+0.00070
+i = 611	 hw_result = 0.06763	 sw_result = 0.06731	 err = 0.00031	 mean_err0.00070
+0.00070
+i = 612	 hw_result = -0.24683	 sw_result = -0.24713	 err = 0.00030	 mean_err0.00070
+0.00070
+i = 613	 hw_result = -0.08203	 sw_result = -0.08142	 err = 0.00061	 mean_err0.00070
+0.00070
+i = 614	 hw_result = -0.06909	 sw_result = -0.06943	 err = 0.00034	 mean_err0.00070
+0.00070
+i = 615	 hw_result = -0.46216	 sw_result = -0.46448	 err = 0.00233	 mean_err0.00070
+0.00070
+i = 616	 hw_result = 0.32446	 sw_result = 0.32275	 err = 0.00171	 mean_err0.00070
+0.00070
+i = 617	 hw_result = 0.16748	 sw_result = 0.16720	 err = 0.00028	 mean_err0.00070
+0.00070
+i = 618	 hw_result = 0.03345	 sw_result = 0.03383	 err = 0.00038	 mean_err0.00070
+0.00070
+i = 619	 hw_result = 0.55420	 sw_result = 0.55522	 err = 0.00102	 mean_err0.00070
+0.00070
+i = 620	 hw_result = -0.44873	 sw_result = -0.44822	 err = 0.00051	 mean_err0.00070
+0.00070
+i = 621	 hw_result = -1.01758	 sw_result = -1.01648	 err = 0.00110	 mean_err0.00071
+0.00071
+i = 622	 hw_result = -0.62622	 sw_result = -0.62587	 err = 0.00035	 mean_err0.00071
+0.00071
+i = 623	 hw_result = 0.31055	 sw_result = 0.31366	 err = 0.00311	 mean_err0.00071
+0.00071
+i = 624	 hw_result = 0.65186	 sw_result = 0.65207	 err = 0.00021	 mean_err0.00071
+0.00071
+i = 625	 hw_result = -0.24487	 sw_result = -0.24809	 err = 0.00322	 mean_err0.00071
+0.00071
+i = 626	 hw_result = -0.52246	 sw_result = -0.52265	 err = 0.00019	 mean_err0.00071
+0.00071
+i = 627	 hw_result = -0.49341	 sw_result = -0.49451	 err = 0.00111	 mean_err0.00071
+0.00071
+i = 628	 hw_result = -0.25488	 sw_result = -0.25439	 err = 0.00049	 mean_err0.00071
+0.00071
+i = 629	 hw_result = 0.20312	 sw_result = 0.20468	 err = 0.00155	 mean_err0.00071
+0.00071
+i = 630	 hw_result = 0.02490	 sw_result = 0.02739	 err = 0.00248	 mean_err0.00072
+0.00072
+i = 631	 hw_result = 0.40552	 sw_result = 0.40557	 err = 0.00005	 mean_err0.00072
+0.00072
+i = 632	 hw_result = 0.53613	 sw_result = 0.53310	 err = 0.00303	 mean_err0.00072
+0.00072
+i = 633	 hw_result = -0.04565	 sw_result = -0.04673	 err = 0.00107	 mean_err0.00072
+0.00072
+i = 634	 hw_result = -0.01392	 sw_result = -0.01467	 err = 0.00075	 mean_err0.00072
+0.00072
+i = 635	 hw_result = -0.03345	 sw_result = -0.03319	 err = 0.00026	 mean_err0.00072
+0.00072
+i = 636	 hw_result = -0.13916	 sw_result = -0.13981	 err = 0.00065	 mean_err0.00072
+0.00072
+i = 637	 hw_result = -0.53101	 sw_result = -0.52919	 err = 0.00181	 mean_err0.00072
+0.00072
+i = 638	 hw_result = -0.28345	 sw_result = -0.28206	 err = 0.00138	 mean_err0.00072
+0.00072
+i = 639	 hw_result = 0.67554	 sw_result = 0.67290	 err = 0.00264	 mean_err0.00073
+0.00073
+i = 640	 hw_result = 0.19678	 sw_result = 0.19673	 err = 0.00005	 mean_err0.00073
+0.00073
+i = 641	 hw_result = 0.09473	 sw_result = 0.09503	 err = 0.00030	 mean_err0.00073
+0.00073
+i = 642	 hw_result = -0.01416	 sw_result = -0.01441	 err = 0.00025	 mean_err0.00073
+0.00073
+i = 643	 hw_result = -0.25073	 sw_result = -0.24919	 err = 0.00154	 mean_err0.00073
+0.00073
+i = 644	 hw_result = -0.14795	 sw_result = -0.14497	 err = 0.00298	 mean_err0.00073
+0.00073
+i = 645	 hw_result = -0.01904	 sw_result = -0.01768	 err = 0.00136	 mean_err0.00073
+0.00073
+i = 646	 hw_result = 0.01221	 sw_result = 0.01314	 err = 0.00093	 mean_err0.00073
+0.00073
+i = 647	 hw_result = 0.57690	 sw_result = 0.57725	 err = 0.00034	 mean_err0.00073
+0.00073
+i = 648	 hw_result = -0.38525	 sw_result = -0.38376	 err = 0.00150	 mean_err0.00073
+0.00073
+i = 649	 hw_result = -0.59204	 sw_result = -0.59340	 err = 0.00136	 mean_err0.00073
+0.00073
+i = 650	 hw_result = -0.16211	 sw_result = -0.16278	 err = 0.00067	 mean_err0.00073
+0.00073
+i = 651	 hw_result = -0.34888	 sw_result = -0.34917	 err = 0.00029	 mean_err0.00073
+0.00073
+i = 652	 hw_result = 0.34570	 sw_result = 0.34599	 err = 0.00029	 mean_err0.00073
+0.00073
+i = 653	 hw_result = 0.23535	 sw_result = 0.23716	 err = 0.00181	 mean_err0.00074
+0.00074
+i = 654	 hw_result = -0.28467	 sw_result = -0.28398	 err = 0.00069	 mean_err0.00074
+0.00074
+i = 655	 hw_result = -0.13599	 sw_result = -0.13590	 err = 0.00008	 mean_err0.00074
+0.00074
+i = 656	 hw_result = 0.41260	 sw_result = 0.41295	 err = 0.00035	 mean_err0.00074
+0.00074
+i = 657	 hw_result = -0.23755	 sw_result = -0.24153	 err = 0.00398	 mean_err0.00074
+0.00074
+i = 658	 hw_result = -0.00928	 sw_result = -0.00825	 err = 0.00103	 mean_err0.00074
+0.00074
+i = 659	 hw_result = 0.48926	 sw_result = 0.48788	 err = 0.00138	 mean_err0.00074
+0.00074
+i = 660	 hw_result = 0.01514	 sw_result = 0.01654	 err = 0.00141	 mean_err0.00074
+0.00074
+i = 661	 hw_result = -0.13940	 sw_result = -0.13819	 err = 0.00121	 mean_err0.00074
+0.00074
+i = 662	 hw_result = 0.42578	 sw_result = 0.42602	 err = 0.00024	 mean_err0.00074
+0.00074
+i = 663	 hw_result = -0.02563	 sw_result = -0.02456	 err = 0.00108	 mean_err0.00075
+0.00075
+i = 664	 hw_result = 0.07861	 sw_result = 0.07929	 err = 0.00067	 mean_err0.00075
+0.00075
+i = 665	 hw_result = 0.18262	 sw_result = 0.18208	 err = 0.00053	 mean_err0.00075
+0.00075
+i = 666	 hw_result = -0.15771	 sw_result = -0.15895	 err = 0.00123	 mean_err0.00075
+0.00075
+i = 667	 hw_result = -0.38159	 sw_result = -0.38327	 err = 0.00168	 mean_err0.00075
+0.00075
+i = 668	 hw_result = -0.44922	 sw_result = -0.44943	 err = 0.00021	 mean_err0.00075
+0.00075
+i = 669	 hw_result = -0.11743	 sw_result = -0.11646	 err = 0.00097	 mean_err0.00075
+0.00075
+i = 670	 hw_result = 0.64331	 sw_result = 0.64535	 err = 0.00204	 mean_err0.00075
+0.00075
+i = 671	 hw_result = 0.42896	 sw_result = 0.42596	 err = 0.00300	 mean_err0.00075
+0.00075
+i = 672	 hw_result = -0.37598	 sw_result = -0.37534	 err = 0.00064	 mean_err0.00075
+0.00075
+i = 673	 hw_result = -0.57349	 sw_result = -0.57449	 err = 0.00100	 mean_err0.00075
+0.00075
+i = 674	 hw_result = 0.18384	 sw_result = 0.18324	 err = 0.00060	 mean_err0.00076
+0.00076
+i = 675	 hw_result = 0.46387	 sw_result = 0.46420	 err = 0.00033	 mean_err0.00076
+0.00076
+i = 676	 hw_result = -0.58667	 sw_result = -0.58560	 err = 0.00107	 mean_err0.00076
+0.00076
+i = 677	 hw_result = 0.45190	 sw_result = 0.45658	 err = 0.00467	 mean_err0.00076
+0.00076
+i = 678	 hw_result = 0.66992	 sw_result = 0.67362	 err = 0.00370	 mean_err0.00076
+0.00076
+i = 679	 hw_result = 0.57593	 sw_result = 0.57470	 err = 0.00123	 mean_err0.00076
+0.00076
+i = 680	 hw_result = 0.54541	 sw_result = 0.54660	 err = 0.00119	 mean_err0.00076
+0.00076
+i = 681	 hw_result = 0.22168	 sw_result = 0.22005	 err = 0.00163	 mean_err0.00077
+0.00077
+i = 682	 hw_result = -0.09229	 sw_result = -0.09280	 err = 0.00052	 mean_err0.00077
+0.00077
+i = 683	 hw_result = -0.32129	 sw_result = -0.32263	 err = 0.00134	 mean_err0.00077
+0.00077
+i = 684	 hw_result = -0.52222	 sw_result = -0.52066	 err = 0.00155	 mean_err0.00077
+0.00077
+i = 685	 hw_result = 0.28638	 sw_result = 0.28976	 err = 0.00339	 mean_err0.00077
+0.00077
+i = 686	 hw_result = -0.16016	 sw_result = -0.15967	 err = 0.00049	 mean_err0.00077
+0.00077
+i = 687	 hw_result = -0.11719	 sw_result = -0.11678	 err = 0.00040	 mean_err0.00077
+0.00077
+i = 688	 hw_result = 0.37573	 sw_result = 0.37448	 err = 0.00125	 mean_err0.00077
+0.00077
+i = 689	 hw_result = -0.28833	 sw_result = -0.28580	 err = 0.00253	 mean_err0.00078
+0.00078
+i = 690	 hw_result = -0.40405	 sw_result = -0.40401	 err = 0.00004	 mean_err0.00078
+0.00078
+i = 691	 hw_result = -0.22266	 sw_result = -0.22329	 err = 0.00063	 mean_err0.00078
+0.00078
+i = 692	 hw_result = -0.43164	 sw_result = -0.43163	 err = 0.00001	 mean_err0.00078
+0.00078
+i = 693	 hw_result = -0.59277	 sw_result = -0.59274	 err = 0.00004	 mean_err0.00078
+0.00078
+i = 694	 hw_result = 0.56226	 sw_result = 0.56031	 err = 0.00195	 mean_err0.00078
+0.00078
+i = 695	 hw_result = -0.26538	 sw_result = -0.26199	 err = 0.00339	 mean_err0.00078
+0.00078
+i = 696	 hw_result = -0.21338	 sw_result = -0.21240	 err = 0.00097	 mean_err0.00078
+0.00078
+i = 697	 hw_result = 0.19482	 sw_result = 0.19395	 err = 0.00088	 mean_err0.00078
+0.00078
+i = 698	 hw_result = 0.69922	 sw_result = 0.69872	 err = 0.00050	 mean_err0.00078
+0.00078
+i = 699	 hw_result = -0.42090	 sw_result = -0.42025	 err = 0.00065	 mean_err0.00078
+0.00078
+i = 700	 hw_result = -0.03931	 sw_result = -0.03948	 err = 0.00018	 mean_err0.00078
+0.00078
+i = 701	 hw_result = 0.27856	 sw_result = 0.28109	 err = 0.00252	 mean_err0.00078
+0.00078
+i = 702	 hw_result = -0.29541	 sw_result = -0.29588	 err = 0.00047	 mean_err0.00079
+0.00079
+i = 703	 hw_result = -0.10547	 sw_result = -0.10334	 err = 0.00213	 mean_err0.00079
+0.00079
+i = 704	 hw_result = 0.88916	 sw_result = 0.89103	 err = 0.00187	 mean_err0.00079
+0.00079
+i = 705	 hw_result = 0.61987	 sw_result = 0.61838	 err = 0.00149	 mean_err0.00079
+0.00079
+i = 706	 hw_result = 0.08203	 sw_result = 0.08160	 err = 0.00044	 mean_err0.00079
+0.00079
+i = 707	 hw_result = -0.30298	 sw_result = -0.30254	 err = 0.00044	 mean_err0.00079
+0.00079
+i = 708	 hw_result = -0.54712	 sw_result = -0.54701	 err = 0.00011	 mean_err0.00079
+0.00079
+i = 709	 hw_result = -0.78906	 sw_result = -0.78759	 err = 0.00147	 mean_err0.00079
+0.00079
+i = 710	 hw_result = -0.32910	 sw_result = -0.33115	 err = 0.00205	 mean_err0.00079
+0.00079
+i = 711	 hw_result = -0.14502	 sw_result = -0.14305	 err = 0.00197	 mean_err0.00079
+0.00079
+i = 712	 hw_result = 0.00684	 sw_result = 0.00724	 err = 0.00040	 mean_err0.00080
+0.00080
+i = 713	 hw_result = 0.11133	 sw_result = 0.11097	 err = 0.00036	 mean_err0.00080
+0.00080
+i = 714	 hw_result = -0.00391	 sw_result = -0.00543	 err = 0.00152	 mean_err0.00080
+0.00080
+i = 715	 hw_result = 0.25830	 sw_result = 0.25777	 err = 0.00054	 mean_err0.00080
+0.00080
+i = 716	 hw_result = 0.05200	 sw_result = 0.05040	 err = 0.00160	 mean_err0.00080
+0.00080
+i = 717	 hw_result = -0.58057	 sw_result = -0.57842	 err = 0.00215	 mean_err0.00080
+0.00080
+i = 718	 hw_result = -0.03516	 sw_result = -0.03349	 err = 0.00167	 mean_err0.00080
+0.00080
+i = 719	 hw_result = -0.13940	 sw_result = -0.13743	 err = 0.00197	 mean_err0.00080
+0.00080
+i = 720	 hw_result = -0.09570	 sw_result = -0.09744	 err = 0.00174	 mean_err0.00080
+0.00080
+i = 721	 hw_result = -0.03491	 sw_result = -0.03613	 err = 0.00121	 mean_err0.00081
+0.00081
+i = 722	 hw_result = 0.09937	 sw_result = 0.09854	 err = 0.00083	 mean_err0.00081
+0.00081
+i = 723	 hw_result = 0.27417	 sw_result = 0.27188	 err = 0.00229	 mean_err0.00081
+0.00081
+i = 724	 hw_result = 0.43848	 sw_result = 0.43677	 err = 0.00171	 mean_err0.00081
+0.00081
+i = 725	 hw_result = -0.11841	 sw_result = -0.11900	 err = 0.00059	 mean_err0.00081
+0.00081
+i = 726	 hw_result = -0.47534	 sw_result = -0.47407	 err = 0.00127	 mean_err0.00081
+0.00081
+i = 727	 hw_result = -0.58472	 sw_result = -0.58576	 err = 0.00104	 mean_err0.00081
+0.00081
+i = 728	 hw_result = -0.80005	 sw_result = -0.80139	 err = 0.00134	 mean_err0.00081
+0.00081
+i = 729	 hw_result = -0.62256	 sw_result = -0.62272	 err = 0.00016	 mean_err0.00081
+0.00081
+i = 730	 hw_result = 0.03784	 sw_result = 0.03729	 err = 0.00055	 mean_err0.00081
+0.00081
+i = 731	 hw_result = 0.34644	 sw_result = 0.34589	 err = 0.00054	 mean_err0.00081
+0.00081
+i = 732	 hw_result = -0.53076	 sw_result = -0.53101	 err = 0.00025	 mean_err0.00081
+0.00081
+i = 733	 hw_result = 0.04272	 sw_result = 0.04390	 err = 0.00118	 mean_err0.00081
+0.00081
+i = 734	 hw_result = -0.03076	 sw_result = -0.03036	 err = 0.00040	 mean_err0.00082
+0.00082
+i = 735	 hw_result = -1.01392	 sw_result = -1.01266	 err = 0.00126	 mean_err0.00082
+0.00082
+i = 736	 hw_result = -0.40747	 sw_result = -0.40731	 err = 0.00016	 mean_err0.00082
+0.00082
+i = 737	 hw_result = 0.51001	 sw_result = 0.50825	 err = 0.00176	 mean_err0.00082
+0.00082
+i = 738	 hw_result = 0.08813	 sw_result = 0.08843	 err = 0.00029	 mean_err0.00082
+0.00082
+i = 739	 hw_result = 0.03174	 sw_result = 0.03186	 err = 0.00012	 mean_err0.00082
+0.00082
+i = 740	 hw_result = -0.32739	 sw_result = -0.32662	 err = 0.00077	 mean_err0.00082
+0.00082
+i = 741	 hw_result = -0.49121	 sw_result = -0.49083	 err = 0.00038	 mean_err0.00082
+0.00082
+i = 742	 hw_result = -0.45312	 sw_result = -0.45205	 err = 0.00108	 mean_err0.00082
+0.00082
+i = 743	 hw_result = -0.32788	 sw_result = -0.32523	 err = 0.00265	 mean_err0.00082
+0.00082
+i = 744	 hw_result = -0.51318	 sw_result = -0.51362	 err = 0.00043	 mean_err0.00082
+0.00082
+i = 745	 hw_result = -0.35425	 sw_result = -0.35545	 err = 0.00120	 mean_err0.00082
+0.00082
+i = 746	 hw_result = 0.03613	 sw_result = 0.03427	 err = 0.00186	 mean_err0.00082
+0.00082
+i = 747	 hw_result = -0.24341	 sw_result = -0.24275	 err = 0.00066	 mean_err0.00083
+0.00083
+i = 748	 hw_result = -0.30737	 sw_result = -0.30830	 err = 0.00092	 mean_err0.00083
+0.00083
+i = 749	 hw_result = 0.17163	 sw_result = 0.17046	 err = 0.00117	 mean_err0.00083
+0.00083
+i = 750	 hw_result = -0.07593	 sw_result = -0.07571	 err = 0.00022	 mean_err0.00083
+0.00083
+i = 751	 hw_result = -0.86670	 sw_result = -0.86689	 err = 0.00019	 mean_err0.00083
+0.00083
+i = 752	 hw_result = -0.81689	 sw_result = -0.81572	 err = 0.00117	 mean_err0.00083
+0.00083
+i = 753	 hw_result = -0.25024	 sw_result = -0.24951	 err = 0.00074	 mean_err0.00083
+0.00083
+i = 754	 hw_result = 0.59521	 sw_result = 0.59226	 err = 0.00295	 mean_err0.00083
+0.00083
+i = 755	 hw_result = -0.63599	 sw_result = -0.63457	 err = 0.00141	 mean_err0.00083
+0.00083
+i = 756	 hw_result = -0.91455	 sw_result = -0.91523	 err = 0.00068	 mean_err0.00083
+0.00083
+i = 757	 hw_result = -0.84204	 sw_result = -0.84210	 err = 0.00006	 mean_err0.00083
+0.00083
+i = 758	 hw_result = -0.35229	 sw_result = -0.35157	 err = 0.00072	 mean_err0.00083
+0.00083
+i = 759	 hw_result = -0.04272	 sw_result = -0.04097	 err = 0.00175	 mean_err0.00083
+0.00083
+i = 760	 hw_result = -0.28467	 sw_result = -0.28540	 err = 0.00073	 mean_err0.00084
+0.00084
+i = 761	 hw_result = -0.11694	 sw_result = -0.11723	 err = 0.00029	 mean_err0.00084
+0.00084
+i = 762	 hw_result = 0.25269	 sw_result = 0.25378	 err = 0.00110	 mean_err0.00084
+0.00084
+i = 763	 hw_result = -0.57715	 sw_result = -0.57811	 err = 0.00096	 mean_err0.00084
+0.00084
+i = 764	 hw_result = -0.51440	 sw_result = -0.51201	 err = 0.00239	 mean_err0.00084
+0.00084
+i = 765	 hw_result = -0.34058	 sw_result = -0.34221	 err = 0.00163	 mean_err0.00084
+0.00084
+i = 766	 hw_result = -0.24829	 sw_result = -0.24789	 err = 0.00040	 mean_err0.00084
+0.00084
+i = 767	 hw_result = -0.64722	 sw_result = -0.64767	 err = 0.00045	 mean_err0.00084
+0.00084
+i = 768	 hw_result = -0.58374	 sw_result = -0.58576	 err = 0.00202	 mean_err0.00084
+0.00084
+i = 769	 hw_result = 0.46045	 sw_result = 0.45791	 err = 0.00254	 mean_err0.00084
+0.00084
+i = 770	 hw_result = 0.05811	 sw_result = 0.05771	 err = 0.00040	 mean_err0.00085
+0.00085
+i = 771	 hw_result = -0.17334	 sw_result = -0.17437	 err = 0.00103	 mean_err0.00085
+0.00085
+i = 772	 hw_result = -0.10352	 sw_result = -0.10053	 err = 0.00299	 mean_err0.00085
+0.00085
+i = 773	 hw_result = -0.45581	 sw_result = -0.45803	 err = 0.00222	 mean_err0.00085
+0.00085
+i = 774	 hw_result = -0.35815	 sw_result = -0.35513	 err = 0.00302	 mean_err0.00085
+0.00085
+i = 775	 hw_result = -0.46777	 sw_result = -0.46715	 err = 0.00063	 mean_err0.00085
+0.00085
+i = 776	 hw_result = -0.89990	 sw_result = -0.90338	 err = 0.00347	 mean_err0.00086
+0.00086
+i = 777	 hw_result = -0.68994	 sw_result = -0.68795	 err = 0.00200	 mean_err0.00086
+0.00086
+i = 778	 hw_result = -0.19580	 sw_result = -0.19859	 err = 0.00279	 mean_err0.00086
+0.00086
+i = 779	 hw_result = -0.32080	 sw_result = -0.32259	 err = 0.00179	 mean_err0.00086
+0.00086
+i = 780	 hw_result = -0.41650	 sw_result = -0.41609	 err = 0.00042	 mean_err0.00086
+0.00086
+i = 781	 hw_result = -0.20239	 sw_result = -0.20085	 err = 0.00154	 mean_err0.00086
+0.00086
+i = 782	 hw_result = 0.11279	 sw_result = 0.11239	 err = 0.00040	 mean_err0.00086
+0.00086
+i = 783	 hw_result = -0.91626	 sw_result = -0.91873	 err = 0.00247	 mean_err0.00086
+0.00086
+i = 784	 hw_result = -0.82227	 sw_result = -0.81737	 err = 0.00489	 mean_err0.00087
+0.00087
+i = 785	 hw_result = -0.44116	 sw_result = -0.44353	 err = 0.00237	 mean_err0.00087
+0.00087
+i = 786	 hw_result = -0.08740	 sw_result = -0.08804	 err = 0.00064	 mean_err0.00087
+0.00087
+i = 787	 hw_result = -0.42090	 sw_result = -0.41911	 err = 0.00179	 mean_err0.00087
+0.00087
+i = 788	 hw_result = -0.57593	 sw_result = -0.57708	 err = 0.00115	 mean_err0.00087
+0.00087
+i = 789	 hw_result = -0.31982	 sw_result = -0.31842	 err = 0.00141	 mean_err0.00087
+0.00087
+i = 790	 hw_result = 0.04395	 sw_result = 0.04528	 err = 0.00133	 mean_err0.00088
+0.00088
+i = 791	 hw_result = -0.09326	 sw_result = -0.09270	 err = 0.00056	 mean_err0.00088
+0.00088
+i = 792	 hw_result = 0.02393	 sw_result = 0.02359	 err = 0.00034	 mean_err0.00088
+0.00088
+i = 793	 hw_result = -0.73291	 sw_result = -0.73234	 err = 0.00057	 mean_err0.00088
+0.00088
+i = 794	 hw_result = -0.79932	 sw_result = -0.79857	 err = 0.00075	 mean_err0.00088
+0.00088
+i = 795	 hw_result = -0.81299	 sw_result = -0.81184	 err = 0.00115	 mean_err0.00088
+0.00088
+i = 796	 hw_result = -0.45239	 sw_result = -0.45228	 err = 0.00011	 mean_err0.00088
+0.00088
+i = 797	 hw_result = 0.46680	 sw_result = 0.46579	 err = 0.00101	 mean_err0.00088
+0.00088
+i = 798	 hw_result = 0.10034	 sw_result = 0.10322	 err = 0.00288	 mean_err0.00088
+0.00088
+i = 799	 hw_result = -0.47729	 sw_result = -0.47586	 err = 0.00143	 mean_err0.00088
+0.00088
+i = 800	 hw_result = -0.20776	 sw_result = -0.20873	 err = 0.00097	 mean_err0.00088
+0.00088
+i = 801	 hw_result = 0.18335	 sw_result = 0.18295	 err = 0.00040	 mean_err0.00088
+0.00088
+i = 802	 hw_result = 0.03540	 sw_result = 0.03432	 err = 0.00108	 mean_err0.00088
+0.00088
+i = 803	 hw_result = -0.47656	 sw_result = -0.47660	 err = 0.00003	 mean_err0.00088
+0.00088
+i = 804	 hw_result = -1.07251	 sw_result = -1.06850	 err = 0.00401	 mean_err0.00089
+0.00089
+i = 805	 hw_result = -0.58716	 sw_result = -0.58730	 err = 0.00015	 mean_err0.00089
+0.00089
+i = 806	 hw_result = -0.03149	 sw_result = -0.03123	 err = 0.00027	 mean_err0.00089
+0.00089
+i = 807	 hw_result = 0.04565	 sw_result = 0.04544	 err = 0.00021	 mean_err0.00089
+0.00089
+i = 808	 hw_result = 0.11523	 sw_result = 0.11384	 err = 0.00139	 mean_err0.00089
+0.00089
+i = 809	 hw_result = 0.03809	 sw_result = 0.03809	 err = 0.00001	 mean_err0.00089
+0.00089
+i = 810	 hw_result = -0.18237	 sw_result = -0.18303	 err = 0.00066	 mean_err0.00089
+0.00089
+i = 811	 hw_result = -0.26831	 sw_result = -0.26761	 err = 0.00070	 mean_err0.00089
+0.00089
+i = 812	 hw_result = -0.31250	 sw_result = -0.31048	 err = 0.00202	 mean_err0.00089
+0.00089
+i = 813	 hw_result = 0.09985	 sw_result = 0.10281	 err = 0.00296	 mean_err0.00089
+0.00089
+i = 814	 hw_result = 0.06665	 sw_result = 0.06825	 err = 0.00160	 mean_err0.00090
+0.00090
+i = 815	 hw_result = -0.71875	 sw_result = -0.71540	 err = 0.00335	 mean_err0.00090
+0.00090
+i = 816	 hw_result = -0.66797	 sw_result = -0.66874	 err = 0.00077	 mean_err0.00090
+0.00090
+i = 817	 hw_result = 0.03320	 sw_result = 0.03356	 err = 0.00036	 mean_err0.00090
+0.00090
+i = 818	 hw_result = 0.24512	 sw_result = 0.24665	 err = 0.00153	 mean_err0.00090
+0.00090
+i = 819	 hw_result = 0.06445	 sw_result = 0.06494	 err = 0.00048	 mean_err0.00090
+0.00090
+i = 820	 hw_result = 0.42700	 sw_result = 0.42895	 err = 0.00195	 mean_err0.00090
+0.00090
+i = 821	 hw_result = -0.20459	 sw_result = -0.20736	 err = 0.00277	 mean_err0.00090
+0.00090
+i = 822	 hw_result = -0.68774	 sw_result = -0.68810	 err = 0.00035	 mean_err0.00091
+0.00091
+i = 823	 hw_result = -0.47827	 sw_result = -0.47758	 err = 0.00069	 mean_err0.00091
+0.00091
+i = 824	 hw_result = 0.00708	 sw_result = 0.00636	 err = 0.00072	 mean_err0.00091
+0.00091
+i = 825	 hw_result = 0.00928	 sw_result = 0.00648	 err = 0.00280	 mean_err0.00091
+0.00091
+i = 826	 hw_result = -0.23755	 sw_result = -0.23862	 err = 0.00108	 mean_err0.00091
+0.00091
+i = 827	 hw_result = -0.30444	 sw_result = -0.30463	 err = 0.00019	 mean_err0.00091
+0.00091
+i = 828	 hw_result = -0.38525	 sw_result = -0.38325	 err = 0.00200	 mean_err0.00091
+0.00091
+i = 829	 hw_result = -0.40674	 sw_result = -0.40617	 err = 0.00057	 mean_err0.00091
+0.00091
+i = 830	 hw_result = 0.00903	 sw_result = 0.00908	 err = 0.00005	 mean_err0.00091
+0.00091
+i = 831	 hw_result = -0.21875	 sw_result = -0.21845	 err = 0.00030	 mean_err0.00091
+0.00091
+i = 832	 hw_result = -0.89600	 sw_result = -0.89795	 err = 0.00195	 mean_err0.00091
+0.00091
+i = 833	 hw_result = -0.15845	 sw_result = -0.15771	 err = 0.00073	 mean_err0.00091
+0.00091
+i = 834	 hw_result = -0.05249	 sw_result = -0.05180	 err = 0.00069	 mean_err0.00091
+0.00091
+i = 835	 hw_result = 0.30688	 sw_result = 0.30940	 err = 0.00251	 mean_err0.00092
+0.00092
+i = 836	 hw_result = 0.50415	 sw_result = 0.50258	 err = 0.00157	 mean_err0.00092
+0.00092
+i = 837	 hw_result = 0.16846	 sw_result = 0.16659	 err = 0.00186	 mean_err0.00092
+0.00092
+i = 838	 hw_result = -0.04028	 sw_result = -0.03846	 err = 0.00182	 mean_err0.00092
+0.00092
+i = 839	 hw_result = -0.32812	 sw_result = -0.32674	 err = 0.00139	 mean_err0.00092
+0.00092
+i = 840	 hw_result = 0.23071	 sw_result = 0.22914	 err = 0.00157	 mean_err0.00092
+0.00092
+i = 841	 hw_result = 0.69897	 sw_result = 0.69398	 err = 0.00500	 mean_err0.00093
+0.00093
+i = 842	 hw_result = -0.37720	 sw_result = -0.37863	 err = 0.00144	 mean_err0.00093
+0.00093
+i = 843	 hw_result = -0.30420	 sw_result = -0.30291	 err = 0.00129	 mean_err0.00093
+0.00093
+i = 844	 hw_result = -0.25830	 sw_result = -0.25865	 err = 0.00035	 mean_err0.00093
+0.00093
+i = 845	 hw_result = -0.41211	 sw_result = -0.41077	 err = 0.00134	 mean_err0.00093
+0.00093
+i = 846	 hw_result = 0.23828	 sw_result = 0.24105	 err = 0.00276	 mean_err0.00093
+0.00093
+i = 847	 hw_result = 0.22925	 sw_result = 0.22839	 err = 0.00086	 mean_err0.00093
+0.00093
+i = 848	 hw_result = -0.45532	 sw_result = -0.45449	 err = 0.00083	 mean_err0.00093
+0.00093
+i = 849	 hw_result = -0.26465	 sw_result = -0.26480	 err = 0.00015	 mean_err0.00093
+0.00093
+i = 850	 hw_result = -0.38599	 sw_result = -0.38617	 err = 0.00019	 mean_err0.00093
+0.00093
+i = 851	 hw_result = -0.88135	 sw_result = -0.87903	 err = 0.00232	 mean_err0.00094
+0.00094
+i = 852	 hw_result = -0.04785	 sw_result = -0.04949	 err = 0.00164	 mean_err0.00094
+0.00094
+i = 853	 hw_result = 0.17188	 sw_result = 0.17150	 err = 0.00038	 mean_err0.00094
+0.00094
+i = 854	 hw_result = -0.26489	 sw_result = -0.26572	 err = 0.00083	 mean_err0.00094
+0.00094
+i = 855	 hw_result = -0.31592	 sw_result = -0.31619	 err = 0.00027	 mean_err0.00094
+0.00094
+i = 856	 hw_result = 0.50073	 sw_result = 0.49880	 err = 0.00193	 mean_err0.00094
+0.00094
+i = 857	 hw_result = 0.43335	 sw_result = 0.43422	 err = 0.00087	 mean_err0.00094
+0.00094
+i = 858	 hw_result = 0.24878	 sw_result = 0.24793	 err = 0.00085	 mean_err0.00094
+0.00094
+i = 859	 hw_result = 0.11426	 sw_result = 0.11301	 err = 0.00125	 mean_err0.00094
+0.00094
+i = 860	 hw_result = -0.15698	 sw_result = -0.15530	 err = 0.00168	 mean_err0.00094
+0.00094
+i = 861	 hw_result = 0.24023	 sw_result = 0.23832	 err = 0.00192	 mean_err0.00095
+0.00095
+i = 862	 hw_result = 0.16382	 sw_result = 0.16152	 err = 0.00230	 mean_err0.00095
+0.00095
+i = 863	 hw_result = -0.05591	 sw_result = -0.05319	 err = 0.00272	 mean_err0.00095
+0.00095
+i = 864	 hw_result = -0.33643	 sw_result = -0.33544	 err = 0.00099	 mean_err0.00095
+0.00095
+i = 865	 hw_result = -0.37036	 sw_result = -0.37177	 err = 0.00141	 mean_err0.00095
+0.00095
+i = 866	 hw_result = -0.24365	 sw_result = -0.24615	 err = 0.00250	 mean_err0.00095
+0.00095
+i = 867	 hw_result = -0.23389	 sw_result = -0.23365	 err = 0.00024	 mean_err0.00095
+0.00095
+i = 868	 hw_result = -0.16040	 sw_result = -0.15911	 err = 0.00129	 mean_err0.00095
+0.00095
+i = 869	 hw_result = 0.10254	 sw_result = 0.10390	 err = 0.00136	 mean_err0.00096
+0.00096
+i = 870	 hw_result = -0.19849	 sw_result = -0.19850	 err = 0.00002	 mean_err0.00096
+0.00096
+i = 871	 hw_result = -0.62598	 sw_result = -0.62582	 err = 0.00016	 mean_err0.00096
+0.00096
+i = 872	 hw_result = -0.26416	 sw_result = -0.26482	 err = 0.00066	 mean_err0.00096
+0.00096
+i = 873	 hw_result = 0.23853	 sw_result = 0.23624	 err = 0.00228	 mean_err0.00096
+0.00096
+i = 874	 hw_result = 0.23096	 sw_result = 0.22936	 err = 0.00160	 mean_err0.00096
+0.00096
+i = 875	 hw_result = -0.10425	 sw_result = -0.10446	 err = 0.00022	 mean_err0.00096
+0.00096
+i = 876	 hw_result = 0.61450	 sw_result = 0.61809	 err = 0.00359	 mean_err0.00096
+0.00096
+i = 877	 hw_result = -0.12231	 sw_result = -0.12272	 err = 0.00041	 mean_err0.00096
+0.00096
+i = 878	 hw_result = -0.31934	 sw_result = -0.32001	 err = 0.00067	 mean_err0.00096
+0.00096
+i = 879	 hw_result = 0.54761	 sw_result = 0.54571	 err = 0.00189	 mean_err0.00097
+0.00097
+i = 880	 hw_result = -0.34790	 sw_result = -0.34861	 err = 0.00071	 mean_err0.00097
+0.00097
+i = 881	 hw_result = -0.10425	 sw_result = -0.10632	 err = 0.00207	 mean_err0.00097
+0.00097
+i = 882	 hw_result = -0.02319	 sw_result = -0.02379	 err = 0.00059	 mean_err0.00097
+0.00097
+i = 883	 hw_result = -0.00195	 sw_result = -0.00302	 err = 0.00107	 mean_err0.00097
+0.00097
+i = 884	 hw_result = -0.14136	 sw_result = -0.14039	 err = 0.00097	 mean_err0.00097
+0.00097
+i = 885	 hw_result = -0.37646	 sw_result = -0.37528	 err = 0.00118	 mean_err0.00097
+0.00097
+i = 886	 hw_result = 0.00098	 sw_result = 0.00114	 err = 0.00016	 mean_err0.00097
+0.00097
+i = 887	 hw_result = 0.42090	 sw_result = 0.42232	 err = 0.00142	 mean_err0.00097
+0.00097
+i = 888	 hw_result = 0.47021	 sw_result = 0.47070	 err = 0.00049	 mean_err0.00097
+0.00097
+i = 889	 hw_result = -0.27783	 sw_result = -0.27926	 err = 0.00143	 mean_err0.00097
+0.00097
+i = 890	 hw_result = -0.43262	 sw_result = -0.43215	 err = 0.00046	 mean_err0.00097
+0.00097
+i = 891	 hw_result = -0.34546	 sw_result = -0.34594	 err = 0.00048	 mean_err0.00097
+0.00097
+i = 892	 hw_result = -0.50659	 sw_result = -0.50559	 err = 0.00100	 mean_err0.00097
+0.00097
+i = 893	 hw_result = -0.51904	 sw_result = -0.51962	 err = 0.00058	 mean_err0.00098
+0.00098
+i = 894	 hw_result = 0.58057	 sw_result = 0.58412	 err = 0.00356	 mean_err0.00098
+0.00098
+i = 895	 hw_result = 0.36816	 sw_result = 0.36667	 err = 0.00150	 mean_err0.00098
+0.00098
+i = 896	 hw_result = 0.00220	 sw_result = 0.00243	 err = 0.00023	 mean_err0.00098
+0.00098
+i = 897	 hw_result = 0.59106	 sw_result = 0.59003	 err = 0.00104	 mean_err0.00098
+0.00098
+i = 898	 hw_result = 0.57031	 sw_result = 0.56713	 err = 0.00319	 mean_err0.00098
+0.00098
+i = 899	 hw_result = -0.70386	 sw_result = -0.70437	 err = 0.00052	 mean_err0.00098
+0.00098
+i = 900	 hw_result = -0.86719	 sw_result = -0.86476	 err = 0.00242	 mean_err0.00099
+0.00099
+i = 901	 hw_result = -0.76196	 sw_result = -0.76124	 err = 0.00072	 mean_err0.00099
+0.00099
+i = 902	 hw_result = -0.09082	 sw_result = -0.09105	 err = 0.00023	 mean_err0.00099
+0.00099
+i = 903	 hw_result = 0.06982	 sw_result = 0.07125	 err = 0.00143	 mean_err0.00099
+0.00099
+i = 904	 hw_result = 0.76758	 sw_result = 0.77219	 err = 0.00461	 mean_err0.00099
+0.00099
+i = 905	 hw_result = 0.72119	 sw_result = 0.72064	 err = 0.00055	 mean_err0.00099
+0.00099
+i = 906	 hw_result = -0.50903	 sw_result = -0.51024	 err = 0.00121	 mean_err0.00099
+0.00099
+i = 907	 hw_result = -0.14722	 sw_result = -0.14726	 err = 0.00005	 mean_err0.00099
+0.00099
+i = 908	 hw_result = 0.11914	 sw_result = 0.12034	 err = 0.00120	 mean_err0.00099
+0.00099
+i = 909	 hw_result = 0.00879	 sw_result = 0.00779	 err = 0.00100	 mean_err0.00099
+0.00099
+i = 910	 hw_result = 0.05249	 sw_result = 0.05339	 err = 0.00090	 mean_err0.00099
+0.00099
+i = 911	 hw_result = -0.12256	 sw_result = -0.12427	 err = 0.00171	 mean_err0.00100
+0.00100
+i = 912	 hw_result = -0.25269	 sw_result = -0.25255	 err = 0.00013	 mean_err0.00100
+0.00100
+i = 913	 hw_result = 0.53003	 sw_result = 0.52810	 err = 0.00193	 mean_err0.00100
+0.00100
+i = 914	 hw_result = 0.44458	 sw_result = 0.44401	 err = 0.00057	 mean_err0.00100
+0.00100
+i = 915	 hw_result = 0.46753	 sw_result = 0.46723	 err = 0.00030	 mean_err0.00100
+0.00100
+i = 916	 hw_result = -0.00366	 sw_result = -0.00335	 err = 0.00031	 mean_err0.00100
+0.00100
+i = 917	 hw_result = -0.31104	 sw_result = -0.31121	 err = 0.00017	 mean_err0.00100
+0.00100
+i = 918	 hw_result = -0.25000	 sw_result = -0.24959	 err = 0.00041	 mean_err0.00100
+0.00100
+i = 919	 hw_result = -0.62036	 sw_result = -0.61977	 err = 0.00060	 mean_err0.00100
+0.00100
+i = 920	 hw_result = -0.72119	 sw_result = -0.72236	 err = 0.00117	 mean_err0.00100
+0.00100
+i = 921	 hw_result = 0.15210	 sw_result = 0.15206	 err = 0.00004	 mean_err0.00100
+0.00100
+i = 922	 hw_result = -0.14624	 sw_result = -0.14871	 err = 0.00247	 mean_err0.00100
+0.00100
+i = 923	 hw_result = -0.56689	 sw_result = -0.56612	 err = 0.00077	 mean_err0.00100
+0.00100
+i = 924	 hw_result = -0.41895	 sw_result = -0.41764	 err = 0.00131	 mean_err0.00100
+0.00100
+i = 925	 hw_result = 0.31689	 sw_result = 0.31806	 err = 0.00117	 mean_err0.00101
+0.00101
+i = 926	 hw_result = 0.12085	 sw_result = 0.12242	 err = 0.00157	 mean_err0.00101
+0.00101
+i = 927	 hw_result = 0.21045	 sw_result = 0.21148	 err = 0.00103	 mean_err0.00101
+0.00101
+i = 928	 hw_result = -0.43066	 sw_result = -0.43115	 err = 0.00048	 mean_err0.00101
+0.00101
+i = 929	 hw_result = -0.55298	 sw_result = -0.55230	 err = 0.00068	 mean_err0.00101
+0.00101
+i = 930	 hw_result = -0.29028	 sw_result = -0.29176	 err = 0.00147	 mean_err0.00101
+0.00101
+i = 931	 hw_result = -0.05786	 sw_result = -0.05909	 err = 0.00123	 mean_err0.00101
+0.00101
+i = 932	 hw_result = 0.55713	 sw_result = 0.55340	 err = 0.00373	 mean_err0.00101
+0.00101
+i = 933	 hw_result = 0.44849	 sw_result = 0.45214	 err = 0.00366	 mean_err0.00102
+0.00102
+i = 934	 hw_result = 0.04492	 sw_result = 0.04410	 err = 0.00082	 mean_err0.00102
+0.00102
+i = 935	 hw_result = -0.11597	 sw_result = -0.11632	 err = 0.00035	 mean_err0.00102
+0.00102
+i = 936	 hw_result = 0.32642	 sw_result = 0.32642	 err = 0.00000	 mean_err0.00102
+0.00102
+i = 937	 hw_result = 0.22339	 sw_result = 0.22153	 err = 0.00186	 mean_err0.00102
+0.00102
+i = 938	 hw_result = -0.22095	 sw_result = -0.22189	 err = 0.00095	 mean_err0.00102
+0.00102
+i = 939	 hw_result = -0.53003	 sw_result = -0.53095	 err = 0.00092	 mean_err0.00102
+0.00102
+i = 940	 hw_result = -0.17358	 sw_result = -0.17364	 err = 0.00006	 mean_err0.00102
+0.00102
+i = 941	 hw_result = -0.03320	 sw_result = -0.03070	 err = 0.00250	 mean_err0.00102
+0.00102
+i = 942	 hw_result = 0.17090	 sw_result = 0.17455	 err = 0.00365	 mean_err0.00103
+0.00103
+i = 943	 hw_result = 0.09277	 sw_result = 0.09539	 err = 0.00262	 mean_err0.00103
+0.00103
+i = 944	 hw_result = -0.70801	 sw_result = -0.70665	 err = 0.00136	 mean_err0.00103
+0.00103
+i = 945	 hw_result = -0.02271	 sw_result = -0.02370	 err = 0.00100	 mean_err0.00103
+0.00103
+i = 946	 hw_result = -0.18945	 sw_result = -0.19004	 err = 0.00058	 mean_err0.00103
+0.00103
+i = 947	 hw_result = -0.52832	 sw_result = -0.52837	 err = 0.00005	 mean_err0.00103
+0.00103
+i = 948	 hw_result = 0.14868	 sw_result = 0.15013	 err = 0.00145	 mean_err0.00103
+0.00103
+i = 949	 hw_result = 0.37549	 sw_result = 0.37927	 err = 0.00378	 mean_err0.00103
+0.00103
+i = 950	 hw_result = -0.25610	 sw_result = -0.25477	 err = 0.00133	 mean_err0.00103
+0.00103
+i = 951	 hw_result = -0.47900	 sw_result = -0.47747	 err = 0.00153	 mean_err0.00104
+0.00104
+i = 952	 hw_result = -0.04614	 sw_result = -0.04496	 err = 0.00119	 mean_err0.00104
+0.00104
+i = 953	 hw_result = 0.32007	 sw_result = 0.32091	 err = 0.00084	 mean_err0.00104
+0.00104
+i = 954	 hw_result = -0.51611	 sw_result = -0.51648	 err = 0.00037	 mean_err0.00104
+0.00104
+i = 955	 hw_result = -0.86743	 sw_result = -0.86866	 err = 0.00123	 mean_err0.00104
+0.00104
+i = 956	 hw_result = -0.81079	 sw_result = -0.81056	 err = 0.00023	 mean_err0.00104
+0.00104
+i = 957	 hw_result = -0.47803	 sw_result = -0.47845	 err = 0.00042	 mean_err0.00104
+0.00104
+i = 958	 hw_result = -0.20312	 sw_result = -0.20406	 err = 0.00094	 mean_err0.00104
+0.00104
+i = 959	 hw_result = 0.33252	 sw_result = 0.33393	 err = 0.00142	 mean_err0.00104
+0.00104
+i = 960	 hw_result = 0.54858	 sw_result = 0.54921	 err = 0.00063	 mean_err0.00104
+0.00104
+i = 961	 hw_result = 0.29443	 sw_result = 0.29488	 err = 0.00045	 mean_err0.00104
+0.00104
+i = 962	 hw_result = -0.71191	 sw_result = -0.70959	 err = 0.00233	 mean_err0.00104
+0.00104
+i = 963	 hw_result = -0.22778	 sw_result = -0.22657	 err = 0.00121	 mean_err0.00105
+0.00105
+i = 964	 hw_result = -0.39282	 sw_result = -0.39160	 err = 0.00122	 mean_err0.00105
+0.00105
+i = 965	 hw_result = -0.20190	 sw_result = -0.20268	 err = 0.00078	 mean_err0.00105
+0.00105
+i = 966	 hw_result = -0.09302	 sw_result = -0.09303	 err = 0.00001	 mean_err0.00105
+0.00105
+i = 967	 hw_result = -0.47119	 sw_result = -0.46972	 err = 0.00147	 mean_err0.00105
+0.00105
+i = 968	 hw_result = -0.05835	 sw_result = -0.05914	 err = 0.00079	 mean_err0.00105
+0.00105
+i = 969	 hw_result = 0.05029	 sw_result = 0.04769	 err = 0.00260	 mean_err0.00105
+0.00105
+i = 970	 hw_result = -0.27954	 sw_result = -0.28129	 err = 0.00175	 mean_err0.00105
+0.00105
+i = 971	 hw_result = 0.00928	 sw_result = 0.01026	 err = 0.00099	 mean_err0.00105
+0.00105
+i = 972	 hw_result = 0.02148	 sw_result = 0.02206	 err = 0.00058	 mean_err0.00105
+0.00105
+i = 973	 hw_result = -0.33057	 sw_result = -0.32986	 err = 0.00071	 mean_err0.00105
+0.00105
+i = 974	 hw_result = -0.64014	 sw_result = -0.63913	 err = 0.00100	 mean_err0.00105
+0.00105
+i = 975	 hw_result = -0.60352	 sw_result = -0.60308	 err = 0.00043	 mean_err0.00105
+0.00105
+i = 976	 hw_result = 0.09644	 sw_result = 0.09488	 err = 0.00156	 mean_err0.00106
+0.00106
+i = 977	 hw_result = 0.02368	 sw_result = 0.02295	 err = 0.00073	 mean_err0.00106
+0.00106
+i = 978	 hw_result = -0.60596	 sw_result = -0.60497	 err = 0.00098	 mean_err0.00106
+0.00106
+i = 979	 hw_result = -0.83813	 sw_result = -0.83893	 err = 0.00080	 mean_err0.00106
+0.00106
+i = 980	 hw_result = -0.52319	 sw_result = -0.52502	 err = 0.00183	 mean_err0.00106
+0.00106
+i = 981	 hw_result = 0.04907	 sw_result = 0.04754	 err = 0.00153	 mean_err0.00106
+0.00106
+i = 982	 hw_result = -0.41870	 sw_result = -0.41657	 err = 0.00213	 mean_err0.00106
+0.00106
+i = 983	 hw_result = -0.35645	 sw_result = -0.35428	 err = 0.00217	 mean_err0.00106
+0.00106
+i = 984	 hw_result = -0.14893	 sw_result = -0.14846	 err = 0.00047	 mean_err0.00106
+0.00106
+i = 985	 hw_result = -0.19751	 sw_result = -0.19788	 err = 0.00037	 mean_err0.00106
+0.00106
+i = 986	 hw_result = 0.27124	 sw_result = 0.26922	 err = 0.00202	 mean_err0.00107
+0.00107
+i = 987	 hw_result = 0.73291	 sw_result = 0.73128	 err = 0.00163	 mean_err0.00107
+0.00107
+i = 988	 hw_result = 0.12646	 sw_result = 0.12592	 err = 0.00054	 mean_err0.00107
+0.00107
+i = 989	 hw_result = -0.67749	 sw_result = -0.67898	 err = 0.00149	 mean_err0.00107
+0.00107
+i = 990	 hw_result = -0.93188	 sw_result = -0.93238	 err = 0.00049	 mean_err0.00107
+0.00107
+i = 991	 hw_result = -0.51416	 sw_result = -0.51374	 err = 0.00042	 mean_err0.00107
+0.00107
+i = 992	 hw_result = 0.10474	 sw_result = 0.10482	 err = 0.00008	 mean_err0.00107
+0.00107
+i = 993	 hw_result = 0.16309	 sw_result = 0.16237	 err = 0.00071	 mean_err0.00107
+0.00107
+i = 994	 hw_result = -0.32349	 sw_result = -0.32399	 err = 0.00051	 mean_err0.00107
+0.00107
+i = 995	 hw_result = -0.47192	 sw_result = -0.47122	 err = 0.00070	 mean_err0.00107
+0.00107
+i = 996	 hw_result = 0.48267	 sw_result = 0.48547	 err = 0.00280	 mean_err0.00107
+0.00107
+i = 997	 hw_result = 0.11206	 sw_result = 0.11250	 err = 0.00044	 mean_err0.00107
+0.00107
+i = 998	 hw_result = -0.34546	 sw_result = -0.34598	 err = 0.00052	 mean_err0.00107
+0.00107
+i = 999	 hw_result = -0.67139	 sw_result = -0.67070	 err = 0.00069	 mean_err0.00108
+0.00108
+i = 1000	 hw_result = -0.73438	 sw_result = -0.73381	 err = 0.00057	 mean_err0.00108
+0.00108
+i = 1001	 hw_result = -0.85303	 sw_result = -0.84989	 err = 0.00314	 mean_err0.00108
+0.00108
+i = 1002	 hw_result = -0.51074	 sw_result = -0.51311	 err = 0.00236	 mean_err0.00108
+0.00108
+i = 1003	 hw_result = 0.36475	 sw_result = 0.36599	 err = 0.00125	 mean_err0.00108
+0.00108
+i = 1004	 hw_result = 0.39014	 sw_result = 0.39303	 err = 0.00290	 mean_err0.00108
+0.00108
+i = 1005	 hw_result = -0.66284	 sw_result = -0.66290	 err = 0.00005	 mean_err0.00108
+0.00108
+i = 1006	 hw_result = -0.43262	 sw_result = -0.43092	 err = 0.00170	 mean_err0.00108
+0.00108
+i = 1007	 hw_result = -0.36279	 sw_result = -0.36271	 err = 0.00008	 mean_err0.00109
+0.00109
+i = 1008	 hw_result = -0.10815	 sw_result = -0.10822	 err = 0.00007	 mean_err0.00109
+0.00109
+i = 1009	 hw_result = -0.01831	 sw_result = -0.01678	 err = 0.00153	 mean_err0.00109
+0.00109
+i = 1010	 hw_result = -0.35254	 sw_result = -0.35295	 err = 0.00041	 mean_err0.00109
+0.00109
+i = 1011	 hw_result = -0.36279	 sw_result = -0.36444	 err = 0.00164	 mean_err0.00109
+0.00109
+i = 1012	 hw_result = -0.66699	 sw_result = -0.66726	 err = 0.00026	 mean_err0.00109
+0.00109
+i = 1013	 hw_result = -0.60571	 sw_result = -0.60677	 err = 0.00106	 mean_err0.00109
+0.00109
+i = 1014	 hw_result = 0.51123	 sw_result = 0.51163	 err = 0.00040	 mean_err0.00109
+0.00109
+i = 1015	 hw_result = -0.13818	 sw_result = -0.13722	 err = 0.00097	 mean_err0.00109
+0.00109
+i = 1016	 hw_result = -0.35376	 sw_result = -0.35395	 err = 0.00019	 mean_err0.00109
+0.00109
+i = 1017	 hw_result = -0.21631	 sw_result = -0.21621	 err = 0.00010	 mean_err0.00109
+0.00109
+i = 1018	 hw_result = -0.20264	 sw_result = -0.20051	 err = 0.00213	 mean_err0.00109
+0.00109
+i = 1019	 hw_result = -0.22607	 sw_result = -0.22627	 err = 0.00019	 mean_err0.00109
+0.00109
+i = 1020	 hw_result = -0.59253	 sw_result = -0.59111	 err = 0.00142	 mean_err0.00109
+0.00109
+i = 1021	 hw_result = -0.95776	 sw_result = -0.95339	 err = 0.00438	 mean_err0.00110
+0.00110
+i = 1022	 hw_result = -0.58618	 sw_result = -0.58813	 err = 0.00195	 mean_err0.00110
+0.00110
+i = 1023	 hw_result = -0.23291	 sw_result = -0.23223	 err = 0.00068	 mean_err0.00110
+0.00110
+i = 1024	 hw_result = 0.04272	 sw_result = 0.04258	 err = 0.00014	 mean_err0.00110
+0.00110
+i = 1025	 hw_result = 0.25928	 sw_result = 0.25894	 err = 0.00034	 mean_err0.00110
+0.00110
+i = 1026	 hw_result = 0.01978	 sw_result = 0.01803	 err = 0.00174	 mean_err0.00110
+0.00110
+i = 1027	 hw_result = -0.52417	 sw_result = -0.52522	 err = 0.00105	 mean_err0.00110
+0.00110
+i = 1028	 hw_result = -0.82373	 sw_result = -0.82102	 err = 0.00271	 mean_err0.00110
+0.00110
+i = 1029	 hw_result = -0.65918	 sw_result = -0.66051	 err = 0.00133	 mean_err0.00110
+0.00110
+i = 1030	 hw_result = -0.72559	 sw_result = -0.72645	 err = 0.00086	 mean_err0.00111
+0.00111
+i = 1031	 hw_result = -0.81592	 sw_result = -0.81518	 err = 0.00074	 mean_err0.00111
+0.00111
+i = 1032	 hw_result = 0.22217	 sw_result = 0.21997	 err = 0.00219	 mean_err0.00111
+0.00111
+i = 1033	 hw_result = 0.42407	 sw_result = 0.42199	 err = 0.00208	 mean_err0.00111
+0.00111
+i = 1034	 hw_result = 0.49170	 sw_result = 0.49093	 err = 0.00077	 mean_err0.00111
+0.00111
+i = 1035	 hw_result = 0.35815	 sw_result = 0.35770	 err = 0.00045	 mean_err0.00111
+0.00111
+i = 1036	 hw_result = -0.11816	 sw_result = -0.11726	 err = 0.00090	 mean_err0.00111
+0.00111
+i = 1037	 hw_result = -0.55005	 sw_result = -0.54756	 err = 0.00249	 mean_err0.00111
+0.00111
+i = 1038	 hw_result = -0.42139	 sw_result = -0.42000	 err = 0.00138	 mean_err0.00111
+0.00111
+i = 1039	 hw_result = -0.34277	 sw_result = -0.34122	 err = 0.00156	 mean_err0.00112
+0.00112
+i = 1040	 hw_result = -0.09253	 sw_result = -0.09233	 err = 0.00020	 mean_err0.00112
+0.00112
+i = 1041	 hw_result = -0.45093	 sw_result = -0.45249	 err = 0.00157	 mean_err0.00112
+0.00112
+i = 1042	 hw_result = 0.23438	 sw_result = 0.23488	 err = 0.00050	 mean_err0.00112
+0.00112
+i = 1043	 hw_result = -0.16138	 sw_result = -0.16091	 err = 0.00047	 mean_err0.00112
+0.00112
+i = 1044	 hw_result = -0.52881	 sw_result = -0.52837	 err = 0.00044	 mean_err0.00112
+0.00112
+i = 1045	 hw_result = -0.49121	 sw_result = -0.49011	 err = 0.00110	 mean_err0.00112
+0.00112
+i = 1046	 hw_result = 0.01489	 sw_result = 0.01758	 err = 0.00269	 mean_err0.00112
+0.00112
+i = 1047	 hw_result = -0.54150	 sw_result = -0.54168	 err = 0.00018	 mean_err0.00112
+0.00112
+i = 1048	 hw_result = -0.73462	 sw_result = -0.73309	 err = 0.00153	 mean_err0.00112
+0.00112
+i = 1049	 hw_result = -0.35669	 sw_result = -0.35672	 err = 0.00003	 mean_err0.00112
+0.00112
+i = 1050	 hw_result = -0.27539	 sw_result = -0.27741	 err = 0.00202	 mean_err0.00112
+0.00112
+i = 1051	 hw_result = -1.04028	 sw_result = -1.03669	 err = 0.00359	 mean_err0.00113
+0.00113
+i = 1052	 hw_result = -0.47974	 sw_result = -0.47929	 err = 0.00045	 mean_err0.00113
+0.00113
+i = 1053	 hw_result = -0.01123	 sw_result = -0.01186	 err = 0.00063	 mean_err0.00113
+0.00113
+i = 1054	 hw_result = 0.23975	 sw_result = 0.24254	 err = 0.00280	 mean_err0.00113
+0.00113
+i = 1055	 hw_result = 0.30542	 sw_result = 0.30407	 err = 0.00135	 mean_err0.00113
+0.00113
+i = 1056	 hw_result = 0.29614	 sw_result = 0.29554	 err = 0.00060	 mean_err0.00113
+0.00113
+i = 1057	 hw_result = -0.11108	 sw_result = -0.11059	 err = 0.00049	 mean_err0.00113
+0.00113
+i = 1058	 hw_result = -0.53149	 sw_result = -0.53268	 err = 0.00119	 mean_err0.00113
+0.00113
+i = 1059	 hw_result = -0.46191	 sw_result = -0.46478	 err = 0.00287	 mean_err0.00114
+0.00114
+i = 1060	 hw_result = -0.53418	 sw_result = -0.53323	 err = 0.00095	 mean_err0.00114
+0.00114
+i = 1061	 hw_result = -0.15527	 sw_result = -0.15538	 err = 0.00011	 mean_err0.00114
+0.00114
+i = 1062	 hw_result = 0.39111	 sw_result = 0.39175	 err = 0.00063	 mean_err0.00114
+0.00114
+i = 1063	 hw_result = 0.44116	 sw_result = 0.43775	 err = 0.00341	 mean_err0.00114
+0.00114
+i = 1064	 hw_result = 0.39404	 sw_result = 0.39482	 err = 0.00078	 mean_err0.00114
+0.00114
+i = 1065	 hw_result = -0.24634	 sw_result = -0.24601	 err = 0.00033	 mean_err0.00114
+0.00114
+i = 1066	 hw_result = -0.58618	 sw_result = -0.58538	 err = 0.00080	 mean_err0.00114
+0.00114
+i = 1067	 hw_result = -0.64966	 sw_result = -0.65365	 err = 0.00400	 mean_err0.00114
+0.00114
+i = 1068	 hw_result = -0.61255	 sw_result = -0.61171	 err = 0.00084	 mean_err0.00114
+0.00114
+i = 1069	 hw_result = -0.38599	 sw_result = -0.38584	 err = 0.00014	 mean_err0.00114
+0.00114
+i = 1070	 hw_result = 0.08960	 sw_result = 0.09212	 err = 0.00252	 mean_err0.00115
+0.00115
+i = 1071	 hw_result = -0.17578	 sw_result = -0.17327	 err = 0.00252	 mean_err0.00115
+0.00115
+i = 1072	 hw_result = -0.10059	 sw_result = -0.10317	 err = 0.00259	 mean_err0.00115
+0.00115
+i = 1073	 hw_result = 0.37915	 sw_result = 0.37779	 err = 0.00136	 mean_err0.00115
+0.00115
+i = 1074	 hw_result = -0.79321	 sw_result = -0.79293	 err = 0.00028	 mean_err0.00115
+0.00115
+i = 1075	 hw_result = -0.68726	 sw_result = -0.68911	 err = 0.00185	 mean_err0.00115
+0.00115
+i = 1076	 hw_result = -0.22949	 sw_result = -0.22818	 err = 0.00131	 mean_err0.00115
+0.00115
+i = 1077	 hw_result = 0.01636	 sw_result = 0.01544	 err = 0.00091	 mean_err0.00116
+0.00116
+i = 1078	 hw_result = 0.38623	 sw_result = 0.38638	 err = 0.00015	 mean_err0.00116
+0.00116
+i = 1079	 hw_result = 0.05103	 sw_result = 0.04971	 err = 0.00132	 mean_err0.00116
+0.00116
+i = 1080	 hw_result = -0.02661	 sw_result = -0.02752	 err = 0.00091	 mean_err0.00116
+0.00116
+i = 1081	 hw_result = -0.43115	 sw_result = -0.43243	 err = 0.00128	 mean_err0.00116
+0.00116
+i = 1082	 hw_result = -0.70874	 sw_result = -0.70907	 err = 0.00033	 mean_err0.00116
+0.00116
+i = 1083	 hw_result = -0.14307	 sw_result = -0.14255	 err = 0.00051	 mean_err0.00116
+0.00116
+i = 1084	 hw_result = -0.54858	 sw_result = -0.54958	 err = 0.00100	 mean_err0.00116
+0.00116
+i = 1085	 hw_result = -0.52954	 sw_result = -0.52886	 err = 0.00068	 mean_err0.00116
+0.00116
+i = 1086	 hw_result = -0.22021	 sw_result = -0.21904	 err = 0.00117	 mean_err0.00116
+0.00116
+i = 1087	 hw_result = -0.01196	 sw_result = -0.00895	 err = 0.00301	 mean_err0.00116
+0.00116
+i = 1088	 hw_result = 0.44019	 sw_result = 0.44172	 err = 0.00154	 mean_err0.00117
+0.00117
+i = 1089	 hw_result = -0.49731	 sw_result = -0.49843	 err = 0.00112	 mean_err0.00117
+0.00117
+i = 1090	 hw_result = -0.56738	 sw_result = -0.56861	 err = 0.00123	 mean_err0.00117
+0.00117
+i = 1091	 hw_result = -0.58032	 sw_result = -0.57907	 err = 0.00125	 mean_err0.00117
+0.00117
+i = 1092	 hw_result = -0.15112	 sw_result = -0.15024	 err = 0.00088	 mean_err0.00117
+0.00117
+i = 1093	 hw_result = 0.20679	 sw_result = 0.20927	 err = 0.00249	 mean_err0.00117
+0.00117
+i = 1094	 hw_result = -0.44873	 sw_result = -0.44719	 err = 0.00154	 mean_err0.00117
+0.00117
+i = 1095	 hw_result = -0.52197	 sw_result = -0.52008	 err = 0.00189	 mean_err0.00117
+0.00117
+i = 1096	 hw_result = 0.18042	 sw_result = 0.17822	 err = 0.00220	 mean_err0.00118
+0.00118
+i = 1097	 hw_result = -0.26050	 sw_result = -0.26158	 err = 0.00109	 mean_err0.00118
+0.00118
+i = 1098	 hw_result = 0.12451	 sw_result = 0.12152	 err = 0.00299	 mean_err0.00118
+0.00118
+i = 1099	 hw_result = 0.29565	 sw_result = 0.29487	 err = 0.00078	 mean_err0.00118
+0.00118
+i = 1100	 hw_result = -0.15259	 sw_result = -0.15190	 err = 0.00069	 mean_err0.00118
+0.00118
+i = 1101	 hw_result = -0.53687	 sw_result = -0.53789	 err = 0.00102	 mean_err0.00118
+0.00118
+i = 1102	 hw_result = -0.42065	 sw_result = -0.41906	 err = 0.00159	 mean_err0.00118
+0.00118
+i = 1103	 hw_result = -0.56689	 sw_result = -0.56694	 err = 0.00005	 mean_err0.00118
+0.00118
+i = 1104	 hw_result = -0.58154	 sw_result = -0.58095	 err = 0.00060	 mean_err0.00118
+0.00118
+i = 1105	 hw_result = -0.34937	 sw_result = -0.35080	 err = 0.00143	 mean_err0.00118
+0.00118
+i = 1106	 hw_result = 0.25293	 sw_result = 0.25319	 err = 0.00026	 mean_err0.00118
+0.00118
+i = 1107	 hw_result = 0.15210	 sw_result = 0.15237	 err = 0.00027	 mean_err0.00118
+0.00118
+i = 1108	 hw_result = 0.28149	 sw_result = 0.28051	 err = 0.00099	 mean_err0.00118
+0.00118
+i = 1109	 hw_result = 0.71069	 sw_result = 0.70641	 err = 0.00428	 mean_err0.00119
+0.00119
+i = 1110	 hw_result = -0.12598	 sw_result = -0.12578	 err = 0.00020	 mean_err0.00119
+0.00119
+i = 1111	 hw_result = -0.81543	 sw_result = -0.81541	 err = 0.00002	 mean_err0.00119
+0.00119
+i = 1112	 hw_result = -0.60083	 sw_result = -0.59962	 err = 0.00121	 mean_err0.00119
+0.00119
+i = 1113	 hw_result = -0.06958	 sw_result = -0.07104	 err = 0.00146	 mean_err0.00119
+0.00119
+i = 1114	 hw_result = 0.07764	 sw_result = 0.07718	 err = 0.00045	 mean_err0.00119
+0.00119
+i = 1115	 hw_result = 0.48950	 sw_result = 0.48955	 err = 0.00005	 mean_err0.00119
+0.00119
+i = 1116	 hw_result = 0.51318	 sw_result = 0.51179	 err = 0.00139	 mean_err0.00119
+0.00119
+i = 1117	 hw_result = -0.42871	 sw_result = -0.42955	 err = 0.00083	 mean_err0.00119
+0.00119
+i = 1118	 hw_result = -0.37256	 sw_result = -0.37166	 err = 0.00090	 mean_err0.00119
+0.00119
+i = 1119	 hw_result = -0.19092	 sw_result = -0.19018	 err = 0.00073	 mean_err0.00119
+0.00119
+i = 1120	 hw_result = -0.11987	 sw_result = -0.12198	 err = 0.00210	 mean_err0.00120
+0.00120
+i = 1121	 hw_result = -0.79517	 sw_result = -0.79618	 err = 0.00102	 mean_err0.00120
+0.00120
+i = 1122	 hw_result = -0.80811	 sw_result = -0.81055	 err = 0.00245	 mean_err0.00120
+0.00120
+i = 1123	 hw_result = -0.54419	 sw_result = -0.54463	 err = 0.00045	 mean_err0.00120
+0.00120
+i = 1124	 hw_result = 0.10815	 sw_result = 0.10785	 err = 0.00030	 mean_err0.00120
+0.00120
+i = 1125	 hw_result = 0.09668	 sw_result = 0.09615	 err = 0.00053	 mean_err0.00120
+0.00120
+i = 1126	 hw_result = -0.72266	 sw_result = -0.72062	 err = 0.00204	 mean_err0.00120
+0.00120
+i = 1127	 hw_result = -0.88696	 sw_result = -0.88879	 err = 0.00183	 mean_err0.00120
+0.00120
+i = 1128	 hw_result = -0.39795	 sw_result = -0.39862	 err = 0.00067	 mean_err0.00120
+0.00120
+i = 1129	 hw_result = 0.56177	 sw_result = 0.56204	 err = 0.00027	 mean_err0.00120
+0.00120
+i = 1130	 hw_result = -0.29468	 sw_result = -0.29535	 err = 0.00068	 mean_err0.00120
+0.00120
+i = 1131	 hw_result = -0.04980	 sw_result = -0.04915	 err = 0.00065	 mean_err0.00120
+0.00120
+i = 1132	 hw_result = -0.14575	 sw_result = -0.14757	 err = 0.00181	 mean_err0.00121
+0.00121
+i = 1133	 hw_result = -0.63696	 sw_result = -0.63499	 err = 0.00198	 mean_err0.00121
+0.00121
+i = 1134	 hw_result = -0.21094	 sw_result = -0.21159	 err = 0.00066	 mean_err0.00121
+0.00121
+i = 1135	 hw_result = 0.18237	 sw_result = 0.18165	 err = 0.00073	 mean_err0.00121
+0.00121
+i = 1136	 hw_result = 0.08691	 sw_result = 0.08697	 err = 0.00005	 mean_err0.00121
+0.00121
+i = 1137	 hw_result = 0.17236	 sw_result = 0.17050	 err = 0.00187	 mean_err0.00121
+0.00121
+i = 1138	 hw_result = -0.31812	 sw_result = -0.31728	 err = 0.00083	 mean_err0.00121
+0.00121
+i = 1139	 hw_result = 0.10156	 sw_result = 0.10021	 err = 0.00135	 mean_err0.00121
+0.00121
+i = 1140	 hw_result = 0.19604	 sw_result = 0.19569	 err = 0.00036	 mean_err0.00121
+0.00121
+i = 1141	 hw_result = 0.11572	 sw_result = 0.11578	 err = 0.00005	 mean_err0.00121
+0.00121
+i = 1142	 hw_result = -0.10693	 sw_result = -0.10626	 err = 0.00068	 mean_err0.00121
+0.00121
+i = 1143	 hw_result = -0.77051	 sw_result = -0.77145	 err = 0.00094	 mean_err0.00121
+0.00121
+i = 1144	 hw_result = -0.49829	 sw_result = -0.49756	 err = 0.00073	 mean_err0.00121
+0.00121
+i = 1145	 hw_result = -0.55981	 sw_result = -0.56284	 err = 0.00303	 mean_err0.00122
+0.00122
+i = 1146	 hw_result = -0.47437	 sw_result = -0.47432	 err = 0.00004	 mean_err0.00122
+0.00122
+i = 1147	 hw_result = -0.38062	 sw_result = -0.38119	 err = 0.00057	 mean_err0.00122
+0.00122
+i = 1148	 hw_result = -0.21826	 sw_result = -0.21673	 err = 0.00153	 mean_err0.00122
+0.00122
+i = 1149	 hw_result = -0.01440	 sw_result = -0.01340	 err = 0.00100	 mean_err0.00122
+0.00122
+i = 1150	 hw_result = -0.12378	 sw_result = -0.12369	 err = 0.00009	 mean_err0.00122
+0.00122
+i = 1151	 hw_result = -0.10840	 sw_result = -0.10606	 err = 0.00233	 mean_err0.00122
+0.00122
+i = 1152	 hw_result = 0.53027	 sw_result = 0.52958	 err = 0.00070	 mean_err0.00122
+0.00122
+i = 1153	 hw_result = -0.37207	 sw_result = -0.37232	 err = 0.00025	 mean_err0.00122
+0.00122
+i = 1154	 hw_result = -0.25391	 sw_result = -0.25410	 err = 0.00020	 mean_err0.00122
+0.00122
+i = 1155	 hw_result = -0.41772	 sw_result = -0.41595	 err = 0.00177	 mean_err0.00122
+0.00122
+i = 1156	 hw_result = -0.80933	 sw_result = -0.80599	 err = 0.00334	 mean_err0.00123
+0.00123
+i = 1157	 hw_result = -0.61108	 sw_result = -0.61041	 err = 0.00068	 mean_err0.00123
+0.00123
+i = 1158	 hw_result = 0.12036	 sw_result = 0.12410	 err = 0.00374	 mean_err0.00123
+0.00123
+i = 1159	 hw_result = 0.36694	 sw_result = 0.36853	 err = 0.00159	 mean_err0.00123
+0.00123
+i = 1160	 hw_result = 0.32349	 sw_result = 0.32020	 err = 0.00329	 mean_err0.00123
+0.00123
+i = 1161	 hw_result = -0.17407	 sw_result = -0.17526	 err = 0.00118	 mean_err0.00123
+0.00123
+i = 1162	 hw_result = -0.25952	 sw_result = -0.26147	 err = 0.00195	 mean_err0.00124
+0.00124
+i = 1163	 hw_result = -0.10400	 sw_result = -0.10336	 err = 0.00064	 mean_err0.00124
+0.00124
+i = 1164	 hw_result = 0.16943	 sw_result = 0.17043	 err = 0.00100	 mean_err0.00124
+0.00124
+i = 1165	 hw_result = -0.06274	 sw_result = -0.05970	 err = 0.00304	 mean_err0.00124
+0.00124
+i = 1166	 hw_result = -0.50610	 sw_result = -0.50609	 err = 0.00002	 mean_err0.00124
+0.00124
+i = 1167	 hw_result = -0.70337	 sw_result = -0.70296	 err = 0.00041	 mean_err0.00124
+0.00124
+i = 1168	 hw_result = -0.68628	 sw_result = -0.68694	 err = 0.00066	 mean_err0.00124
+0.00124
+i = 1169	 hw_result = -0.10010	 sw_result = -0.10116	 err = 0.00106	 mean_err0.00124
+0.00124
+i = 1170	 hw_result = -0.16162	 sw_result = -0.16161	 err = 0.00001	 mean_err0.00124
+0.00124
+i = 1171	 hw_result = -0.02661	 sw_result = -0.02801	 err = 0.00140	 mean_err0.00124
+0.00124
+i = 1172	 hw_result = -0.17383	 sw_result = -0.17377	 err = 0.00005	 mean_err0.00124
+0.00124
+i = 1173	 hw_result = -0.33008	 sw_result = -0.33122	 err = 0.00114	 mean_err0.00124
+0.00124
+i = 1174	 hw_result = -0.38843	 sw_result = -0.38808	 err = 0.00035	 mean_err0.00124
+0.00124
+i = 1175	 hw_result = 0.38477	 sw_result = 0.38577	 err = 0.00101	 mean_err0.00124
+0.00124
+i = 1176	 hw_result = -0.55688	 sw_result = -0.55620	 err = 0.00068	 mean_err0.00124
+0.00124
+i = 1177	 hw_result = -0.52222	 sw_result = -0.52158	 err = 0.00064	 mean_err0.00125
+0.00125
+i = 1178	 hw_result = -0.53735	 sw_result = -0.53680	 err = 0.00055	 mean_err0.00125
+0.00125
+i = 1179	 hw_result = -0.41699	 sw_result = -0.41735	 err = 0.00036	 mean_err0.00125
+0.00125
+i = 1180	 hw_result = 0.15015	 sw_result = 0.15073	 err = 0.00058	 mean_err0.00125
+0.00125
+i = 1181	 hw_result = -0.10474	 sw_result = -0.10239	 err = 0.00234	 mean_err0.00125
+0.00125
+i = 1182	 hw_result = 0.02173	 sw_result = 0.02340	 err = 0.00167	 mean_err0.00125
+0.00125
+i = 1183	 hw_result = 0.03198	 sw_result = 0.03182	 err = 0.00017	 mean_err0.00125
+0.00125
+i = 1184	 hw_result = -0.42798	 sw_result = -0.42850	 err = 0.00052	 mean_err0.00125
+0.00125
+i = 1185	 hw_result = -0.41553	 sw_result = -0.41480	 err = 0.00072	 mean_err0.00125
+0.00125
+i = 1186	 hw_result = -0.58008	 sw_result = -0.57928	 err = 0.00079	 mean_err0.00125
+0.00125
+i = 1187	 hw_result = -0.65283	 sw_result = -0.65304	 err = 0.00021	 mean_err0.00125
+0.00125
+i = 1188	 hw_result = -0.52295	 sw_result = -0.52104	 err = 0.00191	 mean_err0.00125
+0.00125
+i = 1189	 hw_result = -0.40479	 sw_result = -0.40386	 err = 0.00093	 mean_err0.00125
+0.00125
+i = 1190	 hw_result = -0.05811	 sw_result = -0.05692	 err = 0.00118	 mean_err0.00125
+0.00125
+i = 1191	 hw_result = 0.33960	 sw_result = 0.34019	 err = 0.00059	 mean_err0.00126
+0.00126
+i = 1192	 hw_result = 0.41992	 sw_result = 0.41979	 err = 0.00013	 mean_err0.00126
+0.00126
+i = 1193	 hw_result = 0.30322	 sw_result = 0.30556	 err = 0.00234	 mean_err0.00126
+0.00126
+i = 1194	 hw_result = -0.06079	 sw_result = -0.06406	 err = 0.00326	 mean_err0.00126
+0.00126
+i = 1195	 hw_result = -0.58960	 sw_result = -0.59171	 err = 0.00211	 mean_err0.00126
+0.00126
+i = 1196	 hw_result = -0.79858	 sw_result = -0.79946	 err = 0.00088	 mean_err0.00126
+0.00126
+i = 1197	 hw_result = -0.69629	 sw_result = -0.69576	 err = 0.00053	 mean_err0.00126
+0.00126
+i = 1198	 hw_result = -0.18896	 sw_result = -0.18852	 err = 0.00044	 mean_err0.00126
+0.00126
+i = 1199	 hw_result = -0.26904	 sw_result = -0.26939	 err = 0.00035	 mean_err0.00126
+0.00126
+i = 1200	 hw_result = -0.00049	 sw_result = 0.00001	 err = 0.00049	 mean_err0.00126
+0.00126
+i = 1201	 hw_result = -0.12817	 sw_result = -0.12631	 err = 0.00186	 mean_err0.00127
+0.00127
+i = 1202	 hw_result = -0.09668	 sw_result = -0.09644	 err = 0.00024	 mean_err0.00127
+0.00127
+i = 1203	 hw_result = 0.46265	 sw_result = 0.46440	 err = 0.00175	 mean_err0.00127
+0.00127
+i = 1204	 hw_result = -0.53369	 sw_result = -0.53392	 err = 0.00023	 mean_err0.00127
+0.00127
+i = 1205	 hw_result = -0.97363	 sw_result = -0.97237	 err = 0.00126	 mean_err0.00127
+0.00127
+i = 1206	 hw_result = -1.00293	 sw_result = -0.99973	 err = 0.00320	 mean_err0.00127
+0.00127
+i = 1207	 hw_result = -0.86914	 sw_result = -0.86773	 err = 0.00141	 mean_err0.00127
+0.00127
+i = 1208	 hw_result = -0.43115	 sw_result = -0.43145	 err = 0.00030	 mean_err0.00127
+0.00127
+i = 1209	 hw_result = 0.20312	 sw_result = 0.20175	 err = 0.00138	 mean_err0.00127
+0.00127
+i = 1210	 hw_result = 0.41748	 sw_result = 0.41540	 err = 0.00208	 mean_err0.00127
+0.00127
+i = 1211	 hw_result = 0.37061	 sw_result = 0.37088	 err = 0.00028	 mean_err0.00127
+0.00127
+i = 1212	 hw_result = -0.35522	 sw_result = -0.35336	 err = 0.00186	 mean_err0.00128
+0.00128
+i = 1213	 hw_result = 0.09790	 sw_result = 0.09782	 err = 0.00008	 mean_err0.00128
+0.00128
+i = 1214	 hw_result = 0.20166	 sw_result = 0.20356	 err = 0.00190	 mean_err0.00128
+0.00128
+i = 1215	 hw_result = 0.01953	 sw_result = 0.01906	 err = 0.00047	 mean_err0.00128
+0.00128
+i = 1216	 hw_result = -0.13745	 sw_result = -0.13682	 err = 0.00064	 mean_err0.00128
+0.00128
+i = 1217	 hw_result = -0.52954	 sw_result = -0.52736	 err = 0.00218	 mean_err0.00128
+0.00128
+i = 1218	 hw_result = -0.39990	 sw_result = -0.39878	 err = 0.00112	 mean_err0.00128
+0.00128
+i = 1219	 hw_result = -0.47583	 sw_result = -0.47538	 err = 0.00045	 mean_err0.00128
+0.00128
+i = 1220	 hw_result = -0.23486	 sw_result = -0.23364	 err = 0.00122	 mean_err0.00128
+0.00128
+i = 1221	 hw_result = -0.02954	 sw_result = -0.02849	 err = 0.00105	 mean_err0.00128
+0.00128
+i = 1222	 hw_result = -0.31787	 sw_result = -0.31768	 err = 0.00019	 mean_err0.00128
+0.00128
+i = 1223	 hw_result = -0.65186	 sw_result = -0.65010	 err = 0.00176	 mean_err0.00129
+0.00129
+i = 1224	 hw_result = -0.33862	 sw_result = -0.33867	 err = 0.00005	 mean_err0.00129
+0.00129
+i = 1225	 hw_result = -0.16992	 sw_result = -0.17095	 err = 0.00103	 mean_err0.00129
+0.00129
+i = 1226	 hw_result = -0.45312	 sw_result = -0.45287	 err = 0.00026	 mean_err0.00129
+0.00129
+i = 1227	 hw_result = -0.80054	 sw_result = -0.80022	 err = 0.00032	 mean_err0.00129
+0.00129
+i = 1228	 hw_result = -0.87573	 sw_result = -0.87492	 err = 0.00081	 mean_err0.00129
+0.00129
+i = 1229	 hw_result = -0.85229	 sw_result = -0.65567	 err = 0.19663	 mean_err0.00144
+0.00144
+i = 1230	 hw_result = 0.05640	 sw_result = 0.05532	 err = 0.00108	 mean_err0.00145
+0.00145
+i = 1231	 hw_result = 0.50757	 sw_result = 0.50838	 err = 0.00081	 mean_err0.00145
+0.00145
+i = 1232	 hw_result = 0.10693	 sw_result = 0.10654	 err = 0.00039	 mean_err0.00145
+0.00145
+i = 1233	 hw_result = 0.34888	 sw_result = 0.34700	 err = 0.00188	 mean_err0.00145
+0.00145
+i = 1234	 hw_result = 0.16187	 sw_result = 0.16084	 err = 0.00103	 mean_err0.00145
+0.00145
+i = 1235	 hw_result = -0.26929	 sw_result = -0.26972	 err = 0.00043	 mean_err0.00145
+0.00145
+i = 1236	 hw_result = -0.59375	 sw_result = -0.59156	 err = 0.00219	 mean_err0.00145
+0.00145
+i = 1237	 hw_result = -0.21240	 sw_result = -0.21073	 err = 0.00168	 mean_err0.00145
+0.00145
+i = 1238	 hw_result = 0.09717	 sw_result = 0.09714	 err = 0.00003	 mean_err0.00145
+0.00145
+i = 1239	 hw_result = 0.23267	 sw_result = 0.23361	 err = 0.00094	 mean_err0.00145
+0.00145
+i = 1240	 hw_result = 0.04028	 sw_result = 0.03909	 err = 0.00120	 mean_err0.00145
+0.00145
+i = 1241	 hw_result = 0.64087	 sw_result = 0.64344	 err = 0.00257	 mean_err0.00146
+0.00146
+i = 1242	 hw_result = -0.07275	 sw_result = -0.07324	 err = 0.00048	 mean_err0.00146
+0.00146
+i = 1243	 hw_result = -0.58862	 sw_result = -0.58803	 err = 0.00059	 mean_err0.00146
+0.00146
+i = 1244	 hw_result = -0.86694	 sw_result = -0.86456	 err = 0.00238	 mean_err0.00146
+0.00146
+i = 1245	 hw_result = -0.30640	 sw_result = -0.30554	 err = 0.00085	 mean_err0.00146
+0.00146
+i = 1246	 hw_result = -0.43286	 sw_result = -0.43196	 err = 0.00091	 mean_err0.00146
+0.00146
+i = 1247	 hw_result = -0.81128	 sw_result = -0.80970	 err = 0.00158	 mean_err0.00146
+0.00146
+i = 1248	 hw_result = -0.54980	 sw_result = -0.55165	 err = 0.00184	 mean_err0.00146
+0.00146
+i = 1249	 hw_result = 0.22632	 sw_result = 0.22578	 err = 0.00054	 mean_err0.00146
+0.00146
+Test Passed
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

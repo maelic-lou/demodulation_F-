@@ -71,19 +71,109 @@ cos_t cos_lookup (int n){
 
 
 
-int demodulationFM(in_t y_I[BK_SIZE],in_t y_Q[BK_SIZE],in_t y_demod_d[BK_SIZE/(DECIM1*DECIM2)])
+int demodulationFM(hls::stream<in_t> &y_I,hls::stream<in_t> &y_Q,hls::stream<in_t> &y_demod_d)
 {
 
-	//SHIFT
+	//variable transportants les valeurs intermédiaires.
+	in_t tmp_r;
+	in_t tmp_i;
+	in_t tmp_r_s;
+	in_t tmp_i_s;
+	in_t tmp_r_f;
+	in_t tmp_i_f;
 
-	unsigned int n;
-	const const_t c=0.0712 * DATA_SIZE;
-	in_t value =-c;
-	in_t value_r;
-	in_t value_i;
+//	hls::stream<in_t> tmp_r_stm;
+//	hls::stream<in_t> tmp_i_stm;
+//	hls::stream<in_t> tmp_r_s_stm;
+//	hls::stream<in_t> tmp_i_s_stm;
+//	hls::stream<in_t> tmp_r_f_stm;
+//	hls::stream<in_t> tmp_i_f_stm;
+
+	//SHIFT variables
 	in_t real;
 	in_t imag;
-	for (int m = 0; m < BK_SIZE; m++)
+
+	//convolution variable
+	in_t hwin_I[LENGTH_WIN_CONV],hwin_Q[LENGTH_WIN_CONV]={0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0};
+	unsigned int n;
+	const const_t c=0.0712 * DATA_SIZE;
+	value_t value =-c;
+	in_t value_r;
+	in_t value_i;
+
+	//demodulation variable
+	in_t dii;
+	in_t dqq;
+	in_t ary_r_value_1;
+	in_t ary_i_value_1;
+	in_t value_d;
+	in_t ary_r_value_0=0.0;
+	in_t ary_i_value_0=0.0;
+	int m=0;
+	coeff_t coef[LENGTH_WIN_CONV] = {
+			0.000411,
+			0.001060,
+			0.002105,
+			0.003638,
+			0.005724,
+			0.008396,
+			0.011635,
+			0.015366,
+			0.019457,
+			0.023724,
+			0.027939,
+			0.031855,
+			0.035221,
+			0.037811,
+			0.039443,
+			0.040000,
+			0.039443,
+			0.037811,
+			0.035221,
+			0.031855,
+			0.027939,
+			0.023724,
+			0.019457,
+			0.015366,
+			0.011635,
+			0.008396,
+			0.005724,
+			0.003638,
+			0.002105,
+			0.001060,
+			0.000411
+	};
+//	for (int m = 0; m < LENGTH_WIN_CONV; m++)
+//	{
+//		value = value +c;
+//		if (value>DATA_SIZE)
+//		{
+//			value = value - DATA_SIZE;
+//		}
+//		n = value;
+//		value_r = y_I[m];
+//		value_i = y_Q[m];
+//		real = cos_lookup(n) * value_r + sin_lookup(n) * value_i;
+//		imag = cos_lookup(n) * value_i - sin_lookup(n) * value_r;
+//		if (n == 0)
+//		{
+//			y_I[m] = -real;
+//			y_Q[m] = -imag;
+//		}
+//		else if (n == 64)
+//		{
+//			y_I[m] = -real;
+//			y_Q[m] = -imag;
+//		}
+//		else
+//		{
+//			y_I[m] = real;
+//			y_Q[m] = imag;
+//		}
+//		hwin_I[m]=y_I[m];
+//		hwin_Q[m]=y_Q[m];
+//	}
+	HConvH:for (int l = 0; l < BK_SIZE; l++)
 	{
 		value = value +c;
 		if (value>DATA_SIZE)
@@ -91,111 +181,51 @@ int demodulationFM(in_t y_I[BK_SIZE],in_t y_Q[BK_SIZE],in_t y_demod_d[BK_SIZE/(D
 			value = value - DATA_SIZE;
 		}
 		n = value;
-		value_r = y_I[m];
-		value_i = y_Q[m];
-		real = cos_lookup(n) * value_r + sin_lookup(n) * value_i;
-		imag = cos_lookup(n) * value_i - sin_lookup(n) * value_r;
+		tmp_r = y_I.read();
+		tmp_i = y_Q.read();
+//		tmp_r_s<<tmp_r;
+//		tmp_i_s<<tmp_i;
+		real = cos_lookup(n) * tmp_r + sin_lookup(n) * tmp_i;
+		imag = cos_lookup(n) * tmp_i - sin_lookup(n) * tmp_r;
 		if (n == 0)
 		{
-			y_I[m] = -real;
-			y_Q[m] = -imag;
+			tmp_r = -real;
+			tmp_i = -imag;
 		}
 		else if (n == 64)
 		{
-			y_I[m] = -real;
-			y_Q[m] = -imag;
+			tmp_r = -real;
+			tmp_i = -imag;
 		}
 		else
 		{
-			y_I[m] = real;
-			y_Q[m] = imag;
+			tmp_r = real;
+			tmp_i = imag;
 		}
-	}
-
-
-	//FIR
-
-	in_t hwin_I[LENGTH_WIN_CONV];
-	in_t hwin_Q[LENGTH_WIN_CONV];
-	coeff_t coef[LENGTH_WIN_CONV] = {
-			 0.000411,
-			      0.001060,
-			      0.002105,
-			      0.003638,
-			      0.005724,
-			      0.008396,
-			      0.011635,
-			      0.015366,
-			      0.019457,
-			      0.023724,
-			      0.027939,
-			      0.031855,
-			      0.035221,
-			      0.037811,
-			      0.039443,
-			      0.040000,
-			      0.039443,
-			      0.037811,
-			      0.035221,
-			      0.031855,
-			      0.027939,
-			      0.023724,
-			      0.019457,
-			      0.015366,
-			      0.011635,
-			      0.008396,
-			      0.005724,
-			      0.003638,
-			      0.002105,
-			      0.001060,
-			      0.000411
-			     };
-	for (int j = 0; j < LENGTH_WIN_CONV; j++)
-	{
-		hwin_I[j]=y_I[j];
-		hwin_Q[j]=y_Q[j];
-	}
-	for (int l = LENGTH_WIN_CONV; l < BK_SIZE; l++)
-	{
-			in_t in_val_I = y_I[l];
-			in_t in_val_Q = y_Q[l];
-            in_t out_val_I = 0.0;
-            in_t out_val_Q = 0.0;
-            HConv:for(int i = 0; i < LENGTH_WIN_CONV; i++) {
-                hwin_I[i] = i < LENGTH_WIN_CONV - 1 ? hwin_I[i + 1] : in_val_I;
-                out_val_I += hwin_I[i] * coef[i]; //coeff est symétrique, c'est pourquoi nous pouvons utiliser cette formule
-                hwin_Q[i] = i < LENGTH_WIN_CONV - 1 ? hwin_Q[i + 1] : in_val_Q;
-                out_val_Q += hwin_Q[i] * coef[i];
-            }
-                y_I[l] = out_val_I;
-                y_Q[l] = out_val_Q;
-	}
-
-	//decimation (DECIM1), demodulation, decimation(DECIM2)
-
-	in_t dii;
-	in_t dqq;
-	y_demod_d[0]=0;
-	in_t ary_r_value_0=y_I[0];
-	in_t ary_i_value_0=y_Q[0];
-	in_t ary_r_value_1;
-	in_t ary_i_value_1;
-	in_t value_d;
-	int m=0;
-	for(int n=1;n<BK_SIZE;n++)
-	{
-		value_r=y_I[n];
-		value_i=y_Q[n];
-		if(n%DECIM1==0)
+//		in_t in_val_I = tmp_r_s;
+//		in_t in_val_Q = tmp_i_s;
+		in_t out_val_I = 0.0;
+		in_t out_val_Q = 0.0;
+		HConv:for(int i = 0; i < LENGTH_WIN_CONV; i++) {
+			hwin_I[i] = i < LENGTH_WIN_CONV - 1 ? hwin_I[i + 1] : tmp_r;
+			out_val_I += hwin_I[i] * coef[i]; //coeff est symétrique, c'est pourquoi nous pouvons utiliser cette formule
+			hwin_Q[i] = i < LENGTH_WIN_CONV - 1 ? hwin_Q[i + 1] : tmp_i;
+			out_val_Q += hwin_Q[i] * coef[i];
+		}
+		tmp_r = out_val_I;
+		tmp_i = out_val_Q;
+//		value_r=tmp_r_f;
+//		value_i=tmp_i_f;
+		if(l%DECIM1==0)
 		{
-			ary_r_value_1=value_r;
-			ary_i_value_1=value_i;
+			ary_r_value_1=tmp_r;
+			ary_i_value_1=tmp_i;
 			dii = ary_r_value_1 - ary_r_value_0;
 			dqq = ary_i_value_1 - ary_i_value_0;
-			if (n%(DECIM1*DECIM2)==0)
+			if (l%(DECIM1*DECIM2)==0)
 			{
 				m++;
-				y_demod_d[m]= (ary_r_value_1*dqq-ary_i_value_1*dii)/(ary_r_value_1*ary_r_value_1+ary_i_value_1*ary_i_value_1);
+				y_demod_d << (ary_r_value_1*dqq-ary_i_value_1*dii)/(ary_r_value_1*ary_r_value_1+ary_i_value_1*ary_i_value_1);
 			}
 			ary_r_value_0=ary_r_value_1;
 			ary_i_value_0=ary_i_value_1;
@@ -203,5 +233,3 @@ int demodulationFM(in_t y_I[BK_SIZE],in_t y_Q[BK_SIZE],in_t y_demod_d[BK_SIZE/(D
 	}
 	return 0;
 }
-
-

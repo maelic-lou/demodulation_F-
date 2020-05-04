@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="demodulation_FM.cpp" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/demodulation_FM.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="FMcapture1.dat" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/FMcapture1.dat"/>
+    <originFiles name="data6.dat" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/data6.dat"/>
+    <originFiles name="demodulation_FM_test.cpp" path="/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/demodulation_FM_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

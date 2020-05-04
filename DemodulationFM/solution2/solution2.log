@@ -1,0 +1,188 @@
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/opt/Xilinx/Vivado/2019.2/common/technology/xilinx/Kintex-7/Kintex-7.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/Kintex-7/Kintex-7'.
+INFO: [HLS 200-10] Setting target device to 'xc7k70t-fbv676-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'demodulation_FM.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 430 ; free virtual = 5015
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 430 ; free virtual = 5015
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 407 ; free virtual = 4998
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 397 ; free virtual = 4989
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'HConvH' (demodulation_FM.cpp:177) in function 'demodulationFM' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'HConv' (demodulation_FM.cpp:209) in function 'demodulationFM' completely with a factor of 31.
+INFO: [XFORM 203-102] Partitioning array 'hwin_I.V' (demodulation_FM.cpp:97) automatically.
+INFO: [XFORM 203-102] Partitioning array 'hwin_Q.V' (demodulation_FM.cpp:97) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (demodulation_FM.cpp:177:3) to (demodulation_FM.cpp:219:3) in function 'demodulationFM'... converting 7 basic blocks.
+INFO: [XFORM 203-602] Inlining function 'cos_lookup' into 'demodulationFM' (demodulation_FM.cpp:188) automatically.
+INFO: [XFORM 203-602] Inlining function 'sin_lookup' into 'demodulationFM' (demodulation_FM.cpp:188) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 364 ; free virtual = 4958
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 361 ; free virtual = 4955
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'demodulationFM' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'demodulationFM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'HConvH'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 83.
+WARNING: [SCHED 204-21] Estimated clock period (10.525ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns).
+WARNING: [SCHED 204-21] The critical path in module 'demodulationFM' consists of the following:
+	'mul' operation of DSP[615] ('mul_ln1118_46', demodulation_FM.cpp:211) [611]  (2.84 ns)
+	'add' operation of DSP[615] ('add_ln1192_50', demodulation_FM.cpp:211) [615]  (2.95 ns)
+	'add' operation of DSP[627] ('add_ln1192_52', demodulation_FM.cpp:211) [627]  (2.95 ns)
+	'add' operation ('add_ln1192_54', demodulation_FM.cpp:211) [642]  (1.78 ns)
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 17.93 seconds; current allocated memory: 139.873 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.46 seconds; current allocated memory: 143.286 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'demodulationFM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'demodulationFM/y_I_V_V' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'demodulationFM/y_Q_V_V' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'demodulationFM/y_demod_d_V_V' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'demodulationFM' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_cos_table' to 'demodulationFM_cobkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_sin_table' to 'demodulationFM_sicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_sdiv_60ns_37s_60_64_1' to 'demodulationFM_sddEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_18s_7ns_32ns_32_1_1' to 'demodulationFM_maeOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_18s_8ns_32ns_32_1_1' to 'demodulationFM_mafYi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_18s_9ns_32ns_32_1_1' to 'demodulationFM_mag8j' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mul_mul_18s_9s_27_1_1' to 'demodulationFM_muhbi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mul_mul_9s_18s_27_1_1' to 'demodulationFM_muibs' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_18s_10ns_32ns_32_1_1' to 'demodulationFM_majbC' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_9s_18s_27s_27_1_1' to 'demodulationFM_makbM' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_18s_11ns_32ns_32_1_1' to 'demodulationFM_malbW' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mul_mul_18s_18s_36_1_1' to 'demodulationFM_mumb6' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_mulsub_18s_18s_36s_36_1_1' to 'demodulationFM_mancg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_18s_18s_36s_37_1_1' to 'demodulationFM_maocq' due to the length limit 20
+INFO: [RTGEN 206-104] Estimated max fanout for 'demodulationFM' is 5001 from HDL expression: (1'b0 == ap_block_pp0_stage0_11001)
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_maeOg': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_mafYi': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_mag8j': 12 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_majbC': 12 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_makbM': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_malbW': 18 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_mancg': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_maocq': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_muhbi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_muibs': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_mumb6': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_sddEe': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'demodulationFM'.
+INFO: [HLS 200-111]  Elapsed time: 0.52 seconds; current allocated memory: 150.236 MB.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 95.01 MHz
+INFO: [RTMG 210-282] Generating pipelined core: 'demodulationFM_sddEe_div'
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library '/opt/Xilinx/Vivado/2019.2/common/technology/xilinx/Kintex-7/Kintex-7.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/Kintex-7/Kintex-7'.
+INFO: [HLS 200-10] Setting target device to 'xc7k70t-fbv676-1'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'demodulation_FM.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 663 ; free virtual = 5152
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 663 ; free virtual = 5152
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 639 ; free virtual = 5134
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 629 ; free virtual = 5126
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'HConvH' (demodulation_FM.cpp:177) in function 'demodulationFM' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'HConv' (demodulation_FM.cpp:209) in function 'demodulationFM' completely with a factor of 31.
+INFO: [XFORM 203-102] Partitioning array 'hwin_I.V' (demodulation_FM.cpp:97) automatically.
+INFO: [XFORM 203-102] Partitioning array 'hwin_Q.V' (demodulation_FM.cpp:97) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (demodulation_FM.cpp:177:3) to (demodulation_FM.cpp:219:3) in function 'demodulationFM'... converting 7 basic blocks.
+INFO: [XFORM 203-602] Inlining function 'cos_lookup' into 'demodulationFM' (demodulation_FM.cpp:188) automatically.
+INFO: [XFORM 203-602] Inlining function 'sin_lookup' into 'demodulationFM' (demodulation_FM.cpp:188) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 595 ; free virtual = 5094
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 959.930 ; gain = 526.004 ; free physical = 588 ; free virtual = 5087
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'demodulationFM' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'demodulationFM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'HConvH'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 83.
+WARNING: [SCHED 204-21] Estimated clock period (10.525ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns).
+WARNING: [SCHED 204-21] The critical path in module 'demodulationFM' consists of the following:
+	'mul' operation of DSP[615] ('mul_ln1118_46', demodulation_FM.cpp:211) [611]  (2.84 ns)
+	'add' operation of DSP[615] ('add_ln1192_50', demodulation_FM.cpp:211) [615]  (2.95 ns)
+	'add' operation of DSP[627] ('add_ln1192_52', demodulation_FM.cpp:211) [627]  (2.95 ns)
+	'add' operation ('add_ln1192_54', demodulation_FM.cpp:211) [642]  (1.78 ns)
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 18 seconds; current allocated memory: 139.873 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.43 seconds; current allocated memory: 143.286 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'demodulationFM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'demodulationFM/y_I_V_V' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'demodulationFM/y_Q_V_V' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'demodulationFM/y_demod_d_V_V' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'demodulationFM' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_cos_table' to 'demodulationFM_cobkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_sin_table' to 'demodulationFM_sicud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_sdiv_60ns_37s_60_64_1' to 'demodulationFM_sddEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_18s_7ns_32ns_32_1_1' to 'demodulationFM_maeOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_18s_8ns_32ns_32_1_1' to 'demodulationFM_mafYi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_18s_9ns_32ns_32_1_1' to 'demodulationFM_mag8j' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mul_mul_18s_9s_27_1_1' to 'demodulationFM_muhbi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mul_mul_9s_18s_27_1_1' to 'demodulationFM_muibs' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_18s_10ns_32ns_32_1_1' to 'demodulationFM_majbC' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_9s_18s_27s_27_1_1' to 'demodulationFM_makbM' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_18s_11ns_32ns_32_1_1' to 'demodulationFM_malbW' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mul_mul_18s_18s_36_1_1' to 'demodulationFM_mumb6' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_mulsub_18s_18s_36s_36_1_1' to 'demodulationFM_mancg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'demodulationFM_mac_muladd_18s_18s_36s_37_1_1' to 'demodulationFM_maocq' due to the length limit 20
+INFO: [RTGEN 206-104] Estimated max fanout for 'demodulationFM' is 5001 from HDL expression: (1'b0 == ap_block_pp0_stage0_11001)
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_maeOg': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_mafYi': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_mag8j': 12 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_majbC': 12 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_makbM': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_malbW': 18 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_mancg': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_maocq': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_muhbi': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_muibs': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_mumb6': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'demodulationFM_sddEe': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'demodulationFM'.
+INFO: [HLS 200-111]  Elapsed time: 0.52 seconds; current allocated memory: 150.235 MB.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 95.01 MHz
+INFO: [RTMG 210-282] Generating pipelined core: 'demodulationFM_sddEe_div'
+INFO==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.2 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================

@@ -1,0 +1,112 @@
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/opt/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_demodulationFM_top glbl -prj demodulationFM.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims -L unisims_ver -L xpm --initfile /opt/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s demodulationFM 
+Multi-threading is on. Using 6 slave threads.
+Determining compilation order of HDL files.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/AESL_sim_pkg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_mag8j.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_mag8j_DSP48_2'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_mag8j'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_mafYi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_mafYi_DSP48_1'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_mafYi'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_sicud.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_sicud_rom'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_sicud'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_maeOg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_maeOg_DSP48_0'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_maeOg'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_mancg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_mancg_DSP48_9'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_mancg'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_muhbi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_muhbi_DSP48_3'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_muhbi'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_maocq.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_maocq_DSP48_10'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_maocq'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_sddEe.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_sddEe_div_u'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_sddEe_div'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_sddEe'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_majbC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_majbC_DSP48_5'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_majbC'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_muibs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_muibs_DSP48_4'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_muibs'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM.autotb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'apatb_demodulationFM_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/AESL_autofifo_y_I_V_V.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AESL_autofifo_y_I_V_V'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/AESL_autofifo_y_demod_d_V_V.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AESL_autofifo_y_demod_d_V_V'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/AESL_autofifo_y_Q_V_V.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AESL_autofifo_y_Q_V_V'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_makbM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_makbM_DSP48_6'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_makbM'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_cobkb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_cobkb_rom'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_cobkb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_mumb6.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_mumb6_DSP48_8'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_mumb6'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/louart/Documents/these/partie_pratique/experience/c/demodulation_FM1/DemodulationFM/solution2/sim/vhdl/demodulationFM_malbW.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_malbW_DSP48_7'
+INFO: [VRFC 10-3107] analyzing entity 'demodulationFM_malbW'
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling module work.glbl
+Compiling architecture rtl of entity xil_defaultlib.demodulationFM_cobkb_rom [demodulationfm_cobkb_rom_default]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_cobkb [demodulationfm_cobkb_default]
+Compiling architecture rtl of entity xil_defaultlib.demodulationFM_sicud_rom [demodulationfm_sicud_rom_default]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_sicud [demodulationfm_sicud_default]
+Compiling architecture rtl of entity xil_defaultlib.demodulationFM_sddEe_div_u [\demodulationFM_sddEe_div_u(in0_...]
+Compiling architecture rtl of entity xil_defaultlib.demodulationFM_sddEe_div [\demodulationFM_sddEe_div(in0_wi...]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_sddEe [\demodulationFM_sddEe(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.demodulationFM_maeOg_DSP48_0 [demodulationfm_maeog_dsp48_0_def...]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_maeOg [\demodulationFM_maeOg(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.demodulationFM_mafYi_DSP48_1 [demodulationfm_mafyi_dsp48_1_def...]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_mafYi [\demodulationFM_mafYi(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.demodulationFM_mag8j_DSP48_2 [demodulationfm_mag8j_dsp48_2_def...]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_mag8j [\demodulationFM_mag8j(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.demodulationFM_muhbi_DSP48_3 [demodulationfm_muhbi_dsp48_3_def...]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_muhbi [\demodulationFM_muhbi(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.demodulationFM_muibs_DSP48_4 [demodulationfm_muibs_dsp48_4_def...]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_muibs [\demodulationFM_muibs(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.demodulationFM_majbC_DSP48_5 [demodulationfm_majbc_dsp48_5_def...]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_majbC [\demodulationFM_majbC(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.demodulationFM_makbM_DSP48_6 [demodulationfm_makbm_dsp48_6_def...]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_makbM [\demodulationFM_makbM(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.demodulationFM_malbW_DSP48_7 [demodulationfm_malbw_dsp48_7_def...]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_malbW [\demodulationFM_malbW(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.demodulationFM_mumb6_DSP48_8 [demodulationfm_mumb6_dsp48_8_def...]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_mumb6 [\demodulationFM_mumb6(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.demodulationFM_mancg_DSP48_9 [demodulationfm_mancg_dsp48_9_def...]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_mancg [\demodulationFM_mancg(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.demodulationFM_maocq_DSP48_10 [demodulationfm_maocq_dsp48_10_de...]
+Compiling architecture arch of entity xil_defaultlib.demodulationFM_maocq [\demodulationFM_maocq(id=1,num_s...]
+Compiling architecture behav of entity xil_defaultlib.demodulationFM [demodulationfm_default]
+Compiling architecture behav of entity xil_defaultlib.AESL_autofifo_y_I_V_V [aesl_autofifo_y_i_v_v_default]
+Compiling architecture behav of entity xil_defaultlib.AESL_autofifo_y_Q_V_V [aesl_autofifo_y_q_v_v_default]
+Compiling architecture behav of entity xil_defaultlib.AESL_autofifo_y_demod_d_V_V [aesl_autofifo_y_demod_d_v_v_defa...]
+Compiling architecture behav of entity xil_defaultlib.apatb_demodulationfm_top
+Built simulation snapshot demodulationFM

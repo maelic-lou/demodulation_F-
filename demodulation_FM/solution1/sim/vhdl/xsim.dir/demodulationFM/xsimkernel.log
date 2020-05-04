@@ -1,7 +1,0 @@
-Running: xsim.dir/demodulationFM/xsimk -simmode gui -wdb demodulationFM.wdb -simrunnum 0 -socket 55197
-Design successfully loaded
-Design Loading Memory Usage: 53844 KB (Peak: 53844 KB)
-Design Loading CPU Usage: 10 ms
-Simulation completed
-Simulation Memory Usage: 175676 KB (Peak: 207440 KB)
-Simulation CPU Usage: 51150 ms

@@ -8,7 +8,7 @@ using namespace std;
 #ifdef FLOAT_DATA
 #define ABS_ERR_THRESH 0.0
 #else
-#define ABS_ERR_THRESH 0.1
+#define ABS_ERR_THRESH 0.3
 #endif
 
 #define WINDOW_FN_DEBUG 1
@@ -19,12 +19,16 @@ int main()
 	for (int i=0;i<1;i++) //boucle réalisant la démodulation sur 100000 valeurs
 	{
 		// input variables
-		in_t ary_r[BK_SIZE];
-		in_t ary_i[BK_SIZE];
+//		in_t ary_r[BK_SIZE];
+//		in_t ary_i[BK_SIZE];
+		hls::stream<in_t> ary_r("ary_r_stream");
+		hls::stream<in_t> ary_i("ary_i_stream");
 
 		//output variables
-		in_t hw_result[BK_SIZE/(DECIM1*DECIM2)];
+//		in_t hw_result[BK_SIZE/(DECIM1*DECIM2)];
+		hls::stream<in_t> hw_result("hw_stream");
 		double sw_result[BK_SIZE/(DECIM1*DECIM2)];
+		double result_stream[BK_SIZE/(DECIM1*DECIM2)];
 
 
 		// Load input data from files
@@ -41,6 +45,7 @@ int main()
 		{
 
 			unsigned short int tmp;
+			in_t tmp_v;
 			//
 			for (int p = 0; p < 2*BK_SIZE; p++)
 			{
@@ -48,18 +53,25 @@ int main()
 
 				if (p%2==0)
 				{
-					ary_r[p/2] = tmp-127.5;
+					tmp_v=tmp-127.5;
+					ary_r<<tmp_v;
 					// fprintf(file1r, "%lf,", ary_I[p/2]);
 				}
 				else
 				{
-					ary_i[(p-1)/2] = tmp-127.5;
+					tmp_v=tmp-127.5;
+					ary_i<<tmp_v;
 				}
 			}
 		}
 
 		// Execute the function tested
 		demodulationFM(ary_r,ary_i,hw_result);
+
+	       for (int i =0;i<BK_SIZE/(DECIM1*DECIM2);i++)
+	        {
+			result_stream[i] = hw_result.read();
+	        }
 
 		//		char buf6[22];
 		//		snprintf(buf6, sizeof(buf6), "data6_%d.csv", i);
@@ -108,12 +120,12 @@ int main()
 		cout << fixed << setprecision(5);
 		double mean_abs_err;
 		for (unsigned i = 0; i < BK_SIZE/(DECIM1*DECIM2); i++) {
-			float abs_err = abs(double(hw_result[i]) - sw_result[i]);
+			float abs_err = abs(double(result_stream[i]) - sw_result[i]);
 
 			if (fabs(abs_err) < ABS_ERR_THRESH) {
 				mean_abs_err= mean_abs_err + (DECIM1*DECIM2)*abs_err/BK_SIZE;
 #if WINDOW_FN_DEBUG
-				cout << "i = " << i << "\t hw_result = " << hw_result[i];
+				cout << "i = " << i << "\t hw_result = " << result_stream[i];
 				cout << "\t sw_result = " << sw_result[i] ;
 				cout << "\t err = " << abs_err;
 				cout << "\t mean_err" << mean_abs_err << endl;
@@ -123,7 +135,7 @@ int main()
 			else  {
 				cout << "Error threshold exceeded: i = " << i;
 				cout << "  Expected: " << sw_result[i];
-				cout << "  Got: " << hw_result[i];
+				cout << "  Got: " << result_stream[i+1];
 				cout << "  Delta: " << abs_err << endl;
 				err_cnt++;
 			}
